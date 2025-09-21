@@ -1,0 +1,70 @@
+SwitchExample {
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 24px;
+}
+
+SwitchExample Label {
+    -unity-font-style: bold;
+    font-size: 26px;
+    color: rgb(26, 203, 183);
+}
+
+.switchexample-border {
+    width: 60px;
+    height: 40px;
+    background-color: rgb(26, 203, 183);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-color: rgb(17, 124, 112);
+    border-right-color: rgb(17, 124, 112);
+    border-bottom-color: rgb(17, 124, 112);
+    border-left-color: rgb(17, 124, 112);
+    justify-content: center;
+    align-self: center;
+}
+
+.switchexample-control {
+    width: 26px;
+    height: 26px;
+    background-color: rgb(26, 203, 183);
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-left-color: rgb(17, 124, 112);
+    border-right-color: rgb(17, 124, 112);
+    border-top-color: rgb(17, 124, 112);
+    border-bottom-color: rgb(17, 124, 112);
+}
+
+.switchexample-border_on {
+    align-items: flex-end;
+}
+
+.switchexample-control_on {
+    background-color: rgb(17, 124, 112);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-color: rgb(17, 124, 112);
+    border-right-color: rgb(17, 124, 112);
+    border-left-color: rgb(17, 124, 112);
+    border-bottom-color: rgb(17, 124, 112);
+}

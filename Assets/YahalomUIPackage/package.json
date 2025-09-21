@@ -1,12 +1,10 @@
 {
-  "name": "com.defaultcompany.yahalom-ui",
+  "name": "com.mapcolonies.yahalom-ui",
   "version": "1.0.0",
-  "displayName": "Yahalom UI",
-  "description": "This is a custom package containing shared code and assets.",
-  "unity": "2021.3",
+  "displayName": "Yahalom UI Components",
+  "description": "Yahalom custom UI components library",
+  "unity": "6000.1",
   "author": {
-    "name": "MapColonies",
-    "email": "baruch1723@gmail.com",
-    "url": "https://www.your-website.com"
+    "name": "MapColonies"
   }
 }
