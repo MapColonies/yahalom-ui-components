@@ -1,0 +1,36 @@
+.custom-button {
+    width: 160px;
+    height: 48px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-left-color: rgb(26, 203, 183);
+    border-right-color: rgb(26, 203, 183);
+    border-top-color: rgb(26, 203, 183);
+    border-bottom-color: rgb(26, 203, 183);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    background-color: rgb(17, 124, 112);
+    -unity-font-style: bold;
+    color: rgb(26, 203, 183);
+    -unity-text-align: middle-center;
+    font-size: 26px;
+}
+
+.custom-button:hover {
+    font-size: 26px;
+    -unity-font-style: bold;
+    color: rgb(17, 124, 112);
+    background-color: rgb(26, 203, 183);
+    border-left-color: rgb(17, 124, 112);
+    border-right-color: rgb(17, 124, 112);
+    border-top-color: rgb(17, 124, 112);
+    border-bottom-color: rgb(17, 124, 112);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+}
