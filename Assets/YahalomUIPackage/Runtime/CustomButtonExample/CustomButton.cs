@@ -1,3 +1,4 @@
+using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace YahalomUIPackage.Runtime.CustomButtonExample
@@ -8,6 +9,9 @@ namespace YahalomUIPackage.Runtime.CustomButtonExample
 
         public CustomButton()
         {
+            var styleSheet = Resources.Load<StyleSheet>("CustomButtonExample/CustomButtonExample"); 
+            styleSheets.Add(styleSheet);
+            
             AddToClassList("custom-button");
         }
     }
