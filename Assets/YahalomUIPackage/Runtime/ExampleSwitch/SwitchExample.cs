@@ -26,7 +26,7 @@ namespace YahalomUIPackage.Runtime.ExampleSwitch
 
         public SwitchExample()
         {
-            var styleSheet = Resources.Load<StyleSheet>("SwitchExample"); 
+            var styleSheet = Resources.Load<StyleSheet>("SwitchExample/SwitchExample"); 
             // if inside Resources folder
             styleSheets.Add(styleSheet);
             
