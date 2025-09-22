@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="109634f6-7e2e-40f3-b0bc-c5d6cf3d2d19" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/CustomButtonExample/CustomButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/CustomButtonExample/CustomButton.cs" afterDir="false" />
-    </list>
+    <list default="true" id="109634f6-7e2e-40f3-b0bc-c5d6cf3d2d19" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +95,7 @@
       <workItem from="1758440734351" duration="7177000" />
       <workItem from="1758461930042" duration="5656000" />
       <workItem from="1758468913392" duration="844000" />
-      <workItem from="1758522163740" duration="5528000" />
+      <workItem from="1758522163740" duration="6179000" />
     </task>
     <servers />
   </component>
