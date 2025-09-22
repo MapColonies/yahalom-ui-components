@@ -1,4 +1,4 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/YahalomUIPackage/Runtime/ExampleSwitch/Resources/SwitchExample.uss?fileID=7433441132597879392&amp;guid=f33bca0ceb990ca47975ec3993cb88ad&amp;type=3#SwitchExample" />
-    <YahalomUIPackage.Runtime.ExampleSwitch.SwitchExample text="Test Text" value="false" />
+    <Style src="project://database/Assets/YahalomUIPackage/Runtime/Resources/SwitchExample/SwitchExample.uss?fileID=7433441132597879392&amp;guid=f33bca0ceb990ca47975ec3993cb88ad&amp;type=3#SwitchExample" />
+    <YahalomUIPackage.Runtime.SwitchExample.SwitchExample />
 </ui:UXML>
