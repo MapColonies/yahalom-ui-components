@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="109634f6-7e2e-40f3-b0bc-c5d6cf3d2d19" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/ExampleSwitch/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/ExampleSwitch/Resources/SwitchExample.uss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/ExampleSwitch/Resources/SwitchExample.uss.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/ExampleSwitch/SwitchExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/ExampleSwitch/SwitchExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/Resources/SwitchExample.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.yahalom-ui-components/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.yahalom-ui-components/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/ExampleSwitch.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/SwitchExample.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/ExampleSwitch/SwitchExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/SwitchExample/SwitchExample.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/ExampleSwitch/SwitchExample.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/SwitchExample/SwitchExample.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/Resources/SwitchExample.uss" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/Resources/SwitchExample/SwitchExample.uss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/Resources/SwitchExample.uss.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/Resources/SwitchExample/SwitchExample.uss.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YahalomUIPackage/com.mapcolonies.yahalom-ui.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/com.mapcolonies.yahalom-ui.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YahalomUIPackage/com.mapcolonies.yahalom-ui.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/com.mapcolonies.yahalom-ui.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YahalomUIPackage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YahalomUIPackage/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +25,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/ExampleSwitch/SwitchExample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/YahalomUIPackage/Runtime/SwitchExample/SwitchExample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/YahalomUIPackage/package.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -99,7 +106,7 @@
       <workItem from="1758440734351" duration="7177000" />
       <workItem from="1758461930042" duration="5656000" />
       <workItem from="1758468913392" duration="844000" />
-      <workItem from="1758522163740" duration="2041000" />
+      <workItem from="1758522163740" duration="2664000" />
     </task>
     <servers />
   </component>

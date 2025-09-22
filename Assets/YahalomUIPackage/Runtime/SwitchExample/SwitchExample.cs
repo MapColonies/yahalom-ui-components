@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace YahalomUIPackage.Runtime.ExampleSwitch
+namespace YahalomUIPackage.Runtime.SwitchExample
 {
     [UxmlElement]
     public partial class SwitchExample : VisualElement
@@ -27,7 +27,6 @@ namespace YahalomUIPackage.Runtime.ExampleSwitch
         public SwitchExample()
         {
             var styleSheet = Resources.Load<StyleSheet>("SwitchExample/SwitchExample"); 
-            // if inside Resources folder
             styleSheets.Add(styleSheet);
             
             _label = new Label("Name");
