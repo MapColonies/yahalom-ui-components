@@ -23,7 +23,24 @@ namespace YahalomUIPackage.Runtime.BasicDropdown
         [UxmlAttribute]
         public string options
         {
-            set => SetOptions(value.Split(',').Select(s => s.Trim()).ToList());
+            // We add a 'get' accessor, though it's not strictly needed
+            get => string.Join(", ", _optionsList); 
+            
+            // This is the important part
+            set
+            {
+                // Check if the value from UXML is null or empty
+                if (string.IsNullOrEmpty(value))
+                {
+                    // If it is, just set an empty list of options
+                    SetOptions(new List<string>());
+                }
+                else
+                {
+                    // Otherwise, split the string as before
+                    SetOptions(value.Split(',').Select(s => s.Trim()).ToList());
+                }
+            }
         }
 
         /// <summary>
