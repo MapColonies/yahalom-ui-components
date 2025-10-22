@@ -36,14 +36,14 @@
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-top: 5px solid rgb(50, 50, 50); /* Down-pointing arrow */
-    transition-property: transform;
+    transition-property: rotate;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
 }
 
 /* State for the icon when the dropdown is open */
 .basic-dropdown-icon--open {
-    transform: rotate(180deg); /* Flips arrow up */
+    rotate: 180deg; /* Flips arrow up */
 }
 
 /* The container for all the options */
