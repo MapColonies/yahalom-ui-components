@@ -1,63 +1,48 @@
-/* This is our root ScrollView component */
 .basic-scroll-view {
-    flex-grow: 1; /* Make it fill available space */
+    flex-grow: 1;
     border-width: 1px;
     border-color: rgb(130, 130, 130);
     border-radius: 4px;
 }
 
-/* --- Style the Vertical Scrollbar --- */
-
-/* This targets the vertical scrollbar itself */
 .basic-scroll-view > .unity-scroller--vertical {
     width: 10px;
     background-color: rgb(220, 220, 220);
 }
 
-/* This is the track *behind* the knob/thumb */
 .basic-scroll-view > .unity-scroller--vertical > .unity-scroller__low-button,
 .basic-scroll-view > .unity-scroller--vertical > .unity-scroller__high-button {
     background-color: rgb(220, 220, 220);
-    /* We don't want the little up/down arrow buttons */
-    display: none; 
+    display: none;
 }
 
-/* This is the draggable knob/thumb */
 .basic-scroll-view > .unity-scroller--vertical .unity-dragger {
     background-color: rgb(150, 150, 150);
     border-radius: 4px;
     border-width: 0;
 }
 
-/* Style for the knob on hover */
 .basic-scroll-view > .unity-scroller--vertical .unity-dragger:hover {
     background-color: rgb(130, 130, 130);
 }
 
-
-/* --- Style the Horizontal Scrollbar --- */
-
-/* This targets the horizontal scrollbar itself */
 .basic-scroll-view > .unity-scroller--horizontal {
     height: 10px;
     background-color: rgb(220, 220, 220);
 }
 
-/* This is the track *behind* the knob/thumb */
 .basic-scroll-view > .unity-scroller--horizontal > .unity-scroller__low-button,
 .basic-scroll-view > .unity-scroller--horizontal > .unity-scroller__high-button {
     background-color: rgb(220, 220, 220);
     display: none;
 }
 
-/* This is the draggable knob/thumb */
 .basic-scroll-view > .unity-scroller--horizontal .unity-dragger {
     background-color: rgb(150, 150, 150);
     border-radius: 4px;
     border-width: 0;
 }
 
-/* Style for the knob on hover */
 .basic-scroll-view > .unity-scroller--horizontal .unity-dragger:hover {
     background-color: rgb(130, 130, 130);
 }

@@ -1,53 +1,39 @@
-/* Base container */
 .basic-toggle {
-    /* Aligns the label and switch horizontally */
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-/* Label style */
 .basic-toggle Label {
     font-size: 14px;
     color: rgb(30, 30, 30);
-    margin-right: 10px; /* Space between label and switch */
+    margin-right: 10px;
 }
 
-/* The 'track' of the toggle */
 .basic-toggle-border {
     width: 44px;
     height: 24px;
-    background-color: rgb(200, 200, 200); /* 'Off' background color */
-    border-radius: 12px; /* Makes it pill-shaped */
-    
-    /* This moves the knob */
-    align-items: flex-start; /* 'Off' state (left) */
-    
-    /* Smooth animation for background and knob */
+    background-color: rgb(200, 200, 200);
+    border-radius: 12px;
+    align-items: flex-start;
     transition-property: background-color, align-items;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
 }
 
-/* The 'knob' of the toggle */
 .basic-toggle-control {
     width: 20px;
     height: 20px;
     background-color: white;
-    border-radius: 10px; /* Makes it circular */
-    
-    /* Adds a 2px "padding" around the knob */
+    border-radius: 10px;
     margin: 2px;
 }
 
-/* 'On' state for the track */
 .basic-toggle-border--on {
-    background-color: rgb(0, 122, 255); /* 'On' background color */
-    align-items: flex-end; /* 'On' state (right) */
+    background-color: rgb(0, 122, 255);
+    align-items: flex-end;
 }
 
-/* 'On' state for the knob (optional, no change needed for this design) */
 .basic-toggle-control--on {
-    /* You could change the knob color here if you wanted */
 }

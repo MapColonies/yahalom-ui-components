@@ -1,28 +1,21 @@
-/* Base container */
 .basic-input-field {
-    /* Stack the label on top of the input box */
     flex-direction: column;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-/* Label style */
 .basic-input-field-label {
     font-size: 14px;
     color: rgb(30, 30, 30);
-    margin-bottom: 4px; /* Space between label and input */
+    margin-bottom: 4px;
 }
 
-/* This is our name for the TextField component itself */
 .basic-input-field-input {
-    /* Reset built-in margins */
     margin: 0;
     padding: 0;
 }
 
-/* --- Styling the *internal* parts of the TextField --- */
 
-/* This targets the actual input box *inside* the TextField */
 .basic-input-field-input > .unity-text-input {
     background-color: white;
     border-width: 1px;
@@ -31,19 +24,15 @@
     padding: 8px 6px;
     font-size: 14px;
     color: rgb(30, 30, 30);
-    
-    /* Using safe, long-form transition for the focus outline */
     transition-property: border-color;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
 }
 
-/* Style when the input field is focused (clicked into) */
 .basic-input-field-input:focus > .unity-text-input {
     border-color: rgb(0, 122, 255);
 }
 
-/* This targets the placeholder text *inside* the input box */
 .basic-input-field-input > .unity-text-input > .unity-placeholder {
     color: rgb(150, 150, 150);
     font-style: italic;
