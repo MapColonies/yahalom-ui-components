@@ -1,0 +1,65 @@
+/* This is our root component */
+.basic-checkbox {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* This is the label part */
+.basic-checkbox > .unity-label {
+    font-size: 14px;
+    color: rgb(30, 30, 30);
+    margin-left: 8px; /* Space between box and label */
+}
+
+/* This is the container for the checkmark box */
+.basic-checkbox > .unity-toggle__input {
+    width: 18px;
+    height: 18px;
+    border-width: 2px;
+    border-color: rgb(130, 130, 130);
+    border-radius: 3px;
+    background-color: white;
+    
+    /* Center the checkmark inside */
+    justify-content: center;
+    align-items: center;
+    
+    /* Safe, long-form transitions */
+    transition-property: background-color, border-color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+/* This is the checkmark itself (hidden by default) */
+.basic-checkbox .unity-toggle__checkmark {
+    /* We create a checkmark using borders */
+    width: 6px;
+    height: 12px;
+    border-color: white;
+    border-width: 0 2px 2px 0; /* Right and Bottom borders */
+    
+    /* Rotate the 'L' shape and move it */
+    transform: rotate(45deg);
+    margin-top: -2px; /* Nudge it up to center */
+}
+
+/* --- STATES --- */
+
+/* Style for when the box is hovered */
+.basic-checkbox:hover > .unity-toggle__input {
+    border-color: rgb(0, 122, 255);
+}
+
+/* Style for when the box is CHECKED */
+.basic-checkbox:checked > .unity-toggle__input {
+    background-color: rgb(0, 122, 255);
+    border-color: rgb(0, 122, 255);
+}
+
+/* Style for when the box is CHECKED and hovered */
+.basic-checkbox:checked:hover > .unity-toggle__input {
+    background-color: rgb(0, 100, 210); /* Darker blue */
+    border-color: rgb(0, 100, 210);
+}
