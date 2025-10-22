@@ -1,0 +1,39 @@
+.basic-input-field {
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.basic-input-field-label {
+    font-size: 14px;
+    color: rgb(30, 30, 30);
+    margin-bottom: 4px;
+}
+
+.basic-input-field-input {
+    margin: 0;
+    padding: 0;
+}
+
+
+.basic-input-field-input > .unity-text-input {
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(130, 130, 130);
+    border-radius: 4px;
+    padding: 8px 6px;
+    font-size: 14px;
+    color: rgb(30, 30, 30);
+    transition-property: border-color;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+}
+
+.basic-input-field-input:focus > .unity-text-input {
+    border-color: rgb(0, 122, 255);
+}
+
+.basic-input-field-input > .unity-text-input > .unity-placeholder {
+    color: rgb(150, 150, 150);
+    font-style: italic;
+}
