@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/MapColonies/yahalom-ui-components/compare/v1.0.0...v1.1.0) (2025-10-26)
+
+
+### Features
+
+* Add fonts and create text mesh pro asset (MAPCO-8843) ([6d36d79](https://github.com/MapColonies/yahalom-ui-components/commit/6d36d79b15167040e456ebe294df7d5266047cc8))
+
+
+### Bug Fixes
+
+* match semantic version format (MAPCO-8839) ([1069230](https://github.com/MapColonies/yahalom-ui-components/commit/1069230fb511697b99ec892eea162fb3eba66ef6))
+
 ## 1.0.0 (2025-10-22)
 
 
