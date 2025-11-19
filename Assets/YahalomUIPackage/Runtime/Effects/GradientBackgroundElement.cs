@@ -3,10 +3,6 @@ using UnityEngine.UIElements;
 
 namespace YahalomUIPackage.Runtime.Effects
 {
-    /// <summary>
-    /// Draws a vertical gradient using a dynamically generated 1x2 Texture2D.
-    /// Used internally by BasicButton as a background.
-    /// </summary>
     public class GradientBackgroundElement : VisualElement
     {
         private Texture2D _gradientTexture;
@@ -63,9 +59,8 @@ namespace YahalomUIPackage.Runtime.Effects
 
             if (_textureDirty)
             {
-                // NOTE: swapped to match UI "Top Color" visually on top
-                _gradientTexture.SetPixel(0, 0, _topColor);      // top
-                _gradientTexture.SetPixel(0, 1, _bottomColor);   // bottom
+                _gradientTexture.SetPixel(0, 0, _topColor);
+                _gradientTexture.SetPixel(0, 1, _bottomColor);
                 _gradientTexture.Apply();
                 _textureDirty = false;
             }
@@ -90,7 +85,6 @@ namespace YahalomUIPackage.Runtime.Effects
 
             Vertex v;
 
-            // bottom-left
             v = new Vertex
             {
                 position = new Vector3(xMin, yMin, 0),
@@ -99,7 +93,6 @@ namespace YahalomUIPackage.Runtime.Effects
             };
             meshWriteData.SetNextVertex(v);
 
-            // bottom-right
             v = new Vertex
             {
                 position = new Vector3(xMax, yMin, 0),
@@ -108,7 +101,6 @@ namespace YahalomUIPackage.Runtime.Effects
             };
             meshWriteData.SetNextVertex(v);
 
-            // top-right
             v = new Vertex
             {
                 position = new Vector3(xMax, yMax, 0),
@@ -117,7 +109,6 @@ namespace YahalomUIPackage.Runtime.Effects
             };
             meshWriteData.SetNextVertex(v);
 
-            // top-left
             v = new Vertex
             {
                 position = new Vector3(xMin, yMax, 0),
