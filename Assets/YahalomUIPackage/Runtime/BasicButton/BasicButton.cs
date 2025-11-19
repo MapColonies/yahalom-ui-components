@@ -6,8 +6,14 @@ namespace YahalomUIPackage.Runtime.BasicButton
     [UxmlElement]
     public partial class BasicButton : Button
     {
-        public new class UxmlFactory : Button.UxmlFactory
+        public const string SelectedClassName = "basic-button--selected";
+
+        public new class UxmlFactory : Button.UxmlFactory { }
+
+        public bool IsSelected
         {
+            get => ClassListContains(SelectedClassName);
+            set => EnableInClassList(SelectedClassName, value);
         }
 
         public BasicButton()

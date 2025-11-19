@@ -1,29 +1,61 @@
 .basic-button {
+    height: 32px;
+    min-height: 32px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+
     font-size: 14px;
     -unity-font-style: bold;
-    background-color: rgb(0, 122, 255);
-    color: white;
+    color: rgb(255, 255, 255);
 
-    border-width: 0;
-    border-radius: 4px;
+    background-color: rgb(0, 190, 165);
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: rgb(0, 150, 135);
 
-    padding: 8px 12px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
 
-    transition-property: background-color;
-    transition-duration: 0.1s;
-    transition-timing-function: ease-in-out;
+    transition-property: background-color, color, border-color;
+    transition-duration: 0.08s;
 }
 
-.basic-button > .unity-text-element {
-    -unity-text-align: middle-center;
+.basic-button__icon {
+    width: 18px;
+    height: 18px;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: resource("BasicButton/binoculars");
+
+    -unity-background-image-tint-color: rgb(255, 255, 255);
 }
 
 .basic-button:hover {
-    background-color: rgb(0, 100, 210);
+    background-color: rgb(0, 210, 180);
+    border-color: rgb(0, 175, 150);
 }
 
-.basic-button:active {
-    background-color: rgb(0, 80, 170);
+.basic-button.basic-button--selected {
+    background-color: rgb(0, 255, 213);
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 200, 170);
+}
+
+.basic-button.basic-button--selected .basic-button__icon {
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+}
+
+.basic-button:disabled {
+    background-color: rgb(65, 65, 65);
+    color: rgb(130, 130, 130);
+    border-color: rgb(80, 80, 80);
+}
+
+.basic-button:disabled .basic-button__icon {
+    -unity-background-image-tint-color: rgb(130, 130, 130);
 }
