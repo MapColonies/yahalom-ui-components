@@ -9,7 +9,7 @@
     -unity-font-style: bold;
     color: rgb(255, 255, 255);
 
-    background-color: rgba(0, 0, 0,0);
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 6px;
     border-width: 1px;
     border-color: rgb(0, 150, 135);
@@ -30,20 +30,17 @@
 
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: resource("BasicButton/binoculars");
 
     -unity-background-image-tint-color: rgb(255, 255, 255);
 }
 
 .basic-button:hover {
-    background-color: rgb(0, 190, 165);
     border-color: rgb(142, 299, 214);
     border-radius: 6px;
     border-width: 1px;
 }
 
 .basic-button.basic-button--selected {
-    background-color: rgb(0, 248, 204);
     color: rgb(0, 0, 0);
     border-color: rgb(0, 248, 204);
     border-radius: 6px;
@@ -55,7 +52,6 @@
 }
 
 .basic-button:disabled {
-    background-color: rgb(0, 0, 0, 0);
     color: rgb(130, 130, 130);
     border-color: rgb(80, 80, 80);
 }
