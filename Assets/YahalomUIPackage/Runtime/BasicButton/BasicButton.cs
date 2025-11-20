@@ -11,6 +11,7 @@ namespace YahalomUIPackage.Runtime.BasicButton
 
         private GradientBackgroundElement _gradientBackground;
         private VisualElement _iconElement;
+        private Label _textElement;
 
         private Texture2D _iconImage;
 
@@ -25,6 +26,11 @@ namespace YahalomUIPackage.Runtime.BasicButton
 
         private Color _disabledTopColor = new Color(0.3f, 0.3f, 0.3f, 1f);
         private Color _disabledBottomColor = new Color(0.2f, 0.2f, 0.2f, 1f);
+
+        private Color _textColor = Color.white;
+        private Color _hoverTextColor = Color.white;
+        private Color _selectedTextColor = Color.white;
+        private Color _disabledTextColor = new Color(0.7f, 0.7f, 0.7f, 1f);
 
         private bool _isPointerOver;
 
@@ -45,7 +51,7 @@ namespace YahalomUIPackage.Runtime.BasicButton
                     _iconElement.style.backgroundImage = new StyleBackground(value);
             }
         }
-
+        
         [UxmlAttribute("top-color")]
         public Color TopColor
         {
@@ -102,6 +108,45 @@ namespace YahalomUIPackage.Runtime.BasicButton
             set { _disabledBottomColor = value; UpdateVisualStateInternal(); }
         }
 
+        [UxmlAttribute("label-text")]
+        public string LabelText
+        {
+            get => _textElement != null ? _textElement.text : string.Empty;
+            set
+            {
+                if (_textElement != null)
+                    _textElement.text = value;
+            }
+        }
+        
+        [UxmlAttribute("text-color")]
+        public Color TextColor
+        {
+            get => _textColor;
+            set { _textColor = value; UpdateVisualStateInternal(); }
+        }
+
+        [UxmlAttribute("hover-text-color")]
+        public Color HoverTextColor
+        {
+            get => _hoverTextColor;
+            set { _hoverTextColor = value; UpdateVisualStateInternal(); }
+        }
+
+        [UxmlAttribute("selected-text-color")]
+        public Color SelectedTextColor
+        {
+            get => _selectedTextColor;
+            set { _selectedTextColor = value; UpdateVisualStateInternal(); }
+        }
+
+        [UxmlAttribute("disabled-text-color")]
+        public Color DisabledTextColor
+        {
+            get => _disabledTextColor;
+            set { _disabledTextColor = value; UpdateVisualStateInternal(); }
+        }
+
         public bool IsSelected
         {
             get => ClassListContains(SelectedClassName);
@@ -136,6 +181,14 @@ namespace YahalomUIPackage.Runtime.BasicButton
             _iconElement.AddToClassList("basic-button__icon");
             hierarchy.Add(_iconElement);
 
+            _textElement = new Label
+            {
+                name = "basic-button-label",
+                pickingMode = PickingMode.Ignore
+            };
+            _textElement.AddToClassList("basic-button__label");
+            hierarchy.Add(_textElement);
+
             RegisterCallback<PointerEnterEvent>(_ =>
             {
                 _isPointerOver = true;
@@ -151,7 +204,7 @@ namespace YahalomUIPackage.Runtime.BasicButton
 
             UpdateVisualStateInternal();
         }
-        
+
         public void RefreshVisualState()
         {
             UpdateVisualStateInternal();
@@ -164,30 +217,38 @@ namespace YahalomUIPackage.Runtime.BasicButton
 
             Color top;
             Color bottom;
+            Color textColor;
 
             if (!enabledInHierarchy || !enabledSelf)
             {
                 top = _disabledTopColor;
                 bottom = _disabledBottomColor;
+                textColor = _disabledTextColor;
             }
             else if (IsSelected)
             {
                 top = _selectedTopColor;
                 bottom = _selectedBottomColor;
+                textColor = _selectedTextColor;
             }
             else if (_isPointerOver)
             {
                 top = _hoverTopColor;
                 bottom = _hoverBottomColor;
+                textColor = _hoverTextColor;
             }
             else
             {
                 top = _topColor;
                 bottom = _bottomColor;
+                textColor = _textColor;
             }
 
             _gradientBackground.TopColor = top;
             _gradientBackground.BottomColor = bottom;
+
+            if (_textElement != null)
+                _textElement.style.color = textColor;
         }
     }
 }

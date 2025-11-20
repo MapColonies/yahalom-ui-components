@@ -34,14 +34,18 @@
     -unity-background-image-tint-color: rgb(255, 255, 255);
 }
 
+.basic-button__label {
+    flex-grow: 1;
+    unity-text-align: middle-center;
+    color: white;
+}
+
 .basic-button:hover {
-    border-color: rgb(142, 299, 214);
     border-radius: 6px;
     border-width: 1px;
 }
 
 .basic-button.basic-button--selected {
-    color: rgb(0, 0, 0);
     border-color: rgb(0, 248, 204);
     border-radius: 6px;
     border-width: 1px;
@@ -52,7 +56,6 @@
 }
 
 .basic-button:disabled {
-    color: rgb(130, 130, 130);
     border-color: rgb(80, 80, 80);
 }
 
