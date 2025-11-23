@@ -218,12 +218,11 @@ namespace YahalomUIPackage.Runtime.BasicButton
         {
             if (_gradientBackground == null)
                 return;
-
             Color top;
             Color bottom;
             Color textColor;
 
-            if (!enabledInHierarchy || !enabledSelf)
+            if (!enabledSelf)
             {
                 top = _disabledTopColor;
                 bottom = _disabledBottomColor;
@@ -253,6 +252,12 @@ namespace YahalomUIPackage.Runtime.BasicButton
 
             if (_textElement != null)
                 _textElement.style.color = textColor;
+        }
+        
+        public new void SetEnabled(bool value)
+        {
+            base.SetEnabled(value);
+            UpdateVisualStateInternal();
         }
     }
 }
