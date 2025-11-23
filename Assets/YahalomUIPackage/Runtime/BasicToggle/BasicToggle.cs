@@ -37,6 +37,7 @@ namespace YahalomUIPackage.Runtime.BasicToggle
 
             _label = new Label("Toggle");
             _label.name = "Text";
+            _label.AddToClassList("basic-toggle-label");
 
             _border = new VisualElement();
             _border.name = "Border";
@@ -46,9 +47,10 @@ namespace YahalomUIPackage.Runtime.BasicToggle
             _control.name = "Control";
             _control.AddToClassList("basic-toggle-control");
 
-            Add(_label);
             Add(_border);
+            _border.Add(_label);
             _border.Add(_control);
+
             _border.RegisterCallback<MouseDownEvent>(evt => Value = !Value);
         }
 

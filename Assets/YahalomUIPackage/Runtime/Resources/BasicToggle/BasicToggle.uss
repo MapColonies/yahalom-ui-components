@@ -8,18 +8,29 @@
 .basic-toggle Label {
     font-size: 14px;
     color: rgb(30, 30, 30);
-    margin-right: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .basic-toggle-border {
-    width: 44px;
-    height: 24px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    height: 32px;
+    min-width: 100px;
+    padding-left: 12px;
+    padding-right: 12px;
     background-color: rgb(102, 102, 102);
-    border-radius: 12px;
-    align-items: flex-start;
-    transition-property: background-color, align-items;
-    transition-duration: 0.15s;
-    transition-timing-function: ease-in-out;
+    border-radius: 16px;
+}
+
+.basic-toggle-label {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+    margin-right: 8px;
 }
 
 .basic-toggle-control {
@@ -27,12 +38,11 @@
     height: 20px;
     background-color: white;
     border-radius: 10px;
-    margin: 2px;
 }
 
 .basic-toggle-border--on {
     background-color: rgb(22, 192, 162);
-    align-items: flex-end;
+    flex-direction: row;
 }
 
 .basic-toggle-control--on {
