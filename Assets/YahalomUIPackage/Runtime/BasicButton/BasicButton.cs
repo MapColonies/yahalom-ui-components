@@ -33,6 +33,7 @@ namespace YahalomUIPackage.Runtime.BasicButton
         private Color _disabledTextColor = new Color(0.7f, 0.7f, 0.7f, 1f);
 
         private bool _isPointerOver;
+        private bool _isSelected;
 
         [UxmlAttribute("icon-image")]
         public Texture2D IconImage
@@ -51,7 +52,7 @@ namespace YahalomUIPackage.Runtime.BasicButton
                     _iconElement.style.backgroundImage = new StyleBackground(value);
             }
         }
-        
+
         [UxmlAttribute("top-color")]
         public Color TopColor
         {
@@ -118,7 +119,7 @@ namespace YahalomUIPackage.Runtime.BasicButton
                     _textElement.text = value;
             }
         }
-        
+
         [UxmlAttribute("text-color")]
         public Color TextColor
         {
@@ -146,16 +147,8 @@ namespace YahalomUIPackage.Runtime.BasicButton
             get => _disabledTextColor;
             set { _disabledTextColor = value; UpdateVisualStateInternal(); }
         }
-
-        public bool IsSelected
-        {
-            get => ClassListContains(SelectedClassName);
-            set
-            {
-                EnableInClassList(SelectedClassName, value);
-                UpdateVisualStateInternal();
-            }
-        }
+        
+        public bool IsSelected => _isSelected;
 
         public BasicButton()
         {
@@ -164,6 +157,8 @@ namespace YahalomUIPackage.Runtime.BasicButton
                 styleSheets.Add(styleSheet);
 
             AddToClassList("basic-button");
+
+            focusable = true;
 
             _gradientBackground = new GradientBackgroundElement
             {
@@ -200,13 +195,22 @@ namespace YahalomUIPackage.Runtime.BasicButton
                 UpdateVisualStateInternal();
             });
 
+            RegisterCallback<FocusInEvent>(_ =>
+            {
+                _isSelected = true;
+                AddToClassList(SelectedClassName);
+                UpdateVisualStateInternal();
+            });
+
+            RegisterCallback<FocusOutEvent>(_ =>
+            {
+                _isSelected = false;
+                RemoveFromClassList(SelectedClassName);
+                UpdateVisualStateInternal();
+            });
+
             RegisterCallback<AttachToPanelEvent>(_ => UpdateVisualStateInternal());
 
-            UpdateVisualStateInternal();
-        }
-
-        public void RefreshVisualState()
-        {
             UpdateVisualStateInternal();
         }
 
@@ -225,7 +229,7 @@ namespace YahalomUIPackage.Runtime.BasicButton
                 bottom = _disabledBottomColor;
                 textColor = _disabledTextColor;
             }
-            else if (IsSelected)
+            else if (_isSelected)
             {
                 top = _selectedTopColor;
                 bottom = _selectedBottomColor;

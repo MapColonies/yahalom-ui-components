@@ -12,7 +12,7 @@
     background-color: rgba(0, 0, 0, 0);
     border-radius: 6px;
     border-width: 1px;
-    border-color: rgb(0, 150, 135);
+    border-color: rgb(22, 192, 162);
 
     display: flex;
     flex-direction: row;
@@ -20,7 +20,7 @@
     align-items: center;
     gap: 6px;
 
-    transition-property: background-color, color, border-color;
+    transition-property: border-color;
     transition-duration: 0.08s;
 }
 
@@ -41,22 +41,31 @@
 }
 
 .basic-button:hover {
-    border-radius: 6px;
-    border-width: 1px;
+    border-color: rgb(142, 229, 214);
 }
 
 .basic-button.basic-button--selected {
-    border-color: rgb(0, 248, 204);
-    border-radius: 6px;
-    border-width: 1px;
+    border-color: rgb(0, 122, 255);
 }
 
-.basic-button.basic-button--selected .basic-button__icon {
-    -unity-background-image-tint-color: rgb(0, 0, 0);
+.basic-button:active {
+    border-color: rgb(0, 150, 135);
 }
 
 .basic-button:disabled {
     border-color: rgb(80, 80, 80);
+}
+
+.basic-button:hover .basic-button__icon {
+    -unity-background-image-tint-color: rgb(240, 240, 240);
+}
+
+.basic-button.basic-button--selected .basic-button__icon {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.basic-button:active .basic-button__icon {
+    -unity-background-image-tint-color: rgb(0, 0, 0);
 }
 
 .basic-button:disabled .basic-button__icon {
