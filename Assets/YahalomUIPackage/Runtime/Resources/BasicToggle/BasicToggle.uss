@@ -2,7 +2,7 @@
     width: 48px;
     height: 24px;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -28,7 +28,7 @@
     width: 14px;
     height: 14px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .basic-toggle-border--on {
