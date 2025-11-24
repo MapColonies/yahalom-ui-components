@@ -1,5 +1,28 @@
-.button-text {
-    text-decoration-line: underline;
-    text-decoration-thickness: 2px;
-    text-decoration-color: white;
+.hyperlink-button {
+    padding: 0;
+    margin: 0;
+    
+    background-color: transparent;
+    border-width: 0;
+    border-radius: 0;
+
+    font-size: 13px;
+    -unity-font-style: normal;
+    color: rgb(22, 192, 162);
+    border-bottom-color: rgb(22, 192, 162);
+}
+
+.hyperlink-button:hover {
+    color: rgb(0, 248, 204);
+    border-bottom-color: rgb(0, 248, 204);
+}
+
+.hyperlink-button:active {
+    color: rgb(0, 248, 204);
+    border-bottom-color: rgb(0, 248, 204);
+}
+
+.hyperlink-button:disabled {
+    color: rgb(102, 102, 102);
+    border-bottom-color: rgb(102, 102, 102);
 }
