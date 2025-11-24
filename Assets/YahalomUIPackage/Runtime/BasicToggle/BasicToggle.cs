@@ -51,7 +51,9 @@ namespace YahalomUIPackage.Runtime.BasicToggle
             _border.Add(_label);
             _border.Add(_control);
 
-            _border.RegisterCallback<MouseDownEvent>(evt => Value = !Value);
+            _border.RegisterCallback<MouseDownEvent>(_ => Value = !Value);
+
+            SetState(_value);
         }
 
         private void SetValue(bool value)
