@@ -53,7 +53,9 @@ namespace YahalomUIPackage.Runtime.NumberStepper
         private Button _minusButton;
         private VisualElement _centerContainer;
         private Label _centerLabel;
-        private Label _valueBubble;
+
+        private VisualElement _valueBubbleContainer;
+        private Label _valueBubbleLabel;
 
         public NumberStepper()
         {
@@ -76,11 +78,17 @@ namespace YahalomUIPackage.Runtime.NumberStepper
             _centerLabel.name = "CenterLabel";
             _centerLabel.AddToClassList("numberstepper__text");
 
-            _valueBubble = new Label();
-            _valueBubble.name = "ValueBubble";
-            _valueBubble.AddToClassList("numberstepper__bubble");
+            _valueBubbleContainer = new VisualElement();
+            _valueBubbleContainer.name = "ValueBubble";
+            _valueBubbleContainer.AddToClassList("numberstepper__bubble");
 
-            _centerContainer.Add(_valueBubble);
+            _valueBubbleLabel = new Label();
+            _valueBubbleLabel.name = "ValueBubbleText";
+            _valueBubbleLabel.AddToClassList("numberstepper__bubble-text");
+
+            _valueBubbleContainer.Add(_valueBubbleLabel);
+
+            _centerContainer.Add(_valueBubbleContainer);
             _centerContainer.Add(_centerLabel);
 
             _minusButton = new Button { text = "−" };
@@ -113,8 +121,8 @@ namespace YahalomUIPackage.Runtime.NumberStepper
             if (_centerLabel != null)
                 _centerLabel.text = string.Format(LabelTemplate, _max);
 
-            if (_valueBubble != null)
-                _valueBubble.text = _value.ToString();
+            if (_valueBubbleLabel != null)
+                _valueBubbleLabel.text = _value.ToString();
         }
     }
 }
