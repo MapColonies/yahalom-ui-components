@@ -21,6 +21,17 @@ namespace YahalomUIPackage.Runtime.BasicRadio
             set => SetDisabled(value);
         }
 
+        [UxmlAttribute]
+        public string Text
+        {
+            get => _label?.text;
+            set
+            {
+                if (_label != null)
+                    _label.text = value;
+            }
+        }
+
         public Action<bool> OnSelectedChanged { get; set; }
 
         private bool _selected;
@@ -28,24 +39,34 @@ namespace YahalomUIPackage.Runtime.BasicRadio
 
         private VisualElement _outer;
         private VisualElement _inner;
+        private Label _label;
 
         public BasicRadio()
         {
             var styleSheet = Resources.Load<StyleSheet>("BasicRadio/BasicRadio");
-            styleSheets.Add(styleSheet);
+            if (styleSheet != null)
+                styleSheets.Add(styleSheet);
+            else
+                Debug.LogError("[BasicRadio] missing USS at Assets/Resources/BasicRadio/BasicRadio.uss");
 
             AddToClassList("basic-radio");
 
+            // outer ring
             _outer = new VisualElement();
-            _outer.name = "Outer";
             _outer.AddToClassList("basic-radio__outer");
 
+            // inner dot
             _inner = new VisualElement();
-            _inner.name = "Inner";
             _inner.AddToClassList("basic-radio__inner");
-
             _outer.Add(_inner);
+
+            // label
+            _label = new Label();
+            _label.AddToClassList("basic-radio__label");
+
+            // RTL layout: circle then text (we use row-reverse in USS)
             Add(_outer);
+            Add(_label);
 
             RegisterCallback<ClickEvent>(OnClicked);
 
@@ -57,11 +78,12 @@ namespace YahalomUIPackage.Runtime.BasicRadio
             if (_disabled)
                 return;
 
+            // radio behavior: only turn on by clicking self
             if (!_selected)
-            {
                 SetSelected(true, true);
-            }
         }
+
+        internal void SetSelectedInternal(bool value) => SetSelected(value, false);
 
         private void SetSelected(bool value, bool invokeCallback)
         {
@@ -82,7 +104,6 @@ namespace YahalomUIPackage.Runtime.BasicRadio
 
             _disabled = value;
             pickingMode = _disabled ? PickingMode.Ignore : PickingMode.Position;
-
             UpdateVisualState();
         }
 
