@@ -10,6 +10,7 @@
     -unity-font-style: normal;
     color: rgb(22, 192, 162);
     border-bottom-color: rgb(22, 192, 162);
+    border-bottom-width: 1px;
 }
 
 .hyperlink-button:hover {
