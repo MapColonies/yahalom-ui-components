@@ -4,13 +4,12 @@
     gap: 8px;
 }
 
-/* Root: radio + text */
 .basic-radio {
-    height: 32px;
-    min-height: 32px;
+    height: 20px;
+    min-height: 10px;
 
     display: flex;
-    flex-direction: row-reverse;  /* RTL – text left, circle right */
+    flex-direction: row-reverse;
     align-items: center;
     gap: 8px;
 
@@ -19,14 +18,13 @@
     margin: 0;
 }
 
-/* Outer ring */
 .basic-radio__outer {
-    width: 32px;
-    height: 32px;
+    width: 20px;
+    height: 20px;
 
     border-radius: 16px;
     border-width: 3px;
-    border-color: rgb(210, 210, 210);   /* default grey */
+    border-color: rgb(210, 210, 210);
 
     background-color: transparent;
 
@@ -38,7 +36,6 @@
     margin: 0;
 }
 
-/* Inner dot (default: invisible) */
 .basic-radio__inner {
     width: 0;
     height: 0;
@@ -47,7 +44,6 @@
     background-color: transparent;
 }
 
-/* Label */
 .basic-radio__label {
     font-size: 14px;
     color: rgb(230, 230, 230);
@@ -55,21 +51,17 @@
     padding: 0;
 }
 
-/* ===== STATES ===== */
-
-/* Selected – teal ring + teal fill */
 .basic-radio.basic-radio--selected .basic-radio__outer {
     border-color: rgb(0, 200, 170);
 }
 
 .basic-radio.basic-radio--selected .basic-radio__inner {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     border-radius: 10px;
     background-color: rgb(0, 200, 170);
 }
 
-/* Disabled – dark grey ring */
 .basic-radio.basic-radio--disabled .basic-radio__outer {
     border-color: rgb(90, 90, 90);
 }
@@ -78,7 +70,6 @@
     color: rgb(130, 130, 130);
 }
 
-/* Selected + Disabled – dark ring + light inner */
 .basic-radio.basic-radio--selected.basic-radio--disabled .basic-radio__outer {
     border-color: rgb(90, 90, 90);
 }

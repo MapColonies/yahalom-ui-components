@@ -51,20 +51,16 @@ namespace YahalomUIPackage.Runtime.BasicRadio
 
             AddToClassList("basic-radio");
 
-            // outer ring
             _outer = new VisualElement();
             _outer.AddToClassList("basic-radio__outer");
 
-            // inner dot
             _inner = new VisualElement();
             _inner.AddToClassList("basic-radio__inner");
             _outer.Add(_inner);
 
-            // label
             _label = new Label();
             _label.AddToClassList("basic-radio__label");
 
-            // RTL layout: circle then text (we use row-reverse in USS)
             Add(_outer);
             Add(_label);
 
@@ -78,7 +74,6 @@ namespace YahalomUIPackage.Runtime.BasicRadio
             if (_disabled)
                 return;
 
-            // radio behavior: only turn on by clicking self
             if (!_selected)
                 SetSelected(true, true);
         }
