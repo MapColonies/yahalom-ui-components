@@ -6,14 +6,20 @@ namespace YahalomUIPackage.Runtime.BasicCheckbox
     [UxmlElement]
     public partial class BasicCheckbox : Toggle
     {
-        public new class UxmlFactory : Toggle.UxmlFactory
-        {
-        }
+        public new class UxmlFactory : Toggle.UxmlFactory { }
 
         public BasicCheckbox()
         {
             var styleSheet = Resources.Load<StyleSheet>("BasicCheckbox/BasicCheckbox");
-            styleSheets.Add(styleSheet);
+            if (styleSheet != null)
+            {
+                styleSheets.Add(styleSheet);
+            }
+            else
+            {
+                Debug.LogError("[BasicCheckbox] Could not load 'BasicCheckbox/BasicCheckbox.uss'.");
+            }
+
             AddToClassList("basic-checkbox");
         }
     }
