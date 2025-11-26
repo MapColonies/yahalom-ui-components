@@ -15,6 +15,7 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
         private readonly VisualElement _labelsRow;
 
         private readonly List<VisualElement> _tickElements = new();
+        private readonly List<Label> _labelElements = new();
 
         private string[] _labels =
         {
@@ -93,6 +94,12 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
             RegisterCallback<PointerMoveEvent>(OnPointerMove);
             RegisterCallback<PointerUpEvent>(OnPointerUp);
             RegisterCallback<PointerCaptureOutEvent>(OnPointerCaptureOut);
+            RegisterCallback<GeometryChangedEvent>(OnGeometryChanged);
+        }
+
+        private void OnGeometryChanged(GeometryChangedEvent evt)
+        {
+            schedule.Execute(() => UpdateLabelPositions());
         }
 
         private void BuildTicksAndLabels()
@@ -100,6 +107,7 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
             _ticksRow.Clear();
             _labelsRow.Clear();
             _tickElements.Clear();
+            _labelElements.Clear();
 
             if (_labels == null || _labels.Length == 0)
                 return;
@@ -125,6 +133,27 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
                 label.RegisterCallback<ClickEvent>(_ => SetSelectedIndex(index, false));
 
                 _labelsRow.Add(label);
+                _labelElements.Add(label);
+            }
+
+            schedule.Execute(() => UpdateLabelPositions());
+        }
+
+        private void UpdateLabelPositions()
+        {
+            if (_tickElements.Count != _labelElements.Count)
+                return;
+
+            for (int i = 0; i < _tickElements.Count; i++)
+            {
+                var tick = _tickElements[i];
+                var label = _labelElements[i];
+
+                if (tick.layout.width > 0)
+                {
+                    float tickCenterX = tick.layout.x + tick.layout.width / 2f;
+                    label.style.left = tickCenterX;
+                }
             }
         }
         
