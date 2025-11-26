@@ -152,8 +152,12 @@ namespace YahalomUIPackage.Runtime.BasicButton
             get => _textElement != null ? _textElement.text : string.Empty;
             set
             {
+                var v = value ?? string.Empty;
+
                 if (_textElement != null)
-                    _textElement.text = value;
+                    _textElement.text = v;
+
+                base.text = v;
             }
         }
 
@@ -280,6 +284,12 @@ namespace YahalomUIPackage.Runtime.BasicButton
             };
             _textElement.AddToClassList("basic-button__label");
             hierarchy.Add(_textElement);
+            
+            RegisterCallback<ChangeEvent<string>>(evt =>
+            {
+                if (_textElement != null)
+                    _textElement.text = evt.newValue ?? string.Empty;
+            });
 
             RegisterCallback<PointerEnterEvent>(_ =>
             {
