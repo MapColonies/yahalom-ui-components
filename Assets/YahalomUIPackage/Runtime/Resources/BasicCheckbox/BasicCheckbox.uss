@@ -1,7 +1,36 @@
-.basic-checkbox {
-    flex-direction: row;
-    align-items: center;
+.basic-checkbox .unity-toggle__text {
+    white-space: normal;
+    flex-shrink: 1;
+    color: rgb(255, 255, 255);
 }
+
+.basic-checkbox .unity-toggle__label {
+    color: rgb(255, 255, 255);
+}
+
+.basic-checkbox:focus .unity-toggle__label {
+    color: rgb(255, 255, 255);
+}
+
+.basic-checkbox:focus .unity-toggle__text {
+    color: rgb(255, 255, 255);
+}
+
+.basic-checkbox:hover .unity-toggle__text {
+    color: rgb(255, 255, 255);
+}
+
+.basic-checkbox:checked .unity-toggle__text {
+    color: rgb(255, 255, 255);
+}
+
+.basic-checkbox:checked:focus .unity-toggle__text {
+    color: rgb(255, 255, 255);
+}.basic-checkbox {
+     flex-direction: row;
+     align-items: center;
+     -unity-focus-visible: none;
+ }
 
 .basic-checkbox .unity-toggle__checkmark {
     width: 18px;
@@ -13,6 +42,7 @@
     -unity-background-image-tint-color: transparent;
     justify-content: center;
     align-items: center;
+    margin-right: 6px;
 }
 
 .basic-checkbox:checked .unity-toggle__checkmark {
@@ -27,4 +57,26 @@
     background-repeat: no-repeat;
     -unity-background-image-tint-color: white;
     background-image: resource("BasicCheckbox/check");
+}
+
+.basic-checkbox .unity-toggle__text {
+    white-space: normal;
+    flex-shrink: 1;
+    color: rgb(255, 255, 255);
+}
+
+.basic-checkbox:focus .unity-toggle__text {
+    color: rgb(255, 255, 255);
+}
+
+.basic-checkbox:hover .unity-toggle__text {
+    color: rgb(255, 255, 255);
+}
+
+.basic-checkbox:checked .unity-toggle__text {
+    color: rgb(255, 255, 255);
+}
+
+.basic-checkbox:checked:focus .unity-toggle__text {
+    color: rgb(255, 255, 255);
 }
