@@ -14,6 +14,20 @@ namespace YahalomUIPackage.Runtime.BasicRadio
             set => SetSelectedIndex(value, true);
         }
 
+        [UxmlAttribute]
+        public List<string> Choices
+        {
+            get => _choices;
+            set
+            {
+                _choices = value ?? new List<string>();
+                if (_initialized)
+                {
+                    RebuildFromChoices();
+                }
+            }
+        }
+
         public BasicRadio SelectedRadio =>
             _selectedIndex >= 0 && _selectedIndex < _radios.Count
                 ? _radios[_selectedIndex]
@@ -25,6 +39,8 @@ namespace YahalomUIPackage.Runtime.BasicRadio
         private int _selectedIndex = -1;
         private bool _initialized;
         private bool _isUpdating;
+
+        private List<string> _choices = new();
 
         public BasicRadioGroup()
         {
@@ -40,18 +56,53 @@ namespace YahalomUIPackage.Runtime.BasicRadio
             _initialized = true;
             _radios.Clear();
 
-            this.Query<BasicRadio>().ForEach(radio =>
+            this.Query<BasicRadio>().ForEach(RegisterRadio);
+
+            if (_radios.Count == 0 && _choices != null && _choices.Count > 0)
             {
-                _radios.Add(radio);
-                radio.OnSelectedChanged += selected =>
+                RebuildFromChoices();
+            }
+            else
+            {
+                if (_selectedIndex >= 0)
+                    ApplySelectedIndex(false);
+            }
+        }
+
+        private void RegisterRadio(BasicRadio radio)
+        {
+            if (radio == null)
+                return;
+
+            _radios.Add(radio);
+            radio.OnSelectedChanged += selected =>
+            {
+                if (selected)
+                    OnRadioSelected(radio);
+            };
+        }
+
+        private void RebuildFromChoices()
+        {
+            Clear();
+            _radios.Clear();
+
+            if (_choices == null || _choices.Count == 0)
+                return;
+
+            foreach (var choice in _choices)
+            {
+                var radio = new BasicRadio
                 {
-                    if (selected)
-                        OnRadioSelected(radio);
+                    Text = choice
                 };
-            });
+
+                Add(radio);
+                RegisterRadio(radio);
+            }
 
             if (_selectedIndex >= 0)
-                SetSelectedIndex(_selectedIndex, false);
+                ApplySelectedIndex(false);
         }
 
         private void OnRadioSelected(BasicRadio radio)
@@ -82,12 +133,17 @@ namespace YahalomUIPackage.Runtime.BasicRadio
             if (!_initialized)
                 return;
 
-            if (index < 0 || index >= _radios.Count)
+            ApplySelectedIndex(invokeCallback);
+        }
+
+        private void ApplySelectedIndex(bool invokeCallback)
+        {
+            if (_selectedIndex < 0 || _selectedIndex >= _radios.Count)
                 return;
 
             _isUpdating = true;
             for (int i = 0; i < _radios.Count; i++)
-                _radios[i].SetSelectedInternal(i == index);
+                _radios[i].SetSelectedInternal(i == _selectedIndex);
             _isUpdating = false;
 
             if (invokeCallback)
