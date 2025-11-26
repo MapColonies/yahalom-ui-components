@@ -14,7 +14,7 @@ namespace YahalomUIPackage.Runtime.HyperlinkButton
         {
             var styleSheet = Resources.Load<StyleSheet>("HyperlinkButton/HyperlinkButton");
             styleSheets.Add(styleSheet);
-            
+
             AddToClassList("hyperlink-button");
         }
     }

@@ -21,6 +21,7 @@ namespace YahalomUIPackage.Runtime.BasicRadio
             set
             {
                 _choices = value ?? new List<string>();
+
                 if (_initialized)
                 {
                     RebuildFromChoices();

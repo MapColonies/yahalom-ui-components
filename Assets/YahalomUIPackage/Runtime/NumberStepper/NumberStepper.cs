@@ -40,8 +40,7 @@ namespace YahalomUIPackage.Runtime.NumberStepper
             set => SetValue(value);
         }
 
-        [UxmlAttribute]
-        public string LabelTemplate { get; set; } = "מתוך {0}";
+        [UxmlAttribute] public string LabelTemplate { get; set; } = "מתוך {0}";
 
         public Action<int> OnValueChanged { get; set; }
 

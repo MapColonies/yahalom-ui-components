@@ -6,7 +6,9 @@ namespace YahalomUIPackage.Runtime.BasicTab
     [UxmlElement]
     public partial class BasicTab : VisualElement
     {
-        public new class UxmlFactory : UxmlFactory<BasicTab> { }
+        public new class UxmlFactory : UxmlFactory<BasicTab>
+        {
+        }
 
         private Label _label;
         private VisualElement _underline;
@@ -21,6 +23,7 @@ namespace YahalomUIPackage.Runtime.BasicTab
             set
             {
                 _text = value;
+
                 if (_label != null)
                 {
                     _label.text = value;
@@ -42,6 +45,7 @@ namespace YahalomUIPackage.Runtime.BasicTab
         public BasicTab()
         {
             var styleSheet = Resources.Load<StyleSheet>("BasicTab/BasicTab");
+
             if (styleSheet != null)
             {
                 styleSheets.Add(styleSheet);
@@ -62,10 +66,7 @@ namespace YahalomUIPackage.Runtime.BasicTab
             hierarchy.Add(_label);
             hierarchy.Add(_underline);
 
-            RegisterCallback<ClickEvent>(_ =>
-            {
-                isSelected = true;
-            });
+            RegisterCallback<ClickEvent>(_ => { isSelected = true; });
 
             _label.text = _text;
             UpdateVisualState();

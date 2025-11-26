@@ -57,56 +57,88 @@ namespace YahalomUIPackage.Runtime.BasicButton
         public Color TopColor
         {
             get => _topColor;
-            set { _topColor = value; UpdateVisualStateInternal(); }
+            set
+            {
+                _topColor = value;
+                UpdateVisualStateInternal();
+            }
         }
 
         [UxmlAttribute("bottom-color")]
         public Color BottomColor
         {
             get => _bottomColor;
-            set { _bottomColor = value; UpdateVisualStateInternal(); }
+            set
+            {
+                _bottomColor = value;
+                UpdateVisualStateInternal();
+            }
         }
 
         [UxmlAttribute("hover-top-color")]
         public Color HoverTopColor
         {
             get => _hoverTopColor;
-            set { _hoverTopColor = value; UpdateVisualStateInternal(); }
+            set
+            {
+                _hoverTopColor = value;
+                UpdateVisualStateInternal();
+            }
         }
 
         [UxmlAttribute("hover-bottom-color")]
         public Color HoverBottomColor
         {
             get => _hoverBottomColor;
-            set { _hoverBottomColor = value; UpdateVisualStateInternal(); }
+            set
+            {
+                _hoverBottomColor = value;
+                UpdateVisualStateInternal();
+            }
         }
 
         [UxmlAttribute("selected-top-color")]
         public Color SelectedTopColor
         {
             get => _selectedTopColor;
-            set { _selectedTopColor = value; UpdateVisualStateInternal(); }
+            set
+            {
+                _selectedTopColor = value;
+                UpdateVisualStateInternal();
+            }
         }
 
         [UxmlAttribute("selected-bottom-color")]
         public Color SelectedBottomColor
         {
             get => _selectedBottomColor;
-            set { _selectedBottomColor = value; UpdateVisualStateInternal(); }
+            set
+            {
+                _selectedBottomColor = value;
+                UpdateVisualStateInternal();
+            }
         }
 
         [UxmlAttribute("disabled-top-color")]
         public Color DisabledTopColor
         {
             get => _disabledTopColor;
-            set { _disabledTopColor = value; UpdateVisualStateInternal(); }
+            set
+            {
+                _disabledTopColor = value;
+                UpdateVisualStateInternal();
+            }
         }
 
         [UxmlAttribute("disabled-bottom-color")]
         public Color DisabledBottomColor
         {
             get => _disabledBottomColor;
-            set { _disabledBottomColor = value; UpdateVisualStateInternal(); }
+            set
+            {
+                _disabledBottomColor = value;
+                UpdateVisualStateInternal();
+            }
         }
 
         [UxmlAttribute("label-text")]
@@ -124,30 +156,46 @@ namespace YahalomUIPackage.Runtime.BasicButton
         public Color TextColor
         {
             get => _textColor;
-            set { _textColor = value; UpdateVisualStateInternal(); }
+            set
+            {
+                _textColor = value;
+                UpdateVisualStateInternal();
+            }
         }
 
         [UxmlAttribute("hover-text-color")]
         public Color HoverTextColor
         {
             get => _hoverTextColor;
-            set { _hoverTextColor = value; UpdateVisualStateInternal(); }
+            set
+            {
+                _hoverTextColor = value;
+                UpdateVisualStateInternal();
+            }
         }
 
         [UxmlAttribute("selected-text-color")]
         public Color SelectedTextColor
         {
             get => _selectedTextColor;
-            set { _selectedTextColor = value; UpdateVisualStateInternal(); }
+            set
+            {
+                _selectedTextColor = value;
+                UpdateVisualStateInternal();
+            }
         }
 
         [UxmlAttribute("disabled-text-color")]
         public Color DisabledTextColor
         {
             get => _disabledTextColor;
-            set { _disabledTextColor = value; UpdateVisualStateInternal(); }
+            set
+            {
+                _disabledTextColor = value;
+                UpdateVisualStateInternal();
+            }
         }
-        
+
         public bool IsSelected => _isSelected;
 
         public BasicButton()
@@ -253,7 +301,7 @@ namespace YahalomUIPackage.Runtime.BasicButton
             if (_textElement != null)
                 _textElement.style.color = textColor;
         }
-        
+
         public new void SetEnabled(bool value)
         {
             base.SetEnabled(value);

@@ -8,7 +8,9 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
     [UxmlElement]
     public partial class AxisScrollbar : VisualElement
     {
-        public new class UxmlFactory : UxmlFactory<AxisScrollbar> { }
+        public new class UxmlFactory : UxmlFactory<AxisScrollbar>
+        {
+        }
 
         private readonly VisualElement _track;
         private readonly VisualElement _ticksRow;
@@ -55,6 +57,7 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
         public AxisScrollbar()
         {
             var styleSheet = Resources.Load<StyleSheet>("AxisScrollbar/AxisScrollbar");
+
             if (styleSheet != null)
             {
                 styleSheets.Add(styleSheet);
@@ -156,7 +159,7 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
                 }
             }
         }
-        
+
         private void OnPointerDown(PointerDownEvent evt)
         {
             if (evt.button != 0) return;
@@ -190,7 +193,6 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
             evt.StopPropagation();
         }
 
-
         private void OnPointerCaptureOut(PointerCaptureOutEvent evt)
         {
             _isDragging = false;
@@ -212,7 +214,7 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
 
             SetSelectedIndex(index, false);
         }
-        
+
         private void SetSelectedIndex(int index, bool fromInternal)
         {
             if (_labels == null || _labels.Length == 0)
