@@ -45,15 +45,15 @@
 }
 
 .basic-button.basic-button--selected {
-    border-color: rgb(0, 122, 255);
+    border-color: rgb(0, 248, 204);
 }
 
 .basic-button:active {
-    border-color: rgb(0, 150, 135);
+    border-color: rgb(0, 248, 204);
 }
 
 .basic-button:disabled {
-    border-color: rgba(0, 0, 0, 0);
+    border-color: rgb(51, 51, 51);
 }
 
 .basic-button:hover .basic-button__icon {
