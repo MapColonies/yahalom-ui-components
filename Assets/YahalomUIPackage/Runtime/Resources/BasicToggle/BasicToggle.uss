@@ -41,6 +41,4 @@
 }
 
 .basic-toggle-control--on {
-    /* e.g. slight shadow or outline in ON state */
-    /* box-shadow: 0 0 2px rgba(0,0,0,0.3); */
 }

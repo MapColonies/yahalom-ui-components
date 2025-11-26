@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
-    padding: 0; 
+    padding: 0;
 }
 
 .axis-scrollbar__track {

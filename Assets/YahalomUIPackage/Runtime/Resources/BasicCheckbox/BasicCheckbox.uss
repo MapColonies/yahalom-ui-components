@@ -26,11 +26,12 @@
 
 .basic-checkbox:checked:focus .unity-toggle__text {
     color: rgb(255, 255, 255);
-}.basic-checkbox {
-     flex-direction: row;
-     align-items: center;
-     -unity-focus-visible: none;
- }
+}
+
+.basic-checkbox {
+    flex-direction: row;
+    align-items: center;
+}
 
 .basic-checkbox .unity-toggle__checkmark {
     width: 18px;

@@ -18,7 +18,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 6px;
 
     transition-property: border-color;
     transition-duration: 0.08s;
@@ -36,7 +35,6 @@
 
 .basic-button__label {
     flex-grow: 1;
-    unity-text-align: middle-center;
     color: white;
 }
 
