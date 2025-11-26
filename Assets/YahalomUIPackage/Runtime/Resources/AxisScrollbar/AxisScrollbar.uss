@@ -56,12 +56,12 @@
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;                        /* pin to bottom of the 43px box */
-    height: 13px;                     /* small text area at bottom */
+    bottom: 0;
+    height: 13px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;            /* baseline at bottom of this strip */
+    align-items: flex-end;
     padding-left: 0;
     padding-right: 0;
     margin: 0;

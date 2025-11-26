@@ -21,9 +21,8 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
             "0.25", "0.50", "0.75", "1", "x2", "x3", "x4"
         };
 
-        private int _selectedIndex = 1; // default: 0.50
+        private int _selectedIndex = 1;
 
-        // --- drag state ---
         private bool _isDragging;
         private int _activePointerId = -1;
 
@@ -66,7 +65,6 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
 
             AddToClassList("axis-scrollbar");
 
-            // Fixed size: 217 x 43
             style.width = 217;
             style.minWidth = 217;
             style.maxWidth = 217;
@@ -91,7 +89,6 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
             BuildTicksAndLabels();
             SetSelectedIndex(_selectedIndex, true);
 
-            // Drag handlers on the whole control (track, ticks, indicator all bubble here)
             RegisterCallback<PointerDownEvent>(OnPointerDown);
             RegisterCallback<PointerMoveEvent>(OnPointerMove);
             RegisterCallback<PointerUpEvent>(OnPointerUp);
@@ -111,22 +108,18 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
             {
                 int index = i;
 
-                // Tick
                 var tick = new VisualElement();
                 tick.AddToClassList("axis-scrollbar__tick");
 
-                // Indicator
                 var indicator = new VisualElement();
                 indicator.AddToClassList("axis-scrollbar__indicator");
                 tick.Add(indicator);
 
-                // Click-to-jump (still useful in addition to drag)
                 tick.RegisterCallback<ClickEvent>(_ => SetSelectedIndex(index, false));
 
                 _ticksRow.Add(tick);
                 _tickElements.Add(tick);
 
-                // Label
                 var label = new Label(_labels[i]);
                 label.AddToClassList("axis-scrollbar__label");
                 label.RegisterCallback<ClickEvent>(_ => SetSelectedIndex(index, false));
@@ -134,9 +127,7 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
                 _labelsRow.Add(label);
             }
         }
-
-        // ----------------- pointer / drag logic -----------------
-
+        
         private void OnPointerDown(PointerDownEvent evt)
         {
             if (evt.button != 0) return;
@@ -144,7 +135,7 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
             _isDragging = true;
             _activePointerId = evt.pointerId;
 
-            this.CapturePointer(evt.pointerId);   // FIX ✔
+            this.CapturePointer(evt.pointerId);
 
             UpdateFromWorldPosition(evt.position);
             evt.StopPropagation();
@@ -165,7 +156,7 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
                 return;
 
             _isDragging = false;
-            this.ReleasePointer(evt.pointerId);   // FIX ✔
+            this.ReleasePointer(evt.pointerId);
 
             evt.StopPropagation();
         }
@@ -192,9 +183,7 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
 
             SetSelectedIndex(index, false);
         }
-
-        // ----------------- selection visuals / events -----------------
-
+        
         private void SetSelectedIndex(int index, bool fromInternal)
         {
             if (_labels == null || _labels.Length == 0)
