@@ -32,6 +32,11 @@ namespace YahalomUIPackage.Runtime.BasicButton
         private Color _selectedTextColor = Color.white;
         private Color _disabledTextColor = new Color(0.7f, 0.7f, 0.7f, 1f);
 
+        private Color _borderColor = Color.white;
+        private Color _hoverBorderColor = Color.white;
+        private Color _selectedBorderColor = Color.white;
+        private Color _disabledBorderColor = new Color(0.7f, 0.7f, 0.7f, 1f);
+
         private bool _isPointerOver;
         private bool _isSelected;
 
@@ -196,6 +201,50 @@ namespace YahalomUIPackage.Runtime.BasicButton
             }
         }
 
+        [UxmlAttribute("border-color")]
+        public Color BorderColor
+        {
+            get => _borderColor;
+            set
+            {
+                _borderColor = value;
+                UpdateVisualStateInternal();
+            }
+        }
+
+        [UxmlAttribute("hover-border-color")]
+        public Color HoverBorderColor
+        {
+            get => _hoverBorderColor;
+            set
+            {
+                _hoverBorderColor = value;
+                UpdateVisualStateInternal();
+            }
+        }
+
+        [UxmlAttribute("selected-border-color")]
+        public Color SelectedBorderColor
+        {
+            get => _selectedBorderColor;
+            set
+            {
+                _selectedBorderColor = value;
+                UpdateVisualStateInternal();
+            }
+        }
+
+        [UxmlAttribute("disabled-border-color")]
+        public Color DisabledBorderColor
+        {
+            get => _disabledBorderColor;
+            set
+            {
+                _disabledBorderColor = value;
+                UpdateVisualStateInternal();
+            }
+        }
+
         public bool IsSelected => _isSelected;
 
         public BasicButton()
@@ -266,33 +315,39 @@ namespace YahalomUIPackage.Runtime.BasicButton
         {
             if (_gradientBackground == null)
                 return;
+
             Color top;
             Color bottom;
             Color textColor;
+            Color borderColor;
 
             if (!enabledSelf)
             {
                 top = _disabledTopColor;
                 bottom = _disabledBottomColor;
                 textColor = _disabledTextColor;
+                borderColor = _disabledBorderColor;
             }
             else if (_isSelected)
             {
                 top = _selectedTopColor;
                 bottom = _selectedBottomColor;
                 textColor = _selectedTextColor;
+                borderColor = _selectedBorderColor;
             }
             else if (_isPointerOver)
             {
                 top = _hoverTopColor;
                 bottom = _hoverBottomColor;
                 textColor = _hoverTextColor;
+                borderColor = _hoverBorderColor;
             }
             else
             {
                 top = _topColor;
                 bottom = _bottomColor;
                 textColor = _textColor;
+                borderColor = _borderColor;
             }
 
             _gradientBackground.TopColor = top;
@@ -300,6 +355,11 @@ namespace YahalomUIPackage.Runtime.BasicButton
 
             if (_textElement != null)
                 _textElement.style.color = textColor;
+
+            style.borderTopColor = borderColor;
+            style.borderBottomColor = borderColor;
+            style.borderLeftColor = borderColor;
+            style.borderRightColor = borderColor;
         }
 
         public new void SetEnabled(bool value)
