@@ -1,0 +1,77 @@
+.axis-scrollbar {
+    width: 217px;
+    min-width: 217px;
+    max-width: 217px;
+    height: 43px;
+    min-height: 43px;
+    max-height: 43px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 0; 
+}
+
+.axis-scrollbar__track {
+    width: 217px;
+    height: 2px;
+    background-color: rgb(170, 170, 170);
+    align-self: center;
+    margin-top: 15px;
+}
+
+.axis-scrollbar__ticks-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 217px;
+    align-self: center;
+    margin-top: -5px;
+}
+
+.axis-scrollbar__tick {
+    position: relative;
+    width: 2px;
+    height: 12px;
+    background-color: rgb(170, 170, 170);
+}
+
+.axis-scrollbar__indicator {
+    position: absolute;
+    width: 5px;
+    height: 33px;
+    top: -12px;
+    left: 50%;
+    margin-left: -4px;
+    background-color: rgb(0, 230, 200);
+    display: none;
+}
+
+.axis-scrollbar__tick--selected .axis-scrollbar__indicator {
+    display: flex;
+}
+
+.axis-scrollbar__labels-row {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;                        /* pin to bottom of the 43px box */
+    height: 13px;                     /* small text area at bottom */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;            /* baseline at bottom of this strip */
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    margin-bottom: -3px;
+}
+
+.axis-scrollbar__label {
+    font-size: 10px;
+    color: rgb(220, 220, 220);
+    -unity-text-align: lower-center;
+    margin: 0;
+    padding: 0;
+}
