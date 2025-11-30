@@ -44,7 +44,7 @@ namespace YahalomUIPackage.Runtime.BasicTab
 
         public BasicTab()
         {
-            var styleSheet = Resources.Load<StyleSheet>("BasicTab/BasicTab");
+            StyleSheet styleSheet = Resources.Load<StyleSheet>("BasicTab/BasicTab");
 
             if (styleSheet != null)
             {

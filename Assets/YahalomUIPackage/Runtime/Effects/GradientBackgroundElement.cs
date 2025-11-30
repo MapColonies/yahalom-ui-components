@@ -76,7 +76,7 @@ namespace YahalomUIPackage.Runtime.Effects
             if (_gradientTexture == null)
                 return;
 
-            var meshWriteData = ctx.Allocate(4, 6, _gradientTexture);
+            MeshWriteData meshWriteData = ctx.Allocate(4, 6, _gradientTexture);
 
             float xMin = rect.xMin;
             float xMax = rect.xMax;

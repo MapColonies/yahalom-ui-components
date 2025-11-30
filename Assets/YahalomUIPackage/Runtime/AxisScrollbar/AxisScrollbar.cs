@@ -56,7 +56,7 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
 
         public AxisScrollbar()
         {
-            var styleSheet = Resources.Load<StyleSheet>("AxisScrollbar/AxisScrollbar");
+            StyleSheet styleSheet = Resources.Load<StyleSheet>("AxisScrollbar/AxisScrollbar");
 
             if (styleSheet != null)
             {
@@ -119,10 +119,10 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
             {
                 int index = i;
 
-                var tick = new VisualElement();
+                VisualElement tick = new VisualElement();
                 tick.AddToClassList("axis-scrollbar__tick");
 
-                var indicator = new VisualElement();
+                VisualElement indicator = new VisualElement();
                 indicator.AddToClassList("axis-scrollbar__indicator");
                 tick.Add(indicator);
 
@@ -131,7 +131,7 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
                 _ticksRow.Add(tick);
                 _tickElements.Add(tick);
 
-                var label = new Label(_labels[i]);
+                Label label = new Label(_labels[i]);
                 label.AddToClassList("axis-scrollbar__label");
                 label.RegisterCallback<ClickEvent>(_ => SetSelectedIndex(index, false));
 
@@ -149,8 +149,8 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
 
             for (int i = 0; i < _tickElements.Count; i++)
             {
-                var tick = _tickElements[i];
-                var label = _labelElements[i];
+                VisualElement tick = _tickElements[i];
+                Label label = _labelElements[i];
 
                 if (tick.layout.width > 0)
                 {
@@ -204,7 +204,7 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
             if (_labels == null || _labels.Length == 0)
                 return;
 
-            var ticksBounds = _ticksRow.worldBound;
+            Rect ticksBounds = _ticksRow.worldBound;
             if (ticksBounds.width <= 0f)
                 return;
 
@@ -229,7 +229,7 @@ namespace YahalomUIPackage.Runtime.AxisScrollbar
 
             UpdateTickVisuals();
 
-            var evt = ChangeEvent<int>.GetPooled(old, _selectedIndex);
+            ChangeEvent<int> evt = ChangeEvent<int>.GetPooled(old, _selectedIndex);
             evt.target = this;
             SendEvent(evt);
 

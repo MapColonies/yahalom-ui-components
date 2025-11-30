@@ -58,7 +58,7 @@ namespace YahalomUIPackage.Runtime.NumberStepper
 
         public NumberStepper()
         {
-            var styleSheet = Resources.Load<StyleSheet>("NumberStepper/NumberStepper");
+            StyleSheet styleSheet = Resources.Load<StyleSheet>("NumberStepper/NumberStepper");
             styleSheets.Add(styleSheet);
 
             AddToClassList("numberstepper");

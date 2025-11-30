@@ -91,9 +91,9 @@ namespace YahalomUIPackage.Runtime.BasicRadio
             if (_choices == null || _choices.Count == 0)
                 return;
 
-            foreach (var choice in _choices)
+            foreach (string choice in _choices)
             {
-                var radio = new BasicRadio
+                BasicRadio radio = new BasicRadio
                 {
                     Text = choice
                 };

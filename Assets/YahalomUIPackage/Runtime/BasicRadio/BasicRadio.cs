@@ -43,7 +43,7 @@ namespace YahalomUIPackage.Runtime.BasicRadio
 
         public BasicRadio()
         {
-            var styleSheet = Resources.Load<StyleSheet>("BasicRadio/BasicRadio");
+            StyleSheet styleSheet = Resources.Load<StyleSheet>("BasicRadio/BasicRadio");
             if (styleSheet != null)
                 styleSheets.Add(styleSheet);
             else

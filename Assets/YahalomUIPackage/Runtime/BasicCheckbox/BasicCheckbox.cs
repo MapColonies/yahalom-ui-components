@@ -12,7 +12,7 @@ namespace YahalomUIPackage.Runtime.BasicCheckbox
 
         public BasicCheckbox()
         {
-            var styleSheet = Resources.Load<StyleSheet>("BasicCheckbox/BasicCheckbox");
+            StyleSheet styleSheet = Resources.Load<StyleSheet>("BasicCheckbox/BasicCheckbox");
 
             if (styleSheet != null)
             {

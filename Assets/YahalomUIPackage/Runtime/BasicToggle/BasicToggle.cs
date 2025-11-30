@@ -30,7 +30,7 @@ namespace YahalomUIPackage.Runtime.BasicToggle
 
         public BasicToggle()
         {
-            var styleSheet = Resources.Load<StyleSheet>("BasicToggle/BasicToggle");
+            StyleSheet styleSheet = Resources.Load<StyleSheet>("BasicToggle/BasicToggle");
             styleSheets.Add(styleSheet);
 
             AddToClassList("basic-toggle");

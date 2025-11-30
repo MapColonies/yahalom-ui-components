@@ -152,7 +152,7 @@ namespace YahalomUIPackage.Runtime.BasicButton
             get => _textElement != null ? _textElement.text : string.Empty;
             set
             {
-                var v = value ?? string.Empty;
+                string v = value ?? string.Empty;
 
                 if (_textElement != null)
                     _textElement.text = v;
@@ -253,7 +253,7 @@ namespace YahalomUIPackage.Runtime.BasicButton
 
         public BasicButton()
         {
-            var styleSheet = Resources.Load<StyleSheet>("BasicButton/BasicButton");
+            StyleSheet styleSheet = Resources.Load<StyleSheet>("BasicButton/BasicButton");
             if (styleSheet != null)
                 styleSheets.Add(styleSheet);
 
