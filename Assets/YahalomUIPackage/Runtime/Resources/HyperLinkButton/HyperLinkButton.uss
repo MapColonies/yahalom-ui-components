@@ -1,0 +1,45 @@
+.hyperlink-button {
+    width: auto;
+    height: auto;
+    min-width: auto;
+    min-height: auto;
+    max-width: none;
+    max-height: none;
+
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: flex-start;
+
+    padding: 0;
+    margin: 0;
+
+    background-color: transparent;
+    border-width: 0;
+    border-radius: 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 13px;
+    -unity-font-style: normal;
+    color: rgb(22, 192, 162);
+    border-bottom-color: rgb(22, 192, 162);
+    border-bottom-width: 1px;
+}
+
+.hyperlink-button:hover {
+    color: rgb(0, 248, 204);
+    border-bottom-color: rgb(0, 248, 204);
+}
+
+.hyperlink-button:active {
+    color: rgb(0, 248, 204);
+    border-bottom-color: rgb(0, 248, 204);
+}
+
+.hyperlink-button:disabled {
+    color: rgb(102, 102, 102);
+    border-bottom-color: rgb(102, 102, 102);
+}

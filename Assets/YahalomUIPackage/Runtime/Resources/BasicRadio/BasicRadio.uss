@@ -1,0 +1,74 @@
+.basic-radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.basic-radio {
+    height: 20px;
+    min-height: 10px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 6px;
+    background-color: transparent;
+}
+
+.basic-radio__outer {
+    width: 20px;
+    height: 20px;
+
+    border-radius: 16px;
+    border-width: 3px;
+    border-color: rgb(210, 210, 210);
+
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+    margin: 0;
+}
+
+.basic-radio__inner {
+    width: 0;
+    height: 0;
+
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.basic-radio__label {
+    font-size: 14px;
+    color: rgb(230, 230, 230);
+    margin-left: 6px;
+}
+
+.basic-radio.basic-radio--selected .basic-radio__outer {
+    border-color: rgb(0, 200, 170);
+}
+
+.basic-radio.basic-radio--selected .basic-radio__inner {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 200, 170);
+}
+
+.basic-radio.basic-radio--disabled .basic-radio__outer {
+    border-color: rgb(90, 90, 90);
+}
+
+.basic-radio.basic-radio--disabled .basic-radio__label {
+    color: rgb(130, 130, 130);
+}
+
+.basic-radio.basic-radio--selected.basic-radio--disabled .basic-radio__outer {
+    border-color: rgb(90, 90, 90);
+}
+
+.basic-radio.basic-radio--selected.basic-radio--disabled .basic-radio__inner {
+    background-color: rgb(140, 140, 140);
+}

@@ -1,0 +1,117 @@
+button {
+    padding: 0;
+    margin: 0;
+    -unity-text-align: middle-center;
+}
+
+label {
+    padding: 0;
+    margin: 0;
+    -unity-text-align: middle-center;
+}
+
+.numberstepper {
+    width: 174px;
+    min-width: 174px;
+    max-width: 174px;
+
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: rgb(102, 102, 102);
+
+    background-color: rgb(26, 26, 26);
+    overflow: hidden;
+}
+
+.numberstepper__segment {
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+
+    background-color: transparent;
+    border-width: 0;
+    border-radius: 0;
+
+    color: rgb(204, 204, 204);
+    font-size: 16px;
+    -unity-font-style: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    -unity-text-align: middle-center;
+}
+
+.numberstepper__segment--left {
+    border-right-width: 1px;
+    border-right-color: rgb(102, 102, 102);
+}
+
+.numberstepper__segment--right {
+    border-left-width: 1px;
+    border-left-color: rgb(102, 102, 102);
+}
+
+.numberstepper__center {
+    flex-grow: 1;
+    height: 32px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.numberstepper__text {
+    font-size: 14px;
+    color: rgb(230, 230, 230);
+}
+
+.numberstepper__bubble {
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+
+    height: 17px;
+    min-height: 17px;
+    max-height: 17px;
+
+    background-color: rgb(102, 102, 102);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.numberstepper__bubble-text {
+    font-size: 14px;
+    color: white;
+    -unity-text-align: middle-center;
+}
+
+.numberstepper__segment:hover {
+    color: white;
+}

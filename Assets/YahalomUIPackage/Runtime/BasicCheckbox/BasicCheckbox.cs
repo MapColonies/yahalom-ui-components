@@ -12,8 +12,17 @@ namespace YahalomUIPackage.Runtime.BasicCheckbox
 
         public BasicCheckbox()
         {
-            var styleSheet = Resources.Load<StyleSheet>("BasicCheckbox/BasicCheckbox");
-            styleSheets.Add(styleSheet);
+            StyleSheet styleSheet = Resources.Load<StyleSheet>("BasicCheckbox/BasicCheckbox");
+
+            if (styleSheet != null)
+            {
+                styleSheets.Add(styleSheet);
+            }
+            else
+            {
+                Debug.LogError("[BasicCheckbox] Could not load 'BasicCheckbox/BasicCheckbox.uss'.");
+            }
+
             AddToClassList("basic-checkbox");
         }
     }

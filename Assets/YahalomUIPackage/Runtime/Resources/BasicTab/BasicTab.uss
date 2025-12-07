@@ -1,0 +1,35 @@
+.basic-tab {
+    height: 48px;
+    min-height: 48px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic-tab__label {
+    font-size: 13px;
+    -unity-font-style: bold;
+
+    color: rgb(204, 204, 204);
+    -unity-text-align: middle-center;
+}
+
+.basic-tab__underline {
+    width: 100%;
+    height: 4px;
+
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+.basic-tab--selected .basic-tab__label {
+    color: rgb(22, 192, 162);
+}
+
+.basic-tab--selected .basic-tab__underline {
+    background-color: rgb(22, 192, 162);
+}
