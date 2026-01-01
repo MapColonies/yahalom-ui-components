@@ -69,8 +69,8 @@ MonoBehaviour:
 
     34.372140 E'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 30be5cf6fe84e3f48a49d774a382032c, type: 2}
+  m_sharedMaterial: {fileID: 6578176948648273752, guid: 30be5cf6fe84e3f48a49d774a382032c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -419,8 +419,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 44 NE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: afa4dc15163c01d469a192aec1fbcdd3, type: 2}
+  m_sharedMaterial: {fileID: 91171056573533746, guid: afa4dc15163c01d469a192aec1fbcdd3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -547,6 +547,7 @@ MonoBehaviour:
   _smoothTime: 0.1
   _enableDebugSlider: 1
   _debugAngle: 0
+  _debugCoordinates: {x: 0, y: 0}
 --- !u!1 &8605132972030315955
 GameObject:
   m_ObjectHideFlags: 0

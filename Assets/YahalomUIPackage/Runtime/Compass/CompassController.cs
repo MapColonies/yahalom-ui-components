@@ -67,7 +67,7 @@ namespace YahalomUIPackage.Runtime.Compass
             }
 
             _lastDisplayAngle = currentDisplayAngle;
-            _angleText.text = $"{currentDisplayAngle}°";
+            _angleText.text = $"{currentDisplayAngle}°NE";
         }
         
         public void SetHeading(float heading)
@@ -78,7 +78,7 @@ namespace YahalomUIPackage.Runtime.Compass
 
         public void SetCoordinates(Vector2 latLong)
         {
-            SetCoordinatesText($"{latLong.y:F4} N\\n{latLong.x:F4} E");
+            SetCoordinatesText($"{latLong.y:F4}°N\\n{latLong.x:F4}°E");
         }
         
         
