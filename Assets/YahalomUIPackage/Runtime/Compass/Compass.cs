@@ -12,10 +12,13 @@ namespace YahalomUIPackage.Runtime.Compass
         [SerializeField] private float _startAngle;
         [SerializeField] private float _smoothTime = 0.1f;
 
-        private Vector2 _lastDebugCoordinates;
         private float _currentVelocity;
         private float _smoothedAngle;
         private int _lastDisplayAngle = -1;
+
+        private const string North = "N";
+        private const string East = "E";
+        private const string Degree = "°";
 
         private void UpdateRotation(float targetHeading)
         {
@@ -47,7 +50,7 @@ namespace YahalomUIPackage.Runtime.Compass
             }
 
             _lastDisplayAngle = currentDisplayAngle;
-            _angleText.text = $"{currentDisplayAngle}°NE";
+            _angleText.text = $"{currentDisplayAngle}" + Degree + North + East;
         }
 
         public void SetHeading(float heading)
@@ -58,7 +61,7 @@ namespace YahalomUIPackage.Runtime.Compass
 
         public void SetCoordinates(Vector2 latLong)
         {
-            SetCoordinatesText($"{latLong.y:F4}°N\\n{latLong.x:F4}°E");
+            SetCoordinatesText($"{latLong.y:F4}{Degree}{North}\\n{latLong.x:F4}{Degree}{East}");
         }
     }
 }
