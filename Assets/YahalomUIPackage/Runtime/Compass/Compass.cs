@@ -27,18 +27,8 @@ namespace YahalomUIPackage.Runtime.Compass
             _compassTransform.localEulerAngles = new Vector3(0, 0, _smoothedAngle);
         }
 
-        private void SetCoordinatesText(string coordinatesInfo)
-        {
-            if (_coordinatesText != null)
-            {
-                _coordinatesText.text = coordinatesInfo;
-            }
-        }
-
         private void UpdateAngleText(float heading)
         {
-            if (_angleText == null) return;
-
             float normalizedHeading = heading % 360;
             if (normalizedHeading < 0) normalizedHeading += 360;
 
@@ -61,7 +51,8 @@ namespace YahalomUIPackage.Runtime.Compass
 
         public void SetCoordinates(Vector2 latLong)
         {
-            SetCoordinatesText($"{latLong.y:F4}{Degree}{North}\\n{latLong.x:F4}{Degree}{East}");
+            string coordinatesInfo = $"{latLong.y:F4}{Degree}{North}\\n{latLong.x:F4}{Degree}{East}";
+            _coordinatesText.text = coordinatesInfo;
         }
     }
 }
