@@ -109,7 +109,7 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: -2257844187400318264, guid: 369f85b2683955840b7d332288135fb1, type: 3}
     m_PressedSprite: {fileID: -8047610522047080650, guid: 241e34508a36dfa4ead645e680116f36, type: 3}
-    m_SelectedSprite: {fileID: 2422440155035553769, guid: f26518467959f4b4bafd784e843d8336, type: 3}
+    m_SelectedSprite: {fileID: -8047610522047080650, guid: 241e34508a36dfa4ead645e680116f36, type: 3}
     m_DisabledSprite: {fileID: 514135001081824623, guid: 1432fbb75862084479f5b75e40850d4e, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -124,13 +124,15 @@ MonoBehaviour:
       m_Calls: []
   _textMesh: {fileID: 7759077278233091242}
   _icon: {fileID: 387722828425423114}
-  _normalIconColor: {r: 1, g: 1, b: 1, a: 1}
-  _highlightedIconColor: {r: 1, g: 1, b: 1, a: 1}
-  _pressedIconColor: {r: 0, g: 0, b: 0, a: 1}
-  _disabledIconColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+  _normalIcon: {fileID: 0}
+  _highlightedIcon: {fileID: 0}
+  _pressedIcon: {fileID: 0}
+  _selectedIcon: {fileID: 0}
+  _disabledIcon: {fileID: 0}
   _normalTextColor: {r: 1, g: 1, b: 1, a: 1}
   _highlightedTextColor: {r: 1, g: 1, b: 1, a: 1}
   _pressedTextColor: {r: 0, g: 0, b: 0, a: 1}
+  _selectedTextColor: {r: 0, g: 0, b: 0, a: 1}
   _disabledTextColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
   _fadeDuration: 0.1
 --- !u!1 &3867168030498298792
