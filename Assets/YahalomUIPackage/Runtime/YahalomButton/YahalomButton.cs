@@ -2,9 +2,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace YahalomUIPackage.Runtime.BasicButton
+namespace YahalomUIPackage.Runtime.YahalomButton
 {
-    public class MainButton : Button
+    public class YahalomButton : Button
     {
         [SerializeField] private TextMeshProUGUI _textMesh;
         [SerializeField] private Image _icon;

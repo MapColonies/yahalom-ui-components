@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8508067712180030235}
   - component: {fileID: 1389597478496472631}
   m_Layer: 5
-  m_Name: MainButton
+  m_Name: YahalomButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

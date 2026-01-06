@@ -1,12 +1,11 @@
 using UnityEditor;
 using UnityEditor.UI;
-using YahalomUIPackage.Runtime.BasicButton;
 
-namespace YahalomUIPackage.Editor
+namespace YahalomUIPackage.Editor.YahalomButton
 {
-    [CustomEditor(typeof(MainButton))]
+    [CustomEditor(typeof(Runtime.YahalomButton.YahalomButton))]
     [CanEditMultipleObjects]
-    public class MainButtonEditor : ButtonEditor
+    public class YahalomButtonEditor : ButtonEditor
     {
         private SerializedProperty _textMesh;
         private SerializedProperty _icon;
