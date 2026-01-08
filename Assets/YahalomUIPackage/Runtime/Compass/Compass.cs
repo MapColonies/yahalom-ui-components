@@ -15,10 +15,20 @@ namespace YahalomUIPackage.Runtime.Compass
         private float _currentVelocity;
         private float _smoothedAngle;
         private int _lastDisplayAngle = -1;
+        private string _lastDirection = "";
 
-        private const string North = "N";
-        private const string East = "E";
         private const string Degree = "°";
+        private const float SectorSize = 45f;
+
+        private const int DirN = 0;
+        private const int DirE = 2;
+        private const int DirS = 4;
+        private const int DirW = 6;
+
+        private static readonly string[] Directions8 =
+        {
+            "N", "NE", "E", "SE", "S", "SW", "W", "NW"
+        };
 
         private void UpdateRotation(float targetHeading)
         {
@@ -29,18 +39,25 @@ namespace YahalomUIPackage.Runtime.Compass
 
         private void UpdateAngleText(float heading)
         {
-            float normalizedHeading = heading % 360;
-            if (normalizedHeading < 0) normalizedHeading += 360;
+            float normalizedHeading = heading % 360f;
+            if (normalizedHeading < 0f) normalizedHeading += 360f;
 
             int currentDisplayAngle = Mathf.RoundToInt(normalizedHeading);
+            string direction = GetDirection8FromNormalized(normalizedHeading);
 
-            if (currentDisplayAngle == _lastDisplayAngle)
-            {
+            if (currentDisplayAngle == _lastDisplayAngle && direction == _lastDirection)
                 return;
-            }
 
             _lastDisplayAngle = currentDisplayAngle;
-            _angleText.text = $"{currentDisplayAngle}" + Degree + North + East;
+            _lastDirection = direction;
+
+            _angleText.text = $"{currentDisplayAngle}{Degree}{direction}";
+        }
+
+        private static string GetDirection8FromNormalized(float heading0To360)
+        {
+            int index = Mathf.FloorToInt((heading0To360 + SectorSize / 2f) / SectorSize) % 8;
+            return Directions8[index];
         }
 
         public void SetHeading(float heading)
@@ -51,8 +68,15 @@ namespace YahalomUIPackage.Runtime.Compass
 
         public void SetCoordinates(Vector2 latLong)
         {
-            string coordinatesInfo = $"{latLong.y:F4}{Degree}{North}\\n{latLong.x:F4}{Degree}{East}";
-            _coordinatesText.text = coordinatesInfo;
+            float lat = latLong.y;
+            float lon = latLong.x;
+
+            string latHemisphere = lat >= 0f ? Directions8[DirN] : Directions8[DirS];
+            string lonHemisphere = lon >= 0f ? Directions8[DirE] : Directions8[DirW];
+
+            _coordinatesText.text =
+                $"{Mathf.Abs(lat):F4}{Degree}{latHemisphere}\n" +
+                $"{Mathf.Abs(lon):F4}{Degree}{lonHemisphere}";
         }
     }
 }
