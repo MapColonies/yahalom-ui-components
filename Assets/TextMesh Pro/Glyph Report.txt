@@ -1,0 +1,13 @@
+Font: Noto Sans Hebrew  Style: SemiBold
+Point Size: 369   Padding: 20   SP/PD Ratio: 5.4%
+
+Characters included: 67/68
+Missing characters: 1
+Excluded characters: 0
+
+Characters missing from font file:
+----------------------------------------
+ID: 9	Hex: 9	Char [	]
+
+Characters excluded from packing:
+----------------------------------------
