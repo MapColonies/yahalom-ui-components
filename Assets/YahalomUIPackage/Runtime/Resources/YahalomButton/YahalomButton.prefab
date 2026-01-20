@@ -244,7 +244,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u05D0\u05D1\u05D2\u05D3"
+  m_text: "\u05D0\u05D0\u05D0\u05D0\u05D0\u05D0\u05D0"
   m_isRightToLeft: 1
   m_fontAsset: {fileID: 11400000, guid: ec2fbe59e67afbb41ad92bc9d0cdf71e, type: 2}
   m_sharedMaterial: {fileID: 8741566344709968292, guid: ec2fbe59e67afbb41ad92bc9d0cdf71e, type: 2}
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
   preserveNumbers: 0
   farsi: 1
-  originalText: "\u05D0\u05D1\u05D2\u05D3"
+  originalText: "\u05D0\u05D0\u05D0\u05D0\u05D0\u05D0\u05D0"
   fixTags: 1
   forceFix: 0
 --- !u!114 &1643853070355451152
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_IgnoreLayout: 0
   m_MinWidth: -1
   m_MinHeight: -1
-  m_PreferredWidth: 21.42
+  m_PreferredWidth: 51.56
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
@@ -352,7 +352,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5283387712093e4ca03f1b44d0a49af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxWidth: 200
+  _maxWidth: 200
+  _tmpText: {fileID: 7759077278233091242}
+  _layoutElement: {fileID: 1643853070355451152}
 --- !u!1 &8827480211987437360
 GameObject:
   m_ObjectHideFlags: 0

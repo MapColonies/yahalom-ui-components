@@ -8,25 +8,18 @@ namespace YahalomUIPackage.Runtime.YahalomButton
     [RequireComponent(typeof(LayoutElement))]
     public class LayoutMaxSize : MonoBehaviour
     {
-        public float maxWidth = 200f;
+        [SerializeField] private float _maxWidth = 200f;
+        [SerializeField] private TMP_Text _tmpText;
+        [SerializeField] private LayoutElement _layoutElement;
 
-        private TMP_Text _tmpText;
-        private LayoutElement _layoutElement;
-
-        private void OnEnable()
-        {
-            _tmpText = GetComponent<TMP_Text>();
-            _layoutElement = GetComponent<LayoutElement>();
-        }
+        private const float Threshold = 0.1f;
 
         private void Update()
         {
-            if (_tmpText == null || _layoutElement == null) return;
-
             float contentWidth = _tmpText.preferredWidth;
-            float targetWidth = Mathf.Min(contentWidth, maxWidth);
+            float targetWidth = Mathf.Min(contentWidth, _maxWidth);
 
-            if (!(Mathf.Abs(_layoutElement.preferredWidth - targetWidth) > 0.1f))
+            if (!(Mathf.Abs(_layoutElement.preferredWidth - targetWidth) > Threshold))
             {
                 return;
             }
