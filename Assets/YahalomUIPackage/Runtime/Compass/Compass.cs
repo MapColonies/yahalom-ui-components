@@ -8,7 +8,8 @@ namespace YahalomUIPackage.Runtime.Compass
         [SerializeField] private RectTransform _compassTransform;
         [SerializeField] private TMP_Text _angleText;
         [SerializeField] private TMP_Text _coordinatesText;
-
+        [SerializeField] private Transform[] _directionsText;
+        
         [SerializeField] private float _startAngle;
         [SerializeField] private float _smoothTime = 0.1f;
 
@@ -29,13 +30,47 @@ namespace YahalomUIPackage.Runtime.Compass
         {
             "N", "NE", "E", "SE", "S", "SW", "W", "NW"
         };
+        
+        [Header("Debug")] 
+        [SerializeField] private bool _enableDebugSlider;
+        
+        [Range(0, 360)] 
+        [SerializeField] private float _debugAngle;
+        
+        [SerializeField] private Vector2 _debugCoordinates;
+        private Vector2 _lastDebugCoordinates; 
+
+        private void Update()
+        {
+            if (_enableDebugSlider)
+            {
+                SetHeading(_debugAngle);
+                if ((_debugCoordinates - _lastDebugCoordinates).sqrMagnitude > 0.0001f)
+                {
+                    _lastDebugCoordinates = _debugCoordinates;
+                    SetCoordinates(_debugCoordinates);
+                }
+            }
+        }
 
         private void UpdateRotation(float targetHeading)
         {
             float targetRotationZ = -targetHeading + _startAngle;
             _smoothedAngle = Mathf.SmoothDampAngle(_smoothedAngle, targetRotationZ, ref _currentVelocity, _smoothTime);
             _compassTransform.localEulerAngles = new Vector3(0, 0, _smoothedAngle);
+            UpdateDirectionTextAlignment();
         }
+        
+        private void UpdateDirectionTextAlignment()
+        {
+            float z = _compassTransform.localEulerAngles.z;
+
+            foreach (var dir in _directionsText)
+            {
+                dir.localEulerAngles = new Vector3(0f, 0f, -z);
+            }
+        }
+
 
         private void UpdateAngleText(float heading)
         {
