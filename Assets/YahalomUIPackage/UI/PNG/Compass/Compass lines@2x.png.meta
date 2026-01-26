@@ -1,247 +1,235 @@
 fileFormatVersion: 2
-guid: cc010dfa9d1e3da429beba19b80f4dc7
+guid: 480890733457c42448acaf59f526419f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -14756963081808705
-    second: Compass lines@2x (1)_0
+      213: -8637776828584101985
+    second: Compass lines@2x (3)_0
   - first:
-      213: -678624698289780594
-    second: Compass lines@2x (1)_1
+      213: -6096278506817082609
+    second: Compass lines@2x (3)_1
   - first:
-      213: 4938608069269442295
-    second: Compass lines@2x (1)_2
+      213: -1425979132599919229
+    second: Compass lines@2x (3)_2
   - first:
-      213: -1508926555464952100
-    second: Compass lines@2x (1)_3
+      213: -8406696885728704715
+    second: Compass lines@2x (3)_3
   - first:
-      213: 4557850838246975071
-    second: Compass lines@2x (1)_4
+      213: 7742779508976204196
+    second: Compass lines@2x (3)_4
   - first:
-      213: 786054370272405361
-    second: Compass lines@2x (1)_5
+      213: 6514455188628327227
+    second: Compass lines@2x (3)_5
   - first:
-      213: -7013036083370191146
-    second: Compass lines@2x (1)_6
+      213: 4036025941458091246
+    second: Compass lines@2x (3)_6
   - first:
-      213: 7355854395421987868
-    second: Compass lines@2x (1)_7
+      213: -8643208025942789179
+    second: Compass lines@2x (3)_7
   - first:
-      213: -7090764693221580027
-    second: Compass lines@2x (1)_8
+      213: 1824855414001085734
+    second: Compass lines@2x (3)_8
   - first:
-      213: 8532572323263691985
-    second: Compass lines@2x (1)_9
+      213: -9035592874638204769
+    second: Compass lines@2x (3)_9
   - first:
-      213: 3016892741341759849
-    second: Compass lines@2x (1)_10
+      213: 5583065044794824133
+    second: Compass lines@2x (3)_10
   - first:
-      213: -7694173919298317527
-    second: Compass lines@2x (1)_11
+      213: -5066656823427977790
+    second: Compass lines@2x (3)_11
   - first:
-      213: -2717493953379174777
-    second: Compass lines@2x (1)_12
+      213: 9078351813665339799
+    second: Compass lines@2x (3)_12
   - first:
-      213: -6513438087610371987
-    second: Compass lines@2x (1)_13
+      213: 7074369560994742701
+    second: Compass lines@2x (3)_13
   - first:
-      213: 7480300049768803131
-    second: Compass lines@2x (1)_14
+      213: 6622299913147449790
+    second: Compass lines@2x (3)_14
   - first:
-      213: 6191207879868866144
-    second: Compass lines@2x (1)_15
+      213: 5848830805119550376
+    second: Compass lines@2x (3)_15
   - first:
-      213: 6614433282920733039
-    second: Compass lines@2x (1)_16
+      213: 4229351353691479366
+    second: Compass lines@2x (3)_16
   - first:
-      213: 4199617963604486905
-    second: Compass lines@2x (1)_17
+      213: 3497665804017363019
+    second: Compass lines@2x (3)_17
   - first:
-      213: -5968243060244308158
-    second: Compass lines@2x (1)_18
+      213: -4048474489934271847
+    second: Compass lines@2x (3)_18
   - first:
-      213: 3067858028736983686
-    second: Compass lines@2x (1)_19
+      213: 1724784742440379193
+    second: Compass lines@2x (3)_19
   - first:
-      213: 6233228431827241115
-    second: Compass lines@2x (1)_20
+      213: -6552196628949420996
+    second: Compass lines@2x (3)_20
   - first:
-      213: 8649534751290432346
-    second: Compass lines@2x (1)_21
+      213: 7497670670199231257
+    second: Compass lines@2x (3)_21
   - first:
-      213: 2827437551410258635
-    second: Compass lines@2x (1)_22
+      213: -6242296585316003390
+    second: Compass lines@2x (3)_22
   - first:
-      213: 8832429696058589846
-    second: Compass lines@2x (1)_23
+      213: -2244432835466123977
+    second: Compass lines@2x (3)_23
   - first:
-      213: -1750530806644661606
-    second: Compass lines@2x (1)_24
+      213: 1528331486822290881
+    second: Compass lines@2x (3)_24
   - first:
-      213: 5600645553928317293
-    second: Compass lines@2x (1)_25
+      213: -1611706130085357757
+    second: Compass lines@2x (3)_25
   - first:
-      213: -301553040661927041
-    second: Compass lines@2x (1)_26
+      213: 5139668966304618820
+    second: Compass lines@2x (3)_26
   - first:
-      213: 2237468809865375418
-    second: Compass lines@2x (1)_27
+      213: 4169311817856480930
+    second: Compass lines@2x (3)_27
   - first:
-      213: -7353583355662135932
-    second: Compass lines@2x (1)_28
+      213: -4399035982969955486
+    second: Compass lines@2x (3)_28
   - first:
-      213: -1840817292665076896
-    second: Compass lines@2x (1)_29
+      213: -6167859695901734680
+    second: Compass lines@2x (3)_29
   - first:
-      213: -3435976871792588655
-    second: Compass lines@2x (1)_30
+      213: 5917114719923203363
+    second: Compass lines@2x (3)_30
   - first:
-      213: 808747333960341094
-    second: Compass lines@2x (1)_31
+      213: -1289361687737159300
+    second: Compass lines@2x (3)_31
   - first:
-      213: -9156317235254669142
-    second: Compass lines@2x (1)_32
+      213: -685284310823549497
+    second: Compass lines@2x (3)_32
   - first:
-      213: 6245408100386931252
-    second: Compass lines@2x (1)_33
+      213: -1033750088201074373
+    second: Compass lines@2x (3)_33
   - first:
-      213: 72809877368621613
-    second: Compass lines@2x (1)_34
+      213: -224228622191705573
+    second: Compass lines@2x (3)_34
   - first:
-      213: 4963778603744365692
-    second: Compass lines@2x (1)_35
+      213: -4473927613134299564
+    second: Compass lines@2x (3)_35
   - first:
-      213: -491156032963425722
-    second: Compass lines@2x (1)_36
+      213: -3535964796314134890
+    second: Compass lines@2x (3)_36
   - first:
-      213: -624664365184771672
-    second: Compass lines@2x (1)_37
+      213: 7069036238402473339
+    second: Compass lines@2x (3)_37
   - first:
-      213: -6829659854284535101
-    second: Compass lines@2x (1)_38
+      213: 3041633862335734450
+    second: Compass lines@2x (3)_38
   - first:
-      213: 7725452095903972696
-    second: Compass lines@2x (1)_39
+      213: 2420392987792283715
+    second: Compass lines@2x (3)_39
   - first:
-      213: 2936336472682854323
-    second: Compass lines@2x (1)_40
+      213: -899918061661438610
+    second: Compass lines@2x (3)_40
   - first:
-      213: 1820961907235254883
-    second: Compass lines@2x (1)_41
+      213: 970921642552678718
+    second: Compass lines@2x (3)_41
   - first:
-      213: -1754311046377360153
-    second: Compass lines@2x (1)_42
+      213: 6893606976743489187
+    second: Compass lines@2x (3)_42
   - first:
-      213: -3824502559943188479
-    second: Compass lines@2x (1)_43
+      213: 3349535211366869844
+    second: Compass lines@2x (3)_43
   - first:
-      213: -6500007538140383795
-    second: Compass lines@2x (1)_44
+      213: 1090548650232387697
+    second: Compass lines@2x (3)_44
   - first:
-      213: 7677789369779939741
-    second: Compass lines@2x (1)_45
+      213: 6908307653179730342
+    second: Compass lines@2x (3)_45
   - first:
-      213: -6796576048050233804
-    second: Compass lines@2x (1)_46
+      213: -7438090902237760841
+    second: Compass lines@2x (3)_46
   - first:
-      213: 1647012156848455141
-    second: Compass lines@2x (1)_47
+      213: -4817963729366674958
+    second: Compass lines@2x (3)_47
   - first:
-      213: -1108308852053902380
-    second: Compass lines@2x (1)_48
+      213: 4745942533716488398
+    second: Compass lines@2x (3)_48
   - first:
-      213: 7289696774707834242
-    second: Compass lines@2x (1)_49
+      213: -6678973252234280538
+    second: Compass lines@2x (3)_49
   - first:
-      213: -3121331338390623034
-    second: Compass lines@2x (1)_50
+      213: -5943855397529290740
+    second: Compass lines@2x (3)_50
   - first:
-      213: -7319870428334238601
-    second: Compass lines@2x (1)_51
+      213: -4378668668472012791
+    second: Compass lines@2x (3)_51
   - first:
-      213: -3250625463783539886
-    second: Compass lines@2x (1)_52
+      213: 427764789403001636
+    second: Compass lines@2x (3)_52
   - first:
-      213: 8754460945772314743
-    second: Compass lines@2x (1)_53
+      213: -2739640928401994699
+    second: Compass lines@2x (3)_53
   - first:
-      213: 7760622638686241560
-    second: Compass lines@2x (1)_54
+      213: 550503974722063767
+    second: Compass lines@2x (3)_54
   - first:
-      213: 5405909123001986197
-    second: Compass lines@2x (1)_55
+      213: 2835039974255592777
+    second: Compass lines@2x (3)_55
   - first:
-      213: -991181523429860247
-    second: Compass lines@2x (1)_56
+      213: -1554384203683988617
+    second: Compass lines@2x (3)_56
   - first:
-      213: 5886500350642140908
-    second: Compass lines@2x (1)_57
+      213: -7075344318088729886
+    second: Compass lines@2x (3)_57
   - first:
-      213: -5160983164332744908
-    second: Compass lines@2x (1)_58
+      213: -5699796948217197381
+    second: Compass lines@2x (3)_58
   - first:
-      213: -161127230787088840
-    second: Compass lines@2x (1)_59
+      213: 2730671581851432417
+    second: Compass lines@2x (3)_59
   - first:
-      213: 1773412595260076229
-    second: Compass lines@2x (1)_60
+      213: -3529324358496795027
+    second: Compass lines@2x (3)_60
   - first:
-      213: -3358405540396553588
-    second: Compass lines@2x (1)_61
+      213: -5216170245214257307
+    second: Compass lines@2x (3)_61
   - first:
-      213: 2394536085451055618
-    second: Compass lines@2x (1)_62
+      213: -6075581612980736347
+    second: Compass lines@2x (3)_62
   - first:
-      213: -3897033455216731629
-    second: Compass lines@2x (1)_63
+      213: 2190185719676690157
+    second: Compass lines@2x (3)_63
   - first:
-      213: -3150912285236844666
-    second: Compass lines@2x (1)_64
+      213: -3614670610306194856
+    second: Compass lines@2x (3)_64
   - first:
-      213: -5695279608060593732
-    second: Compass lines@2x (1)_65
+      213: -5319222011927678310
+    second: Compass lines@2x (3)_65
   - first:
-      213: -5280769051372498366
-    second: Compass lines@2x (1)_66
+      213: 8319480471841740539
+    second: Compass lines@2x (3)_66
   - first:
-      213: -2167685151979627708
-    second: Compass lines@2x (1)_67
+      213: -6877024611175924726
+    second: Compass lines@2x (3)_67
   - first:
-      213: 1228759458319624353
-    second: Compass lines@2x (1)_68
+      213: -8849485873488158558
+    second: Compass lines@2x (3)_68
   - first:
-      213: -461008603152446703
-    second: Compass lines@2x (1)_69
+      213: -7228318178453547476
+    second: Compass lines@2x (3)_69
   - first:
-      213: 8202848842798769901
-    second: Compass lines@2x (1)_70
+      213: -761537013735156404
+    second: Compass lines@2x (3)_70
   - first:
-      213: -7409194946245062939
-    second: Compass lines@2x (1)_71
+      213: 2165077195519477592
+    second: Compass lines@2x (3)_71
   - first:
-      213: -378371543360908398
-    second: Compass lines@2x (1)_72
+      213: 1291738315846608962
+    second: Compass lines@2x (3)_72
   - first:
-      213: -8685332861207417988
-    second: Compass lines@2x (1)_73
+      213: 6789483186969585247
+    second: Compass lines@2x (3)_73
   - first:
-      213: -5807626463493810991
-    second: Compass lines@2x (1)_74
+      213: -1993897897210286396
+    second: Compass lines@2x (3)_74
   - first:
-      213: -5974027770496048372
-    second: Compass lines@2x (1)_75
-  - first:
-      213: -7125389067832482958
-    second: Compass lines@2x (1)_76
-  - first:
-      213: -3306134114993432017
-    second: Compass lines@2x (1)_77
-  - first:
-      213: -2828291864035756013
-    second: Compass lines@2x (1)_78
-  - first:
-      213: 8159415841529601827
-    second: Compass lines@2x (1)_79
+      213: 8269936327537955688
+    second: Compass lines@2x (3)_75
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -350,7 +338,73 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Compass lines@2x (1)_0
+      name: Compass lines@2x (3)_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 230
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97f4234db3702880800000000000000
+      internalID: -8637776828584101985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines@2x (3)_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 236
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ba15d5ffaa56ba0800000000000000
+      internalID: -6096278506817082609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines@2x (3)_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 241
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d1348b887e53ce0800000000000000
+      internalID: -1425979132599919229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines@2x (3)_3
       rect:
         serializedVersion: 2
         x: 70
@@ -365,14 +419,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb49b89ce929bcff0800000000000000
-      internalID: -14756963081808705
+      spriteID: 53702c719b9655b80800000000000000
+      internalID: -8406696885728704715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_1
+      name: Compass lines@2x (3)_4
       rect:
         serializedVersion: 2
         x: 79
@@ -387,14 +441,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8881a2be6a0596f0800000000000000
-      internalID: -678624698289780594
+      spriteID: 4a933beb0f0e37b60800000000000000
+      internalID: 7742779508976204196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_2
+      name: Compass lines@2x (3)_5
       rect:
         serializedVersion: 2
         x: 88
@@ -409,14 +463,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7fecea58fd5798440800000000000000
-      internalID: 4938608069269442295
+      spriteID: b3b446f9a7ef76a50800000000000000
+      internalID: 6514455188628327227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_3
+      name: Compass lines@2x (3)_6
       rect:
         serializedVersion: 2
         x: 97
@@ -431,14 +485,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd69b5dda473f0be0800000000000000
-      internalID: -1508926555464952100
+      spriteID: eecfed0c538d20830800000000000000
+      internalID: 4036025941458091246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_4
+      name: Compass lines@2x (3)_7
       rect:
         serializedVersion: 2
         x: 106
@@ -453,14 +507,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f566de8503db04f30800000000000000
-      internalID: 4557850838246975071
+      spriteID: 5c3ffd518182d0880800000000000000
+      internalID: -8643208025942789179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_5
+      name: Compass lines@2x (3)_8
       rect:
         serializedVersion: 2
         x: 116
@@ -475,42 +529,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 177ea3af840a8ea00800000000000000
-      internalID: 786054370272405361
+      spriteID: 62dabfd9450335910800000000000000
+      internalID: 1824855414001085734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_6
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 227
-        width: 13
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d619bdb6d0bcae90800000000000000
-      internalID: -7013036083370191146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Compass lines@2x (1)_7
+      name: Compass lines@2x (3)_9
       rect:
         serializedVersion: 2
         x: 136
-        y: 260
+        y: 242
         width: 24
-        height: 16
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,14 +551,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c149f92899e351660800000000000000
-      internalID: 7355854395421987868
+      spriteID: f90a32437202b9280800000000000000
+      internalID: -9035592874638204769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_8
+      name: Compass lines@2x (3)_10
       rect:
         serializedVersion: 2
         x: 162
@@ -541,14 +573,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50365aa741b889d90800000000000000
-      internalID: -7090764693221580027
+      spriteID: 5c555e0f3180b7d40800000000000000
+      internalID: 5583065044794824133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_9
+      name: Compass lines@2x (3)_11
       rect:
         serializedVersion: 2
         x: 171
@@ -563,14 +595,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1dc367c0259c96670800000000000000
-      internalID: 8532572323263691985
+      spriteID: 2cd24c0a67e9fa9b0800000000000000
+      internalID: -5066656823427977790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_10
+      name: Compass lines@2x (3)_12
       rect:
         serializedVersion: 2
         x: 180
@@ -585,14 +617,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 969412dc6f72ed920800000000000000
-      internalID: 3016892741341759849
+      spriteID: 799bb8710e8ccfd70800000000000000
+      internalID: 9078351813665339799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_11
+      name: Compass lines@2x (3)_13
       rect:
         serializedVersion: 2
         x: 188
@@ -607,14 +639,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 923162cf59dc83590800000000000000
-      internalID: -7694173919298317527
+      spriteID: da18de452a53d2260800000000000000
+      internalID: 7074369560994742701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_12
+      name: Compass lines@2x (3)_14
       rect:
         serializedVersion: 2
         x: 196
@@ -629,80 +661,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 786ff85b5a5894ad0800000000000000
-      internalID: -2717493953379174777
+      spriteID: eb1014f3fa227eb50800000000000000
+      internalID: 6622299913147449790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_13
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 230
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d60fb79a19e9b95a0800000000000000
-      internalID: -6513438087610371987
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Compass lines@2x (1)_14
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 236
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b3b6ecf434d5fc760800000000000000
-      internalID: 7480300049768803131
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Compass lines@2x (1)_15
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 241
-        width: 11
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06ede2aa3c69be550800000000000000
-      internalID: 6191207879868866144
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Compass lines@2x (1)_16
+      name: Compass lines@2x (3)_15
       rect:
         serializedVersion: 2
         x: 203
@@ -717,14 +683,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f69d20ba6003bcb50800000000000000
-      internalID: 6614433282920733039
+      spriteID: 8a3438af0a83b2150800000000000000
+      internalID: 5848830805119550376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_17
+      name: Compass lines@2x (3)_16
       rect:
         serializedVersion: 2
         x: 211
@@ -739,14 +705,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9faaef0994a084a30800000000000000
-      internalID: 4199617963604486905
+      spriteID: 64d191be5aca1ba30800000000000000
+      internalID: 4229351353691479366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_18
+      name: Compass lines@2x (3)_17
       rect:
         serializedVersion: 2
         x: 218
@@ -761,14 +727,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24f92fcce8a8c2da0800000000000000
-      internalID: -5968243060244308158
+      spriteID: b486c7f64843a8030800000000000000
+      internalID: 3497665804017363019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_19
+      name: Compass lines@2x (3)_18
       rect:
         serializedVersion: 2
         x: 32
@@ -783,14 +749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 682b2387f98339a20800000000000000
-      internalID: 3067858028736983686
+      spriteID: 99aac31b6ede0d7c0800000000000000
+      internalID: -4048474489934271847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_20
+      name: Compass lines@2x (3)_19
       rect:
         serializedVersion: 2
         x: 39
@@ -805,14 +771,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b988de2db30e08650800000000000000
-      internalID: 6233228431827241115
+      spriteID: 9332c2fb59aafe710800000000000000
+      internalID: 1724784742440379193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_21
+      name: Compass lines@2x (3)_20
       rect:
         serializedVersion: 2
         x: 224
@@ -827,14 +793,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5b10137702590870800000000000000
-      internalID: 8649534751290432346
+      spriteID: c3435f881ebe115a0800000000000000
+      internalID: -6552196628949420996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_22
+      name: Compass lines@2x (3)_21
       rect:
         serializedVersion: 2
         x: 230
@@ -849,14 +815,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc2a86cf8731d3720800000000000000
-      internalID: 2827437551410258635
+      spriteID: 913171c00c31d0860800000000000000
+      internalID: 7497670670199231257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_23
+      name: Compass lines@2x (3)_22
       rect:
         serializedVersion: 2
         x: 20
@@ -871,14 +837,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6920f292308139a70800000000000000
-      internalID: 8832429696058589846
+      spriteID: 2c11b992458ee59a0800000000000000
+      internalID: -6242296585316003390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_24
+      name: Compass lines@2x (3)_23
       rect:
         serializedVersion: 2
         x: 26
@@ -893,14 +859,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a92219d818dd4b7e0800000000000000
-      internalID: -1750530806644661606
+      spriteID: 735a1d74a3c2ad0e0800000000000000
+      internalID: -2244432835466123977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_25
+      name: Compass lines@2x (3)_24
       rect:
         serializedVersion: 2
         x: 236
@@ -915,14 +881,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d69a4c2357d79bd40800000000000000
-      internalID: 5600645553928317293
+      spriteID: 1c5561bc369b53510800000000000000
+      internalID: 1528331486822290881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_26
+      name: Compass lines@2x (3)_25
       rect:
         serializedVersion: 2
         x: 241
@@ -937,14 +903,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7b28627b1ba0dbf0800000000000000
-      internalID: -301553040661927041
+      spriteID: 34751f950d112a9e0800000000000000
+      internalID: -1611706130085357757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_27
+      name: Compass lines@2x (3)_26
       rect:
         serializedVersion: 2
         x: 11
@@ -959,14 +925,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abeaa0827061d0f10800000000000000
-      internalID: 2237468809865375418
+      spriteID: 4499fa791b5c35740800000000000000
+      internalID: 5139668966304618820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_28
+      name: Compass lines@2x (3)_27
       rect:
         serializedVersion: 2
         x: 15
@@ -981,14 +947,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48d888326e2d2f990800000000000000
-      internalID: -7353583355662135932
+      spriteID: 2a67c25220f5cd930800000000000000
+      internalID: 4169311817856480930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_29
+      name: Compass lines@2x (3)_28
       rect:
         serializedVersion: 2
         x: 246
@@ -1003,14 +969,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0634d46ec6a1476e0800000000000000
-      internalID: -1840817292665076896
+      spriteID: 26b1ae0a41c73f2c0800000000000000
+      internalID: -4399035982969955486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_30
+      name: Compass lines@2x (3)_29
       rect:
         serializedVersion: 2
         x: 250
@@ -1025,14 +991,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 198485c5d35f050d0800000000000000
-      internalID: -3435976871792588655
+      spriteID: 8e80459094c576aa0800000000000000
+      internalID: -6167859695901734680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_31
+      name: Compass lines@2x (3)_30
       rect:
         serializedVersion: 2
         x: 7
@@ -1047,14 +1013,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66610c15a6f393b00800000000000000
-      internalID: 808747333960341094
+      spriteID: 32de140dc70dd1250800000000000000
+      internalID: 5917114719923203363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_32
+      name: Compass lines@2x (3)_31
       rect:
         serializedVersion: 2
         x: 253
@@ -1069,14 +1035,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa0dbdd9cf93ee080800000000000000
-      internalID: -9156317235254669142
+      spriteID: c71bd6750644b1ee0800000000000000
+      internalID: -1289361687737159300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_33
+      name: Compass lines@2x (3)_32
       rect:
         serializedVersion: 2
         x: 4
@@ -1091,14 +1057,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43209e4e3952ca650800000000000000
-      internalID: 6245408100386931252
+      spriteID: 7c5c633dc816d76f0800000000000000
+      internalID: -685284310823549497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_34
+      name: Compass lines@2x (3)_33
       rect:
         serializedVersion: 2
         x: 256
@@ -1113,14 +1079,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2a42bc923ca20100800000000000000
-      internalID: 72809877368621613
+      spriteID: b390f3695c167a1f0800000000000000
+      internalID: -1033750088201074373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_35
+      name: Compass lines@2x (3)_34
       rect:
         serializedVersion: 2
         x: 2
@@ -1135,14 +1101,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7c0ed34752e2e440800000000000000
-      internalID: 4963778603744365692
+      spriteID: b12c9c1914163ecf0800000000000000
+      internalID: -224228622191705573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_36
+      name: Compass lines@2x (3)_35
       rect:
         serializedVersion: 2
         x: 258
@@ -1157,20 +1123,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64acce5b0301f29f0800000000000000
-      internalID: -491156032963425722
+      spriteID: 45e915c2a8a69e1c0800000000000000
+      internalID: -4473927613134299564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_37
+      name: Compass lines@2x (3)_36
       rect:
         serializedVersion: 2
         x: 0
-        y: 145
-        width: 16
-        height: 15
+        y: 136
+        width: 34
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1179,58 +1145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a91159c11fb457f0800000000000000
-      internalID: -624664365184771672
+      spriteID: 696d86980cabdeec0800000000000000
+      internalID: -3535964796314134890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_38
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 126
-        width: 53
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3cacf903c8c2831a0800000000000000
-      internalID: -6829659854284535101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Compass lines@2x (1)_39
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 130
-        width: 12
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85d37a100c1563b60800000000000000
-      internalID: 7725452095903972696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Compass lines@2x (1)_40
+      name: Compass lines@2x (3)_37
       rect:
         serializedVersion: 2
         x: 242
@@ -1245,20 +1167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b7f84be676ffb820800000000000000
-      internalID: 2936336472682854323
+      spriteID: b7dc75661034a1260800000000000000
+      internalID: 7069036238402473339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_41
+      name: Compass lines@2x (3)_38
       rect:
         serializedVersion: 2
         x: 0
         y: 116
         width: 16
-        height: 6
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1267,14 +1189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 362764ee43b554910800000000000000
-      internalID: 1820961907235254883
+      spriteID: 2b2225de1ed063a20800000000000000
+      internalID: 3041633862335734450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_42
+      name: Compass lines@2x (3)_39
       rect:
         serializedVersion: 2
         x: 260
@@ -1289,14 +1211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e43227e56f67a7e0800000000000000
-      internalID: -1754311046377360153
+      spriteID: 348943e3996f69120800000000000000
+      internalID: 2420392987792283715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_43
+      name: Compass lines@2x (3)_40
       rect:
         serializedVersion: 2
         x: 2
@@ -1311,14 +1233,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 100a3005f23aceac0800000000000000
-      internalID: -3824502559943188479
+      spriteID: e6d36b77a49d283f0800000000000000
+      internalID: -899918061661438610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_44
+      name: Compass lines@2x (3)_41
       rect:
         serializedVersion: 2
         x: 258
@@ -1333,14 +1255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc5f7c325955bc5a0800000000000000
-      internalID: -6500007538140383795
+      spriteID: e395719f618697d00800000000000000
+      internalID: 970921642552678718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_45
+      name: Compass lines@2x (3)_42
       rect:
         serializedVersion: 2
         x: 4
@@ -1355,14 +1277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d99e00ec0ccfc8a60800000000000000
-      internalID: 7677789369779939741
+      spriteID: 3ae33fd75030baf50800000000000000
+      internalID: 6893606976743489187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_46
+      name: Compass lines@2x (3)_43
       rect:
         serializedVersion: 2
         x: 7
@@ -1377,14 +1299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43e99071816bda1a0800000000000000
-      internalID: -6796576048050233804
+      spriteID: 45b6f243780fb7e20800000000000000
+      internalID: 3349535211366869844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_47
+      name: Compass lines@2x (3)_44
       rect:
         serializedVersion: 2
         x: 256
@@ -1399,14 +1321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5edb3b594dc5bd610800000000000000
-      internalID: 1647012156848455141
+      spriteID: 178126b2838622f00800000000000000
+      internalID: 1090548650232387697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_48
+      name: Compass lines@2x (3)_45
       rect:
         serializedVersion: 2
         x: 11
@@ -1421,14 +1343,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4dbf7eb98fe7e90f0800000000000000
-      internalID: -1108308852053902380
+      spriteID: 6a9e3e2753d3fdf50800000000000000
+      internalID: 6908307653179730342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_49
+      name: Compass lines@2x (3)_46
       rect:
         serializedVersion: 2
         x: 250
@@ -1443,14 +1365,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28d65c818943a2560800000000000000
-      internalID: 7289696774707834242
+      spriteID: 7b2bd0dabb796c890800000000000000
+      internalID: -7438090902237760841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_50
+      name: Compass lines@2x (3)_47
       rect:
         serializedVersion: 2
         x: 253
@@ -1465,14 +1387,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ccaeec6fadcea4d0800000000000000
-      internalID: -3121331338390623034
+      spriteID: 2f1126ac387232db0800000000000000
+      internalID: -4817963729366674958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_51
+      name: Compass lines@2x (3)_48
       rect:
         serializedVersion: 2
         x: 15
@@ -1487,14 +1409,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7745045b0a89a6a90800000000000000
-      internalID: -7319870428334238601
+      spriteID: ec0b69ed699fcd140800000000000000
+      internalID: 4745942533716488398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_52
+      name: Compass lines@2x (3)_49
       rect:
         serializedVersion: 2
         x: 20
@@ -1509,14 +1431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25bb75dfc5573e2d0800000000000000
-      internalID: -3250625463783539886
+      spriteID: 6a18d3cb6358f43a0800000000000000
+      internalID: -6678973252234280538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_53
+      name: Compass lines@2x (3)_50
       rect:
         serializedVersion: 2
         x: 241
@@ -1531,14 +1453,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7700ac8d8d71e7970800000000000000
-      internalID: 8754460945772314743
+      spriteID: c087af1020f238da0800000000000000
+      internalID: -5943855397529290740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_54
+      name: Compass lines@2x (3)_51
       rect:
         serializedVersion: 2
         x: 246
@@ -1553,14 +1475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8138fbe1c2543bb60800000000000000
-      internalID: 7760622638686241560
+      spriteID: 900d7929b08db33c0800000000000000
+      internalID: -4378668668472012791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_55
+      name: Compass lines@2x (3)_52
       rect:
         serializedVersion: 2
         x: 26
@@ -1575,14 +1497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59ca394a4b5a50b40800000000000000
-      internalID: 5405909123001986197
+      spriteID: 42329cf3fc9bfe500800000000000000
+      internalID: 427764789403001636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_56
+      name: Compass lines@2x (3)_53
       rect:
         serializedVersion: 2
         x: 32
@@ -1597,14 +1519,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96c580ce7ad9e32f0800000000000000
-      internalID: -991181523429860247
+      spriteID: 53c4a724717daf9d0800000000000000
+      internalID: -2739640928401994699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_57
+      name: Compass lines@2x (3)_54
       rect:
         serializedVersion: 2
         x: 230
@@ -1619,14 +1541,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce6bc3281ec01b150800000000000000
-      internalID: 5886500350642140908
+      spriteID: 79dcfb4c278c3a700800000000000000
+      internalID: 550503974722063767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_58
+      name: Compass lines@2x (3)_55
       rect:
         serializedVersion: 2
         x: 236
@@ -1641,14 +1563,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43fdc26f7218068b0800000000000000
-      internalID: -5160983164332744908
+      spriteID: 945898df5d5185720800000000000000
+      internalID: 2835039974255592777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_59
+      name: Compass lines@2x (3)_56
       rect:
         serializedVersion: 2
         x: 39
@@ -1663,14 +1585,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83e0b4523af83cdf0800000000000000
-      internalID: -161127230787088840
+      spriteID: 77bffee5dc7bd6ae0800000000000000
+      internalID: -1554384203683988617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_60
+      name: Compass lines@2x (3)_57
       rect:
         serializedVersion: 2
         x: 46
@@ -1685,14 +1607,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c03ea40c5d6c9810800000000000000
-      internalID: 1773412595260076229
+      spriteID: 2ea2eb854d35fcd90800000000000000
+      internalID: -7075344318088729886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_61
+      name: Compass lines@2x (3)_58
       rect:
         serializedVersion: 2
         x: 53
@@ -1707,36 +1629,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8aa5f064fb8461d0800000000000000
-      internalID: -3358405540396553588
+      spriteID: bbc88a9dfd046e0b0800000000000000
+      internalID: -5699796948217197381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_62
-      rect:
-        serializedVersion: 2
-        x: 126
-        y: 0
-        width: 24
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2022a2702e91b3120800000000000000
-      internalID: 2394536085451055618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Compass lines@2x (1)_63
+      name: Compass lines@2x (3)_59
       rect:
         serializedVersion: 2
         x: 211
@@ -1751,14 +1651,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 31a5ef748b4fae9c0800000000000000
-      internalID: -3897033455216731629
+      spriteID: 1e53282065b45e520800000000000000
+      internalID: 2730671581851432417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_64
+      name: Compass lines@2x (3)_60
       rect:
         serializedVersion: 2
         x: 218
@@ -1773,14 +1673,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6872b0888f5b544d0800000000000000
-      internalID: -3150912285236844666
+      spriteID: d664aa2f132550fc0800000000000000
+      internalID: -3529324358496795027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_65
+      name: Compass lines@2x (3)_61
       rect:
         serializedVersion: 2
         x: 224
@@ -1795,14 +1695,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb9b5011f5d46f0b0800000000000000
-      internalID: -5695279608060593732
+      spriteID: 56fba066cc07c97b0800000000000000
+      internalID: -5216170245214257307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_66
+      name: Compass lines@2x (3)_62
       rect:
         serializedVersion: 2
         x: 61
@@ -1817,14 +1717,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 242d018c680f6b6b0800000000000000
-      internalID: -5280769051372498366
+      spriteID: 5ae636a76b23faba0800000000000000
+      internalID: -6075581612980736347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_67
+      name: Compass lines@2x (3)_63
       rect:
         serializedVersion: 2
         x: 70
@@ -1839,14 +1739,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44b9d53d6d5dae1e0800000000000000
-      internalID: -2167685151979627708
+      spriteID: dee5675de4a156e10800000000000000
+      internalID: 2190185719676690157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_68
+      name: Compass lines@2x (3)_64
       rect:
         serializedVersion: 2
         x: 78
@@ -1861,14 +1761,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a8ea83973e6d0110800000000000000
-      internalID: 1228759458319624353
+      spriteID: 852a7a43b3c16ddc0800000000000000
+      internalID: -3614670610306194856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_69
+      name: Compass lines@2x (3)_65
       rect:
         serializedVersion: 2
         x: 88
@@ -1883,14 +1783,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11b03b23e1b2a99f0800000000000000
-      internalID: -461008603152446703
+      spriteID: a92bc9933c35e26b0800000000000000
+      internalID: -5319222011927678310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_70
+      name: Compass lines@2x (3)_66
       rect:
         serializedVersion: 2
         x: 97
@@ -1905,14 +1805,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de6ae3ddf8f56d170800000000000000
-      internalID: 8202848842798769901
+      spriteID: bf61def196bb47370800000000000000
+      internalID: 8319480471841740539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_71
+      name: Compass lines@2x (3)_67
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c7d3b5d86ef80a0800000000000000
+      internalID: -6877024611175924726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines@2x (3)_68
       rect:
         serializedVersion: 2
         x: 171
@@ -1927,14 +1849,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ee8175b3704d2990800000000000000
-      internalID: -7409194946245062939
+      spriteID: 2a0a6e11c7f403580800000000000000
+      internalID: -8849485873488158558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_72
+      name: Compass lines@2x (3)_69
       rect:
         serializedVersion: 2
         x: 179
@@ -1949,14 +1871,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2935bd40611cfbaf0800000000000000
-      internalID: -378371543360908398
+      spriteID: c2617c9f9eadfab90800000000000000
+      internalID: -7228318178453547476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_73
+      name: Compass lines@2x (3)_70
       rect:
         serializedVersion: 2
         x: 188
@@ -1971,14 +1893,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7b64b397cf777780800000000000000
-      internalID: -8685332861207417988
+      spriteID: c45110dee1a7e65f0800000000000000
+      internalID: -761537013735156404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_74
+      name: Compass lines@2x (3)_71
       rect:
         serializedVersion: 2
         x: 196
@@ -1993,14 +1915,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d41b47608a276fa0800000000000000
-      internalID: -5807626463493810991
+      spriteID: 857cc3efc36eb0e10800000000000000
+      internalID: 2165077195519477592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_75
+      name: Compass lines@2x (3)_72
       rect:
         serializedVersion: 2
         x: 204
@@ -2015,14 +1937,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c03a34df46df71da0800000000000000
-      internalID: -5974027770496048372
+      spriteID: 2486cc2872d2de110800000000000000
+      internalID: 1291738315846608962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_76
+      name: Compass lines@2x (3)_73
       rect:
         serializedVersion: 2
         x: 106
@@ -2037,19 +1959,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 273a46d05688d1d90800000000000000
-      internalID: -7125389067832482958
+      spriteID: f562fcf7cf6193e50800000000000000
+      internalID: 6789483186969585247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_77
+      name: Compass lines@2x (3)_74
       rect:
         serializedVersion: 2
-        x: 116
+        x: 145
         y: 0
-        width: 6
+        width: 15
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2059,36 +1981,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2a14000a804e12d0800000000000000
-      internalID: -3306134114993432017
+      spriteID: 4cee1663d604454e0800000000000000
+      internalID: -1993897897210286396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Compass lines@2x (1)_78
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 0
-        width: 6
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 318750bd883efb8d0800000000000000
-      internalID: -2828291864035756013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Compass lines@2x (1)_79
+      name: Compass lines@2x (3)_75
       rect:
         serializedVersion: 2
         x: 162
@@ -2103,8 +2003,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32f11193a711c3170800000000000000
-      internalID: 8159415841529601827
+      spriteID: 8639ffd1647b4c270800000000000000
+      internalID: 8269936327537955688
       vertices: []
       indices: 
       edges: []
@@ -2123,86 +2023,82 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Compass lines@2x (1)_0: -14756963081808705
-      Compass lines@2x (1)_1: -678624698289780594
-      Compass lines@2x (1)_10: 3016892741341759849
-      Compass lines@2x (1)_11: -7694173919298317527
-      Compass lines@2x (1)_12: -2717493953379174777
-      Compass lines@2x (1)_13: -6513438087610371987
-      Compass lines@2x (1)_14: 7480300049768803131
-      Compass lines@2x (1)_15: 6191207879868866144
-      Compass lines@2x (1)_16: 6614433282920733039
-      Compass lines@2x (1)_17: 4199617963604486905
-      Compass lines@2x (1)_18: -5968243060244308158
-      Compass lines@2x (1)_19: 3067858028736983686
-      Compass lines@2x (1)_2: 4938608069269442295
-      Compass lines@2x (1)_20: 6233228431827241115
-      Compass lines@2x (1)_21: 8649534751290432346
-      Compass lines@2x (1)_22: 2827437551410258635
-      Compass lines@2x (1)_23: 8832429696058589846
-      Compass lines@2x (1)_24: -1750530806644661606
-      Compass lines@2x (1)_25: 5600645553928317293
-      Compass lines@2x (1)_26: -301553040661927041
-      Compass lines@2x (1)_27: 2237468809865375418
-      Compass lines@2x (1)_28: -7353583355662135932
-      Compass lines@2x (1)_29: -1840817292665076896
-      Compass lines@2x (1)_3: -1508926555464952100
-      Compass lines@2x (1)_30: -3435976871792588655
-      Compass lines@2x (1)_31: 808747333960341094
-      Compass lines@2x (1)_32: -9156317235254669142
-      Compass lines@2x (1)_33: 6245408100386931252
-      Compass lines@2x (1)_34: 72809877368621613
-      Compass lines@2x (1)_35: 4963778603744365692
-      Compass lines@2x (1)_36: -491156032963425722
-      Compass lines@2x (1)_37: -624664365184771672
-      Compass lines@2x (1)_38: -6829659854284535101
-      Compass lines@2x (1)_39: 7725452095903972696
-      Compass lines@2x (1)_4: 4557850838246975071
-      Compass lines@2x (1)_40: 2936336472682854323
-      Compass lines@2x (1)_41: 1820961907235254883
-      Compass lines@2x (1)_42: -1754311046377360153
-      Compass lines@2x (1)_43: -3824502559943188479
-      Compass lines@2x (1)_44: -6500007538140383795
-      Compass lines@2x (1)_45: 7677789369779939741
-      Compass lines@2x (1)_46: -6796576048050233804
-      Compass lines@2x (1)_47: 1647012156848455141
-      Compass lines@2x (1)_48: -1108308852053902380
-      Compass lines@2x (1)_49: 7289696774707834242
-      Compass lines@2x (1)_5: 786054370272405361
-      Compass lines@2x (1)_50: -3121331338390623034
-      Compass lines@2x (1)_51: -7319870428334238601
-      Compass lines@2x (1)_52: -3250625463783539886
-      Compass lines@2x (1)_53: 8754460945772314743
-      Compass lines@2x (1)_54: 7760622638686241560
-      Compass lines@2x (1)_55: 5405909123001986197
-      Compass lines@2x (1)_56: -991181523429860247
-      Compass lines@2x (1)_57: 5886500350642140908
-      Compass lines@2x (1)_58: -5160983164332744908
-      Compass lines@2x (1)_59: -161127230787088840
-      Compass lines@2x (1)_6: -7013036083370191146
-      Compass lines@2x (1)_60: 1773412595260076229
-      Compass lines@2x (1)_61: -3358405540396553588
-      Compass lines@2x (1)_62: 2394536085451055618
-      Compass lines@2x (1)_63: -3897033455216731629
-      Compass lines@2x (1)_64: -3150912285236844666
-      Compass lines@2x (1)_65: -5695279608060593732
-      Compass lines@2x (1)_66: -5280769051372498366
-      Compass lines@2x (1)_67: -2167685151979627708
-      Compass lines@2x (1)_68: 1228759458319624353
-      Compass lines@2x (1)_69: -461008603152446703
-      Compass lines@2x (1)_7: 7355854395421987868
-      Compass lines@2x (1)_70: 8202848842798769901
-      Compass lines@2x (1)_71: -7409194946245062939
-      Compass lines@2x (1)_72: -378371543360908398
-      Compass lines@2x (1)_73: -8685332861207417988
-      Compass lines@2x (1)_74: -5807626463493810991
-      Compass lines@2x (1)_75: -5974027770496048372
-      Compass lines@2x (1)_76: -7125389067832482958
-      Compass lines@2x (1)_77: -3306134114993432017
-      Compass lines@2x (1)_78: -2828291864035756013
-      Compass lines@2x (1)_79: 8159415841529601827
-      Compass lines@2x (1)_8: -7090764693221580027
-      Compass lines@2x (1)_9: 8532572323263691985
+      Compass lines@2x (3)_0: -8637776828584101985
+      Compass lines@2x (3)_1: -6096278506817082609
+      Compass lines@2x (3)_10: 5583065044794824133
+      Compass lines@2x (3)_11: -5066656823427977790
+      Compass lines@2x (3)_12: 9078351813665339799
+      Compass lines@2x (3)_13: 7074369560994742701
+      Compass lines@2x (3)_14: 6622299913147449790
+      Compass lines@2x (3)_15: 5848830805119550376
+      Compass lines@2x (3)_16: 4229351353691479366
+      Compass lines@2x (3)_17: 3497665804017363019
+      Compass lines@2x (3)_18: -4048474489934271847
+      Compass lines@2x (3)_19: 1724784742440379193
+      Compass lines@2x (3)_2: -1425979132599919229
+      Compass lines@2x (3)_20: -6552196628949420996
+      Compass lines@2x (3)_21: 7497670670199231257
+      Compass lines@2x (3)_22: -6242296585316003390
+      Compass lines@2x (3)_23: -2244432835466123977
+      Compass lines@2x (3)_24: 1528331486822290881
+      Compass lines@2x (3)_25: -1611706130085357757
+      Compass lines@2x (3)_26: 5139668966304618820
+      Compass lines@2x (3)_27: 4169311817856480930
+      Compass lines@2x (3)_28: -4399035982969955486
+      Compass lines@2x (3)_29: -6167859695901734680
+      Compass lines@2x (3)_3: -8406696885728704715
+      Compass lines@2x (3)_30: 5917114719923203363
+      Compass lines@2x (3)_31: -1289361687737159300
+      Compass lines@2x (3)_32: -685284310823549497
+      Compass lines@2x (3)_33: -1033750088201074373
+      Compass lines@2x (3)_34: -224228622191705573
+      Compass lines@2x (3)_35: -4473927613134299564
+      Compass lines@2x (3)_36: -3535964796314134890
+      Compass lines@2x (3)_37: 7069036238402473339
+      Compass lines@2x (3)_38: 3041633862335734450
+      Compass lines@2x (3)_39: 2420392987792283715
+      Compass lines@2x (3)_4: 7742779508976204196
+      Compass lines@2x (3)_40: -899918061661438610
+      Compass lines@2x (3)_41: 970921642552678718
+      Compass lines@2x (3)_42: 6893606976743489187
+      Compass lines@2x (3)_43: 3349535211366869844
+      Compass lines@2x (3)_44: 1090548650232387697
+      Compass lines@2x (3)_45: 6908307653179730342
+      Compass lines@2x (3)_46: -7438090902237760841
+      Compass lines@2x (3)_47: -4817963729366674958
+      Compass lines@2x (3)_48: 4745942533716488398
+      Compass lines@2x (3)_49: -6678973252234280538
+      Compass lines@2x (3)_5: 6514455188628327227
+      Compass lines@2x (3)_50: -5943855397529290740
+      Compass lines@2x (3)_51: -4378668668472012791
+      Compass lines@2x (3)_52: 427764789403001636
+      Compass lines@2x (3)_53: -2739640928401994699
+      Compass lines@2x (3)_54: 550503974722063767
+      Compass lines@2x (3)_55: 2835039974255592777
+      Compass lines@2x (3)_56: -1554384203683988617
+      Compass lines@2x (3)_57: -7075344318088729886
+      Compass lines@2x (3)_58: -5699796948217197381
+      Compass lines@2x (3)_59: 2730671581851432417
+      Compass lines@2x (3)_6: 4036025941458091246
+      Compass lines@2x (3)_60: -3529324358496795027
+      Compass lines@2x (3)_61: -5216170245214257307
+      Compass lines@2x (3)_62: -6075581612980736347
+      Compass lines@2x (3)_63: 2190185719676690157
+      Compass lines@2x (3)_64: -3614670610306194856
+      Compass lines@2x (3)_65: -5319222011927678310
+      Compass lines@2x (3)_66: 8319480471841740539
+      Compass lines@2x (3)_67: -6877024611175924726
+      Compass lines@2x (3)_68: -8849485873488158558
+      Compass lines@2x (3)_69: -7228318178453547476
+      Compass lines@2x (3)_7: -8643208025942789179
+      Compass lines@2x (3)_70: -761537013735156404
+      Compass lines@2x (3)_71: 2165077195519477592
+      Compass lines@2x (3)_72: 1291738315846608962
+      Compass lines@2x (3)_73: 6789483186969585247
+      Compass lines@2x (3)_74: -1993897897210286396
+      Compass lines@2x (3)_75: 8269936327537955688
+      Compass lines@2x (3)_8: 1824855414001085734
+      Compass lines@2x (3)_9: -9035592874638204769
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
