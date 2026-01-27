@@ -10,11 +10,11 @@ namespace YahalomUIPackage.Runtime.YahalomButton
         [SerializeField] private Image _icon;
 
         [Header("Icons")]
-        [SerializeField] private Sprite _normalIcon;
-        [SerializeField] private Sprite _highlightedIcon;
-        [SerializeField] private Sprite _pressedIcon;
-        [SerializeField] private Sprite _selectedIcon;
-        [SerializeField] private Sprite _disabledIcon;
+        [SerializeField] private Color _normalIconColor;
+        [SerializeField] private Color _highlightedIconColor;
+        [SerializeField] private Color _pressedIconColor;
+        [SerializeField] private Color _selectedIconColor;
+        [SerializeField] private Color _disabledIconColor;
 
         [Header("Text Colors")] 
         [SerializeField] private Color _normalTextColor;
@@ -42,34 +42,34 @@ namespace YahalomUIPackage.Runtime.YahalomButton
             if (_textMesh == null || !Application.isPlaying)
                 return;
 
-            Sprite targetIcon = _normalIcon;
+            Color targetIcon = _normalIconColor;
             Color targetTextColor = _normalTextColor;
 
             switch (state)
             {
                 case SelectionState.Normal:
                     targetTextColor = _normalTextColor;
-                    targetIcon = _normalIcon;
+                    targetIcon = _normalIconColor;
                     break;
                 case SelectionState.Highlighted:
                     targetTextColor = _highlightedTextColor;
-                    targetIcon = _highlightedIcon;
+                    targetIcon = _highlightedIconColor;
                     break;
                 case SelectionState.Pressed:
                     targetTextColor = _pressedTextColor;
-                    targetIcon = _pressedIcon;
+                    targetIcon = _pressedIconColor;
                     break;
                 case SelectionState.Selected:
                     targetTextColor = _selectedTextColor;
-                    targetIcon = _selectedIcon;
+                    targetIcon = _selectedIconColor;
                     break;
                 case SelectionState.Disabled:
                     targetTextColor = _disabledTextColor;
-                    targetIcon = _disabledIcon;
+                    targetIcon = _disabledIconColor;
                     break;
             }
             
-            _icon.sprite = targetIcon;
+            _icon.color = targetIcon;
 
             if (instant || _fadeDuration == 0f)
             {
