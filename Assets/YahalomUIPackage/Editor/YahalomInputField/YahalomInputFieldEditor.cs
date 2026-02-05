@@ -7,6 +7,7 @@ namespace YahalomUIPackage.Editor.YahalomInputField
     [CanEditMultipleObjects]
     public class YahalomInputFieldEditor : TMP_InputFieldEditor
     {
+        private SerializedProperty _closeButton;
         private SerializedProperty _normalTextColor;
         private SerializedProperty _highlightedTextColor;
         private SerializedProperty _pressedTextColor;
@@ -20,6 +21,7 @@ namespace YahalomUIPackage.Editor.YahalomInputField
         {
             base.OnEnable();
             
+            _closeButton = serializedObject.FindProperty("_closeButton");
             _normalTextColor = serializedObject.FindProperty("_normalTextColor");
             _highlightedTextColor = serializedObject.FindProperty("_highlightedTextColor");
             _pressedTextColor = serializedObject.FindProperty("_pressedTextColor");
@@ -36,6 +38,7 @@ namespace YahalomUIPackage.Editor.YahalomInputField
             base.OnInspectorGUI();
 
             EditorGUILayout.Space(10);
+            EditorGUILayout.PropertyField(_closeButton);
             EditorGUILayout.LabelField("Image Colors", EditorStyles.boldLabel);
             EditorGUI.indentLevel++;
             EditorGUILayout.PropertyField(_errorImageColor);

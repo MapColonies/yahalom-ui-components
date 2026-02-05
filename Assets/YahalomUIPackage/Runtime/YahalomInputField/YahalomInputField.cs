@@ -1,11 +1,14 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace YahalomUIPackage.Runtime.YahalomInputField
 {
     public class YahalomInputField : TMP_InputField
     {
+        [SerializeField] private Button _closeButton;
+        
         [Header("Text Colors")] 
         [SerializeField] private Color _normalTextColor;
         [SerializeField] private Color _highlightedTextColor;
@@ -27,6 +30,7 @@ namespace YahalomUIPackage.Runtime.YahalomInputField
             onValueChanged.AddListener(OnValueChanged);
             onSubmit.AddListener(OnSubmit);
             onDeselect.AddListener(OnDeselect);
+            _closeButton.onClick.AddListener(OnDeleteContent);
         }
 
         private void OnDestroy()
@@ -34,6 +38,7 @@ namespace YahalomUIPackage.Runtime.YahalomInputField
             onValueChanged.RemoveListener(OnValueChanged);
             onSubmit.RemoveListener(OnSubmit);
             onDeselect.RemoveListener(OnDeselect);
+            _closeButton.onClick.RemoveListener(OnDeleteContent);
         }
 
         private void OnDeselect(string value)
@@ -61,6 +66,11 @@ namespace YahalomUIPackage.Runtime.YahalomInputField
             {
                 ApplyErrorState();
             }
+        }
+        
+        private void OnDeleteContent()
+        {
+            text = string.Empty;
         }
 
         protected override void DoStateTransition(SelectionState state, bool instant)
