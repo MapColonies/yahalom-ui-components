@@ -88,14 +88,17 @@ namespace YahalomUIPackage.Runtime.YahalomInputField
             {
                 case SelectionState.Disabled:
                     textColor = _disabledTextColor;
+                    SetCloseButtonState(false);
                     break;
                 case SelectionState.Highlighted:
                 case SelectionState.Pressed:
                 case SelectionState.Selected:
                     textColor = _highlightedTextColor;
+                    SetCloseButtonState(true);
                     break;
                 case SelectionState.Normal:
                     textColor = _normalTextColor;
+                    SetCloseButtonState(false);
                     break;
             }
 
@@ -132,6 +135,12 @@ namespace YahalomUIPackage.Runtime.YahalomInputField
         public void SetErrorPredicate(Func<string, bool> predicate)
         {
             _errorPredicate = predicate;
+        }
+
+        private void SetCloseButtonState(bool value)
+        {
+            _closeButton.gameObject.SetActive(value);
+
         }
     }
 }
