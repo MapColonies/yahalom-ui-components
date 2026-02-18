@@ -12,6 +12,7 @@ A custom Unity UI component library for MapColonies projects with built-in Hebre
 - [Package Structure](#package-structure)
 - [UI Components](#ui-components)
   - [YahalomButton](#yahalombutton)
+  - [YahalomInputField](#yahalominputfield)
   - [Compass](#compass)
 - [Fonts](#fonts)
 - [Testing](#testing)
@@ -47,11 +48,15 @@ YahalomUIPackage/
 ├── Runtime/
 │   ├── YahalomButton/
 │   │   └── YahalomButton.cs           # Button component script
+│   ├── YahalomInputField/
+│   │   └── YahalomInputField.cs       # Input field component script
 │   ├── Compass/
 │   │   └── Compass.cs                 # Compass component script
 │   └── Resources/
 │       ├── YahalomButton/
 │       │   └── YahalomButton.prefab   # Button prefab
+│       ├── YahalomInputField/
+│       │   └── YahalomInputField.prefab # Input field prefab
 │       └── Compass/
 │           └── Compass.prefab         # Compass prefab
 ├── Editor/
@@ -120,6 +125,79 @@ YahalomButton (Button, Image, HorizontalLayoutGroup)
 ├── Text - RTLTMP (TextMeshProUGUI)
 └── Icon (Image)
 ```
+
+---
+
+### YahalomInputField
+
+A customizable input field component with state-based color transitions, error validation support, and a clear button.
+
+**Location:** `Runtime/YahalomInputField/YahalomInputField.cs`
+**Prefab:** `Runtime/Resources/YahalomInputField/YahalomInputField.prefab`
+
+#### Features
+
+- Extends Unity's `TMP_InputField` class
+- State-based text and placeholder color transitions
+- Built-in error state with custom validation predicate
+- Clear/close button to reset input content
+- RTL text support via TextMeshPro
+
+#### Input States
+
+| State | Description |
+|-------|-------------|
+| Normal | Default appearance |
+| Highlighted | Hover/focus state |
+| Pressed | Click/tap state |
+| Selected | Active/selected state with content |
+| Disabled | Inactive state |
+| Error | Validation failed state |
+
+#### Usage
+
+**Adding to Scene:**
+
+1. **Via Prefab:** Drag `YahalomInputField.prefab` from `Runtime/Resources/YahalomInputField/` into your Canvas
+2. **Via Code:**
+   ```csharp
+   var inputPrefab = Resources.Load<GameObject>("YahalomInputField/YahalomInputField");
+   var inputField = Instantiate(inputPrefab, parentCanvas.transform);
+   ```
+
+**Setting Up Error Validation:**
+
+```csharp
+using YahalomUIPackage.Runtime.YahalomInputField;
+
+// Get reference to input field component
+YahalomInputField inputField = GetComponent<YahalomInputField>();
+
+// Set custom error validation (e.g., minimum length)
+inputField.SetErrorPredicate(value => value.Length < 3);
+
+// Or validate email format
+inputField.SetErrorPredicate(value => !value.Contains("@"));
+```
+
+#### Public API
+
+| Method | Parameters | Description |
+|--------|------------|-------------|
+| `SetErrorPredicate(Func<string, bool>)` | `predicate`: validation function | Sets the error validation function. Returns true if input is invalid. |
+
+#### Inspector Properties
+
+| Property | Description |
+|----------|-------------|
+| Close Button | Reference to the clear/delete button |
+| Normal Text Color | Text color in default state |
+| Highlighted Text Color | Text color when focused/hovered |
+| Pressed Text Color | Text color when pressed |
+| Selected Text Color | Text color when selected with content |
+| Disabled Text Color | Text color when disabled |
+| Error Text Color | Text color in error state |
+| Error Image Color | Background color in error state |
 
 ---
 
@@ -225,6 +303,35 @@ These fonts are pre-configured as TextMesh Pro SDF assets for high-quality text 
 - Observe text and icon color changes between states
 - Adjust fade duration to test transition smoothness
 
+### Testing YahalomInputField
+
+1. Create a Canvas in your scene
+2. Drag the `YahalomInputField.prefab` into the Canvas
+3. Enter Play Mode
+4. Interact with the input field to verify:
+   - Focus state (click on input)
+   - Text input and color changes
+   - Clear button functionality (click X to clear text)
+   - Disabled state (disable via Inspector)
+
+**Testing Error Validation:**
+
+```csharp
+using UnityEngine;
+using YahalomUIPackage.Runtime.YahalomInputField;
+
+public class InputFieldTester : MonoBehaviour
+{
+    public YahalomInputField inputField;
+
+    void Start()
+    {
+        // Set validation: error if less than 3 characters
+        inputField.SetErrorPredicate(value => value.Length > 0 && value.Length < 3);
+    }
+}
+```
+
 ### Testing Compass
 
 1. Create a Canvas in your scene
@@ -296,6 +403,32 @@ public class YahalomButton : Button
 
     // Transition settings
     [SerializeField] private float _fadeDuration = 0.1f;
+}
+```
+
+### YahalomInputField
+
+**Namespace:** `YahalomUIPackage.Runtime.YahalomInputField`
+
+```csharp
+public class YahalomInputField : TMP_InputField
+{
+    // Public Methods
+    public void SetErrorPredicate(Func<string, bool> predicate);
+
+    // Serialized Fields (configurable in Inspector)
+    [SerializeField] private Button _closeButton;
+
+    // Text color states
+    [SerializeField] private Color _normalTextColor;
+    [SerializeField] private Color _highlightedTextColor;
+    [SerializeField] private Color _pressedTextColor;
+    [SerializeField] private Color _selectedTextColor;
+    [SerializeField] private Color _disabledTextColor;
+    [SerializeField] private Color _errorTextColor;
+
+    // Image color states
+    [SerializeField] private Color _errorImageColor;
 }
 ```
 
