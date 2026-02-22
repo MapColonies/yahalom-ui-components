@@ -1,0 +1,4498 @@
+fileFormatVersion: 2
+guid: 1aa4daa4e06afa3498f1554b729f9eda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3008370198051731792
+    second: Compass lines_0
+  - first:
+      213: -5266899010568172654
+    second: Compass lines_1
+  - first:
+      213: 5512981377404505467
+    second: Compass lines_2
+  - first:
+      213: 1241157748191828913
+    second: Compass lines_3
+  - first:
+      213: -6622241689391599385
+    second: Compass lines_4
+  - first:
+      213: -980574452359562955
+    second: Compass lines_5
+  - first:
+      213: -1347677568033287601
+    second: Compass lines_6
+  - first:
+      213: 1399525991590199358
+    second: Compass lines_7
+  - first:
+      213: -4805480152446729047
+    second: Compass lines_8
+  - first:
+      213: 1193791030332249433
+    second: Compass lines_9
+  - first:
+      213: -7510637300365400684
+    second: Compass lines_10
+  - first:
+      213: -2224229287801433657
+    second: Compass lines_11
+  - first:
+      213: 7097155915503225345
+    second: Compass lines_12
+  - first:
+      213: -3557234048433657498
+    second: Compass lines_13
+  - first:
+      213: 7568884883794829419
+    second: Compass lines_14
+  - first:
+      213: -7989773428653930723
+    second: Compass lines_15
+  - first:
+      213: 1473836065395704902
+    second: Compass lines_16
+  - first:
+      213: -1767530755346871196
+    second: Compass lines_17
+  - first:
+      213: -2529408058090616992
+    second: Compass lines_18
+  - first:
+      213: -4316173051698571282
+    second: Compass lines_19
+  - first:
+      213: -8112888857660482914
+    second: Compass lines_20
+  - first:
+      213: 2549513360863658189
+    second: Compass lines_21
+  - first:
+      213: 2470071345240934475
+    second: Compass lines_22
+  - first:
+      213: -3975294472136035800
+    second: Compass lines_23
+  - first:
+      213: -6893254547609387482
+    second: Compass lines_24
+  - first:
+      213: -3234745470022453679
+    second: Compass lines_25
+  - first:
+      213: -5514237731473142509
+    second: Compass lines_26
+  - first:
+      213: 3964261211265429260
+    second: Compass lines_27
+  - first:
+      213: -438308249821335931
+    second: Compass lines_28
+  - first:
+      213: -9211626468068120320
+    second: Compass lines_29
+  - first:
+      213: -19336811139542988
+    second: Compass lines_30
+  - first:
+      213: -4566310637524886722
+    second: Compass lines_31
+  - first:
+      213: -7629771882508751153
+    second: Compass lines_32
+  - first:
+      213: 3627114546018002121
+    second: Compass lines_33
+  - first:
+      213: -293402277812291680
+    second: Compass lines_34
+  - first:
+      213: 2945201398211051647
+    second: Compass lines_35
+  - first:
+      213: 4015820022864914938
+    second: Compass lines_36
+  - first:
+      213: 3521862127393973349
+    second: Compass lines_37
+  - first:
+      213: -6821112570247616931
+    second: Compass lines_38
+  - first:
+      213: 7096192486632896224
+    second: Compass lines_39
+  - first:
+      213: -5736741749537252912
+    second: Compass lines_40
+  - first:
+      213: -1643434554370694458
+    second: Compass lines_41
+  - first:
+      213: -4771677957236575025
+    second: Compass lines_42
+  - first:
+      213: -5207516169768121234
+    second: Compass lines_43
+  - first:
+      213: -3584067915332198022
+    second: Compass lines_44
+  - first:
+      213: -4007008079436799058
+    second: Compass lines_45
+  - first:
+      213: 7913484663271569834
+    second: Compass lines_46
+  - first:
+      213: 7045754311871701129
+    second: Compass lines_47
+  - first:
+      213: 4558256742251312668
+    second: Compass lines_48
+  - first:
+      213: 6052339702028463155
+    second: Compass lines_49
+  - first:
+      213: 5893343435798603083
+    second: Compass lines_50
+  - first:
+      213: 5682816299510316014
+    second: Compass lines_51
+  - first:
+      213: -6436256545928826890
+    second: Compass lines_52
+  - first:
+      213: -5872695223301674384
+    second: Compass lines_53
+  - first:
+      213: -7590956515345129977
+    second: Compass lines_54
+  - first:
+      213: -132965424925742193
+    second: Compass lines_55
+  - first:
+      213: -4971859868710056432
+    second: Compass lines_56
+  - first:
+      213: 1219870718736674990
+    second: Compass lines_57
+  - first:
+      213: -3039462228798158214
+    second: Compass lines_58
+  - first:
+      213: 1153323628245764177
+    second: Compass lines_59
+  - first:
+      213: -700489306775036764
+    second: Compass lines_60
+  - first:
+      213: -4800961932823039626
+    second: Compass lines_61
+  - first:
+      213: 6484340438019312078
+    second: Compass lines_62
+  - first:
+      213: -1974360970928932547
+    second: Compass lines_63
+  - first:
+      213: -4020435950341804071
+    second: Compass lines_64
+  - first:
+      213: -5486280507810388442
+    second: Compass lines_65
+  - first:
+      213: -3461954374837519836
+    second: Compass lines_66
+  - first:
+      213: 308986580734020045
+    second: Compass lines_67
+  - first:
+      213: 4309403032071815013
+    second: Compass lines_68
+  - first:
+      213: -3652484228160797110
+    second: Compass lines_69
+  - first:
+      213: -8162525246813276833
+    second: Compass lines_70
+  - first:
+      213: 1964756706590651969
+    second: Compass lines_71
+  - first:
+      213: 2929509923136527246
+    second: Compass lines_72
+  - first:
+      213: 224354474010850083
+    second: Compass lines_73
+  - first:
+      213: -680522988565333229
+    second: Compass lines_74
+  - first:
+      213: 1887635684557291028
+    second: Compass lines_75
+  - first:
+      213: -3872754632561374638
+    second: Compass lines_76
+  - first:
+      213: -2659335539086636091
+    second: Compass lines_77
+  - first:
+      213: -8124870708625802224
+    second: Compass lines_78
+  - first:
+      213: 7197983076128598450
+    second: Compass lines_79
+  - first:
+      213: 8524128176191028853
+    second: Compass lines_80
+  - first:
+      213: 869689752118097455
+    second: Compass lines_81
+  - first:
+      213: -64478478629497798
+    second: Compass lines_82
+  - first:
+      213: 7271074979036642998
+    second: Compass lines_83
+  - first:
+      213: 3519843204016392801
+    second: Compass lines_84
+  - first:
+      213: -7117393302366604605
+    second: Compass lines_85
+  - first:
+      213: -8160468682122010348
+    second: Compass lines_86
+  - first:
+      213: -3974078654981723920
+    second: Compass lines_87
+  - first:
+      213: -3348960697716685585
+    second: Compass lines_88
+  - first:
+      213: 1356185001882168081
+    second: Compass lines_89
+  - first:
+      213: -5630335604194610027
+    second: Compass lines_90
+  - first:
+      213: -3148771288111101965
+    second: Compass lines_91
+  - first:
+      213: -717346562319990178
+    second: Compass lines_92
+  - first:
+      213: -4400492567719303343
+    second: Compass lines_93
+  - first:
+      213: -8357187231367540080
+    second: Compass lines_94
+  - first:
+      213: -4635583811958552970
+    second: Compass lines_95
+  - first:
+      213: 1326928087872670484
+    second: Compass lines_96
+  - first:
+      213: -5563297497457300118
+    second: Compass lines_97
+  - first:
+      213: -7968455502091252716
+    second: Compass lines_98
+  - first:
+      213: 7419815106636149712
+    second: Compass lines_99
+  - first:
+      213: -1248754515871891761
+    second: Compass lines_100
+  - first:
+      213: -5966195840046705039
+    second: Compass lines_101
+  - first:
+      213: -1121407866827207480
+    second: Compass lines_102
+  - first:
+      213: -7680880813252275992
+    second: Compass lines_103
+  - first:
+      213: 7381475343404667675
+    second: Compass lines_104
+  - first:
+      213: -5970409940509732559
+    second: Compass lines_105
+  - first:
+      213: 971446029592070839
+    second: Compass lines_106
+  - first:
+      213: 1915796366928658468
+    second: Compass lines_107
+  - first:
+      213: 3753241194780498784
+    second: Compass lines_108
+  - first:
+      213: -3460753820474781779
+    second: Compass lines_109
+  - first:
+      213: -8428459910773880112
+    second: Compass lines_110
+  - first:
+      213: -211781790684356778
+    second: Compass lines_111
+  - first:
+      213: -1659485749208159068
+    second: Compass lines_112
+  - first:
+      213: -9060707682164913879
+    second: Compass lines_113
+  - first:
+      213: 4774463544425673607
+    second: Compass lines_114
+  - first:
+      213: -4206670592576332753
+    second: Compass lines_115
+  - first:
+      213: 5731548588364828753
+    second: Compass lines_116
+  - first:
+      213: -1549973941908403356
+    second: Compass lines_117
+  - first:
+      213: 6613106981659460818
+    second: Compass lines_118
+  - first:
+      213: -2366768322550803969
+    second: Compass lines_119
+  - first:
+      213: 4689291360603887929
+    second: Compass lines_120
+  - first:
+      213: 2826080626437460835
+    second: Compass lines_121
+  - first:
+      213: 6155990598209876606
+    second: Compass lines_122
+  - first:
+      213: -3706394567392465500
+    second: Compass lines_123
+  - first:
+      213: -3138378801656300900
+    second: Compass lines_124
+  - first:
+      213: 3065895671234830058
+    second: Compass lines_125
+  - first:
+      213: -7978361549014643158
+    second: Compass lines_126
+  - first:
+      213: 2894736942918304995
+    second: Compass lines_127
+  - first:
+      213: 5436993100182471318
+    second: Compass lines_128
+  - first:
+      213: 873258595817652737
+    second: Compass lines_129
+  - first:
+      213: -432761841318428623
+    second: Compass lines_130
+  - first:
+      213: 8270047055688867856
+    second: Compass lines_131
+  - first:
+      213: 2840485191212908161
+    second: Compass lines_132
+  - first:
+      213: 180010722316679984
+    second: Compass lines_133
+  - first:
+      213: 336364067553203426
+    second: Compass lines_134
+  - first:
+      213: -642149530743002443
+    second: Compass lines_135
+  - first:
+      213: 4874395235818106879
+    second: Compass lines_136
+  - first:
+      213: 6650268896699177014
+    second: Compass lines_137
+  - first:
+      213: 3634190588224477253
+    second: Compass lines_138
+  - first:
+      213: -5357867171658548103
+    second: Compass lines_139
+  - first:
+      213: 9158903097308302988
+    second: Compass lines_140
+  - first:
+      213: -8174612138826902466
+    second: Compass lines_141
+  - first:
+      213: 4259552113080289266
+    second: Compass lines_142
+  - first:
+      213: 6657131297845925694
+    second: Compass lines_143
+  - first:
+      213: 7603203171248221273
+    second: Compass lines_144
+  - first:
+      213: 3450065573264781396
+    second: Compass lines_145
+  - first:
+      213: 50245849223016605
+    second: Compass lines_146
+  - first:
+      213: 849608003070814178
+    second: Compass lines_147
+  - first:
+      213: 5581368550593165854
+    second: Compass lines_148
+  - first:
+      213: 4664426324559446026
+    second: Compass lines_149
+  - first:
+      213: 5300367654046005137
+    second: Compass lines_150
+  - first:
+      213: 7642737518234330463
+    second: Compass lines_151
+  - first:
+      213: 5666041160375083062
+    second: Compass lines_152
+  - first:
+      213: -1220053677278498275
+    second: Compass lines_153
+  - first:
+      213: 5668001527451202897
+    second: Compass lines_154
+  - first:
+      213: 8542078808290891700
+    second: Compass lines_155
+  - first:
+      213: -8801314544272560152
+    second: Compass lines_156
+  - first:
+      213: -8485736581453638054
+    second: Compass lines_157
+  - first:
+      213: -5372577679306290078
+    second: Compass lines_158
+  - first:
+      213: 9081889290429455809
+    second: Compass lines_159
+  - first:
+      213: -5554519352364460968
+    second: Compass lines_160
+  - first:
+      213: -7821022256545545014
+    second: Compass lines_161
+  - first:
+      213: -3626772972262336543
+    second: Compass lines_162
+  - first:
+      213: 7252033578586459133
+    second: Compass lines_163
+  - first:
+      213: 5472738778516488519
+    second: Compass lines_164
+  - first:
+      213: -7437435121855220945
+    second: Compass lines_165
+  - first:
+      213: 1934364969723124423
+    second: Compass lines_166
+  - first:
+      213: 6499498503504175539
+    second: Compass lines_167
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Compass lines_0
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 401
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b641407e3f1046d0800000000000000
+      internalID: -3008370198051731792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 404
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b4a3f414738e6b0800000000000000
+      internalID: -5266899010568172654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 406
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d0a8d8a5b028c40800000000000000
+      internalID: 5512981377404505467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 408
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb9233656a793110800000000000000
+      internalID: 1241157748191828913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 410
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0f70705421914a0800000000000000
+      internalID: -6622241689391599385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 411
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539f84b1bbc4462f0800000000000000
+      internalID: -980574452359562955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_6
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 413
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f421d9564661c4de0800000000000000
+      internalID: -1347677568033287601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 414
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3009ae697d1c6310800000000000000
+      internalID: 1399525991590199358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_8
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 415
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4093a03418f4db0800000000000000
+      internalID: -4805480152446729047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 413
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955500bfd92319010800000000000000
+      internalID: 1193791030332249433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 415
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495ebea1b2bd4c790800000000000000
+      internalID: -7510637300365400684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_11
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 414
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c153994f33f121e0800000000000000
+      internalID: -2224229287801433657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_12
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 413
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ac12be3b92e7260800000000000000
+      internalID: 7097155915503225345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_13
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 411
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669ef20ea7a22aec0800000000000000
+      internalID: -3557234048433657498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_14
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 410
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b602a6c33b41a0960800000000000000
+      internalID: 7568884883794829419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_15
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 408
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d174a35f56f9e1190800000000000000
+      internalID: -7989773428653930723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_16
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 406
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644021fb71e147410800000000000000
+      internalID: 1473836065395704902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_17
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 404
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46cc8fd84287877e0800000000000000
+      internalID: -1767530755346871196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 401
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0678f75c5ccb5ecd0800000000000000
+      internalID: -2529408058090616992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 386
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee794604a7fd914c0800000000000000
+      internalID: -4316173051698571282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_20
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 389
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a1ce0619a396f80800000000000000
+      internalID: -8112888857660482914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_21
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 393
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc00460d4e0b16320800000000000000
+      internalID: 2549513360863658189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_22
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 396
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4805fe2dc4774220800000000000000
+      internalID: 2470071345240934475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_23
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 399
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822f1c65dbae4d8c0800000000000000
+      internalID: -3975294472136035800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_24
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 398
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e756fc28d3650a0800000000000000
+      internalID: -6893254547609387482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_25
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 396
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156f1882220eb13d0800000000000000
+      internalID: -3234745470022453679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_26
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 393
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31dcc78bffd7973b0800000000000000
+      internalID: -5514237731473142509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_27
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 389
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fe55e6192e30730800000000000000
+      internalID: 3964261211265429260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_28
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 386
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ea64318f0dae9f0800000000000000
+      internalID: -438308249821335931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 371
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009a637588ab92080800000000000000
+      internalID: -9211626468068120320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_30
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 375
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43050f0d54d4bbff0800000000000000
+      internalID: -19336811139542988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_31
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 379
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bdd342ba431a0c0800000000000000
+      internalID: -4566310637524886722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_32
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 382
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce6dc9a5ea9d1690800000000000000
+      internalID: -7629771882508751153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_33
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 382
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c42e0b5679165230800000000000000
+      internalID: 3627114546018002121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_34
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 379
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a735bece20adebf0800000000000000
+      internalID: -293402277812291680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_35
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 375
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f708a5c31157fd820800000000000000
+      internalID: 2945201398211051647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_36
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 371
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9a3c8b80f0bb730800000000000000
+      internalID: 4015820022864914938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_37
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 357
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564283bf1fa20e030800000000000000
+      internalID: 3521862127393973349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_38
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 362
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d566075d14a8651a0800000000000000
+      internalID: -6821112570247616931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_39
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 366
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6bc87287dba7260800000000000000
+      internalID: 7096192486632896224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_40
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 366
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9ddaaf5cff260b0800000000000000
+      internalID: -5736741749537252912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_41
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 362
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2e127eaf85139e0800000000000000
+      internalID: -1643434554370694458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_42
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 357
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc43a58ed2897cdb0800000000000000
+      internalID: -4771677957236575025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_43
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 343
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c4eda52af2bb7b0800000000000000
+      internalID: -5207516169768121234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_44
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 348
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71efbf5835d24ec0800000000000000
+      internalID: -3584067915332198022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_45
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 353
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3ac0db16f3468c0800000000000000
+      internalID: -4007008079436799058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_46
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 352
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9bdc1bf5852dd60800000000000000
+      internalID: 7913484663271569834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_47
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 348
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9802ac5773c87c160800000000000000
+      internalID: 7045754311871701129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_48
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 343
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c163bec3b5e224f30800000000000000
+      internalID: 4558256742251312668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_49
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 327
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c666f64ea3ef350800000000000000
+      internalID: 6052339702028463155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_50
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 332
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45e72e61ac59c150800000000000000
+      internalID: 5893343435798603083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_51
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 337
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebbc18c05b6dde40800000000000000
+      internalID: 5682816299510316014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_52
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 337
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff21a0b5c2dda6a0800000000000000
+      internalID: -6436256545928826890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_53
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 332
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a68fc2fceff7ea0800000000000000
+      internalID: -5872695223301674384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_54
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 327
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e9a65944187a690800000000000000
+      internalID: -7590956515345129977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_55
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 316
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b64e786ac972ef0800000000000000
+      internalID: -132965424925742193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_56
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 321
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e448c9ac7600bb0800000000000000
+      internalID: -4971859868710056432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_57
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 321
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0333e94f9dde010800000000000000
+      internalID: 1219870718736674990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_58
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 316
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ac448e439a1d5d0800000000000000
+      internalID: -3039462228798158214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_59
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 304
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15847a4babd610010800000000000000
+      internalID: 1153323628245764177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_60
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 310
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acd6b4dfac5746f0800000000000000
+      internalID: -700489306775036764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_61
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 310
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671f8e50f8e8f5db0800000000000000
+      internalID: -4800961932823039626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_62
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 304
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec987dad5410df950800000000000000
+      internalID: 6484340438019312078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_63
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 292
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39b2655829a994e0800000000000000
+      internalID: -1974360970928932547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_64
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 298
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dfaaa9edca8438c0800000000000000
+      internalID: -4020435950341804071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_65
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 298
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626efc912f0dcd3b0800000000000000
+      internalID: -5486280507810388442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_66
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 292
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a333b96daa4ffc0800000000000000
+      internalID: -3461954374837519836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_67
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 280
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9830978adb94400800000000000000
+      internalID: 308986580734020045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_68
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 286
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fb1a8b9331ecb30800000000000000
+      internalID: 4309403032071815013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_69
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 286
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4642c832f4cf4dc0800000000000000
+      internalID: -3652484228160797110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_70
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 280
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f557981f882e8be80800000000000000
+      internalID: -8162525246813276833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_71
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 267
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146f66e90d7344b10800000000000000
+      internalID: 1964756706590651969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_72
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 273
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bd88ef0c5b7a820800000000000000
+      internalID: 2929509923136527246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_73
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 273
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323bf2794311d1300800000000000000
+      internalID: 224354474010850083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_74
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 267
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b731d82fb4e86f0800000000000000
+      internalID: -680522988565333229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_75
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 254
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e736b67aa323a10800000000000000
+      internalID: 1887635684557291028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_76
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 261
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a4eef2e26314ac0800000000000000
+      internalID: -3872754632561374638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_77
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 261
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb4b2eba64281bd0800000000000000
+      internalID: -2659335539086636091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_78
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 254
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cf16e4329ae3f80800000000000000
+      internalID: -8124870708625802224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_79
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 248
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b92bef987f54e360800000000000000
+      internalID: 7197983076128598450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_80
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 248
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57eb3c9d969cb4670800000000000000
+      internalID: 8524128176191028853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_81
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 228
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26fbc3c832c11c00800000000000000
+      internalID: 869689752118097455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_82
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 228
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3491a15a2dea1ff0800000000000000
+      internalID: -64478478629497798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6beb5bc6b2c08e460800000000000000
+      internalID: 7271074979036642998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_84
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 201
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a4870cebef8d030800000000000000
+      internalID: 3519843204016392801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_85
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 187
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2b1b54080f93d90800000000000000
+      internalID: -7117393302366604605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_86
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 187
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411ea6938f030ce80800000000000000
+      internalID: -8160468682122010348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_87
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 180
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f82a54d48c39d8c0800000000000000
+      internalID: -3974078654981723920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_88
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 173
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe44add2df91681d0800000000000000
+      internalID: -3348960697716685585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_89
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 173
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b26e6e21322d210800000000000000
+      internalID: 1356185001882168081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_90
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 180
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594feb949970dd1b0800000000000000
+      internalID: -5630335604194610027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_91
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 166
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7403542315d44d0800000000000000
+      internalID: -3148771288111101965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_92
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 160
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52c11c2a197b06f0800000000000000
+      internalID: -717346562319990178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_93
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 160
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1572850135f4ee2c0800000000000000
+      internalID: -4400492567719303343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_94
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 166
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09258e8cd7e450c80800000000000000
+      internalID: -8357187231367540080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_95
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 153
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676c8a955191bafb0800000000000000
+      internalID: -4635583811958552970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_96
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 146
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b8328c0123a6210800000000000000
+      internalID: 1326928087872670484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_97
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 146
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6dec34d6623bc2b0800000000000000
+      internalID: -5563297497457300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_98
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 153
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c085580fb5a6190800000000000000
+      internalID: -7968455502091252716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_99
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 140
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3ff12178a78f660800000000000000
+      internalID: 7419815106636149712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_100
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 133
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce7acd42688baee0800000000000000
+      internalID: -1248754515871891761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_101
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 133
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1765a956e70d33da0800000000000000
+      internalID: -5966195840046705039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_102
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 140
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc8f619c75ff60f0800000000000000
+      internalID: -1121407866827207480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_103
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 127
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e01cfb6897086590800000000000000
+      internalID: -7680880813252275992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_104
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 121
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1390f157b4407660800000000000000
+      internalID: 7381475343404667675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_105
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 121
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131d47caac7d42da0800000000000000
+      internalID: -5970409940509732559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_106
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 127
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba8c4854054b7d00800000000000000
+      internalID: 971446029592070839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_107
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 115
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42044c835a6469a10800000000000000
+      internalID: 1915796366928658468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_108
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 109
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b114b2bf0361430800000000000000
+      internalID: 3753241194780498784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_109
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 109
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf46837cbee8ffc0800000000000000
+      internalID: -3460753820474781779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_110
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 115
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dac3b6fd58180b80800000000000000
+      internalID: -8428459910773880112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_111
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 103
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fdc5c55999f0df0800000000000000
+      internalID: -211781790684356778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_112
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 97
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acef90e08258f8e0800000000000000
+      internalID: -1659485749208159068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_113
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 97
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92948e66e56e14280800000000000000
+      internalID: -9060707682164913879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_114
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 103
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7837b862c4d424240800000000000000
+      internalID: 4774463544425673607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_115
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 91
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cd76a4267ee95c0800000000000000
+      internalID: -4206670592576332753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_116
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 85
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1509066f21d8a8f40800000000000000
+      internalID: 5731548588364828753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_117
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 80
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b007579e26d7ae0800000000000000
+      internalID: -1549973941908403356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_118
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 80
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4c77713c976cb50800000000000000
+      internalID: 6613106981659460818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_119
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 85
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff156b410cc872fd0800000000000000
+      internalID: -2366768322550803969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_120
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 91
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9395a15c5a5b31140800000000000000
+      internalID: 4689291360603887929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_121
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 75
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3631b654b51483720800000000000000
+      internalID: 2826080626437460835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_122
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 69
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72b1fe45d87e6550800000000000000
+      internalID: 6155990598209876606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_123
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 65
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad622d37cd309cc0800000000000000
+      internalID: -3706394567392465500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_124
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 65
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9af8a49b1d3274d0800000000000000
+      internalID: -3138378801656300900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_125
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 70
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee1c528edf3c8a20800000000000000
+      internalID: 3065895671234830058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_126
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 75
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ec85d317a274190800000000000000
+      internalID: -7978361549014643158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_127
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 60
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e488d0a9eb2c2820800000000000000
+      internalID: 2894736942918304995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_128
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 55
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69240ae0b64147b40800000000000000
+      internalID: 5436993100182471318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_129
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 51
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10284c0f0107e1c00800000000000000
+      internalID: 873258595817652737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_130
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 51
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1300fdfe5658ef9f0800000000000000
+      internalID: -432761841318428623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_131
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 55
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010a9160bfb15c270800000000000000
+      internalID: 8270047055688867856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_132
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 60
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18eb00c5b3e6b6720800000000000000
+      internalID: 2840485191212908161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_133
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 46
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b72775cc68f7200800000000000000
+      internalID: 180010722316679984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_134
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 42
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4d6b956510ba400800000000000000
+      internalID: 336364067553203426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_135
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 38
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba216f6760a617f0800000000000000
+      internalID: -642149530743002443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_136
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 34
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff6bcd24a455a340800000000000000
+      internalID: 4874395235818106879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_137
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 34
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6385590b3508a4c50800000000000000
+      internalID: 6650268896699177014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_138
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 38
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5481031d51d3f6230800000000000000
+      internalID: 3634190588224477253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_139
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 42
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cb09fc13805a5b0800000000000000
+      internalID: -5357867171658548103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_140
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 46
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e494f47d5fa1f70800000000000000
+      internalID: 9158903097308302988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_141
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 31
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3450a81291fd8e80800000000000000
+      internalID: -8174612138826902466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_142
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 27
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f74a6a2418fc1b30800000000000000
+      internalID: 4259552113080289266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_143
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 24
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37dd37f4a1e26c50800000000000000
+      internalID: 6657131297845925694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_144
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 21
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95caf513001048960800000000000000
+      internalID: 7603203171248221273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_145
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 18
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45070421c5811ef20800000000000000
+      internalID: 3450065573264781396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_146
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 19
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90306a655282b000800000000000000
+      internalID: 50245849223016605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_147
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 21
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e76d553af96acb00800000000000000
+      internalID: 849608003070814178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_148
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 24
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a74aa1021057d40800000000000000
+      internalID: 5581368550593165854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_149
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 27
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00c85c670f5bb040800000000000000
+      internalID: 4664426324559446026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_150
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 31
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197f16e7c40be8940800000000000000
+      internalID: 5300367654046005137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_151
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 16
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5568e5a745701a60800000000000000
+      internalID: 7642737518234330463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_152
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 14
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63026e65a62d1ae40800000000000000
+      internalID: 5666041160375083062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_153
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 12
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12f7e605af711fe0800000000000000
+      internalID: -1220053677278498275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_154
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 10
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155b91edb59c8ae40800000000000000
+      internalID: 5668001527451202897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_155
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 8
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b712931b6f8b8670800000000000000
+      internalID: 8542078808290891700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_156
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 6
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efa728ad037bd580800000000000000
+      internalID: -8801314544272560152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_157
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 5
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a561becd98b9c3a80800000000000000
+      internalID: -8485736581453638054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_158
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 4
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c81c8d015c075b0800000000000000
+      internalID: -5372577679306290078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_159
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cdd875113a590e70800000000000000
+      internalID: 9081889290429455809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_160
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 3
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854984004126ae2b0800000000000000
+      internalID: -5554519352364460968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_161
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 5
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4cd2af1b5267390800000000000000
+      internalID: -7821022256545545014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_162
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 7
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7d05b723d1badc0800000000000000
+      internalID: -3626772972262336543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_163
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 8
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbc9d6ed1664a460800000000000000
+      internalID: 7252033578586459133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_164
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 10
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7410bf95ce213fb40800000000000000
+      internalID: 5472738778516488519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_165
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 11
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f233ec1792ce8c890800000000000000
+      internalID: -7437435121855220945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_166
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 14
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca5e46f0be38da10800000000000000
+      internalID: 1934364969723124423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compass lines_167
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 16
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1ac8ff37bd23a50800000000000000
+      internalID: 6499498503504175539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Compass lines_0: -3008370198051731792
+      Compass lines_1: -5266899010568172654
+      Compass lines_10: -7510637300365400684
+      Compass lines_100: -1248754515871891761
+      Compass lines_101: -5966195840046705039
+      Compass lines_102: -1121407866827207480
+      Compass lines_103: -7680880813252275992
+      Compass lines_104: 7381475343404667675
+      Compass lines_105: -5970409940509732559
+      Compass lines_106: 971446029592070839
+      Compass lines_107: 1915796366928658468
+      Compass lines_108: 3753241194780498784
+      Compass lines_109: -3460753820474781779
+      Compass lines_11: -2224229287801433657
+      Compass lines_110: -8428459910773880112
+      Compass lines_111: -211781790684356778
+      Compass lines_112: -1659485749208159068
+      Compass lines_113: -9060707682164913879
+      Compass lines_114: 4774463544425673607
+      Compass lines_115: -4206670592576332753
+      Compass lines_116: 5731548588364828753
+      Compass lines_117: -1549973941908403356
+      Compass lines_118: 6613106981659460818
+      Compass lines_119: -2366768322550803969
+      Compass lines_12: 7097155915503225345
+      Compass lines_120: 4689291360603887929
+      Compass lines_121: 2826080626437460835
+      Compass lines_122: 6155990598209876606
+      Compass lines_123: -3706394567392465500
+      Compass lines_124: -3138378801656300900
+      Compass lines_125: 3065895671234830058
+      Compass lines_126: -7978361549014643158
+      Compass lines_127: 2894736942918304995
+      Compass lines_128: 5436993100182471318
+      Compass lines_129: 873258595817652737
+      Compass lines_13: -3557234048433657498
+      Compass lines_130: -432761841318428623
+      Compass lines_131: 8270047055688867856
+      Compass lines_132: 2840485191212908161
+      Compass lines_133: 180010722316679984
+      Compass lines_134: 336364067553203426
+      Compass lines_135: -642149530743002443
+      Compass lines_136: 4874395235818106879
+      Compass lines_137: 6650268896699177014
+      Compass lines_138: 3634190588224477253
+      Compass lines_139: -5357867171658548103
+      Compass lines_14: 7568884883794829419
+      Compass lines_140: 9158903097308302988
+      Compass lines_141: -8174612138826902466
+      Compass lines_142: 4259552113080289266
+      Compass lines_143: 6657131297845925694
+      Compass lines_144: 7603203171248221273
+      Compass lines_145: 3450065573264781396
+      Compass lines_146: 50245849223016605
+      Compass lines_147: 849608003070814178
+      Compass lines_148: 5581368550593165854
+      Compass lines_149: 4664426324559446026
+      Compass lines_15: -7989773428653930723
+      Compass lines_150: 5300367654046005137
+      Compass lines_151: 7642737518234330463
+      Compass lines_152: 5666041160375083062
+      Compass lines_153: -1220053677278498275
+      Compass lines_154: 5668001527451202897
+      Compass lines_155: 8542078808290891700
+      Compass lines_156: -8801314544272560152
+      Compass lines_157: -8485736581453638054
+      Compass lines_158: -5372577679306290078
+      Compass lines_159: 9081889290429455809
+      Compass lines_16: 1473836065395704902
+      Compass lines_160: -5554519352364460968
+      Compass lines_161: -7821022256545545014
+      Compass lines_162: -3626772972262336543
+      Compass lines_163: 7252033578586459133
+      Compass lines_164: 5472738778516488519
+      Compass lines_165: -7437435121855220945
+      Compass lines_166: 1934364969723124423
+      Compass lines_167: 6499498503504175539
+      Compass lines_17: -1767530755346871196
+      Compass lines_18: -2529408058090616992
+      Compass lines_19: -4316173051698571282
+      Compass lines_2: 5512981377404505467
+      Compass lines_20: -8112888857660482914
+      Compass lines_21: 2549513360863658189
+      Compass lines_22: 2470071345240934475
+      Compass lines_23: -3975294472136035800
+      Compass lines_24: -6893254547609387482
+      Compass lines_25: -3234745470022453679
+      Compass lines_26: -5514237731473142509
+      Compass lines_27: 3964261211265429260
+      Compass lines_28: -438308249821335931
+      Compass lines_29: -9211626468068120320
+      Compass lines_3: 1241157748191828913
+      Compass lines_30: -19336811139542988
+      Compass lines_31: -4566310637524886722
+      Compass lines_32: -7629771882508751153
+      Compass lines_33: 3627114546018002121
+      Compass lines_34: -293402277812291680
+      Compass lines_35: 2945201398211051647
+      Compass lines_36: 4015820022864914938
+      Compass lines_37: 3521862127393973349
+      Compass lines_38: -6821112570247616931
+      Compass lines_39: 7096192486632896224
+      Compass lines_4: -6622241689391599385
+      Compass lines_40: -5736741749537252912
+      Compass lines_41: -1643434554370694458
+      Compass lines_42: -4771677957236575025
+      Compass lines_43: -5207516169768121234
+      Compass lines_44: -3584067915332198022
+      Compass lines_45: -4007008079436799058
+      Compass lines_46: 7913484663271569834
+      Compass lines_47: 7045754311871701129
+      Compass lines_48: 4558256742251312668
+      Compass lines_49: 6052339702028463155
+      Compass lines_5: -980574452359562955
+      Compass lines_50: 5893343435798603083
+      Compass lines_51: 5682816299510316014
+      Compass lines_52: -6436256545928826890
+      Compass lines_53: -5872695223301674384
+      Compass lines_54: -7590956515345129977
+      Compass lines_55: -132965424925742193
+      Compass lines_56: -4971859868710056432
+      Compass lines_57: 1219870718736674990
+      Compass lines_58: -3039462228798158214
+      Compass lines_59: 1153323628245764177
+      Compass lines_6: -1347677568033287601
+      Compass lines_60: -700489306775036764
+      Compass lines_61: -4800961932823039626
+      Compass lines_62: 6484340438019312078
+      Compass lines_63: -1974360970928932547
+      Compass lines_64: -4020435950341804071
+      Compass lines_65: -5486280507810388442
+      Compass lines_66: -3461954374837519836
+      Compass lines_67: 308986580734020045
+      Compass lines_68: 4309403032071815013
+      Compass lines_69: -3652484228160797110
+      Compass lines_7: 1399525991590199358
+      Compass lines_70: -8162525246813276833
+      Compass lines_71: 1964756706590651969
+      Compass lines_72: 2929509923136527246
+      Compass lines_73: 224354474010850083
+      Compass lines_74: -680522988565333229
+      Compass lines_75: 1887635684557291028
+      Compass lines_76: -3872754632561374638
+      Compass lines_77: -2659335539086636091
+      Compass lines_78: -8124870708625802224
+      Compass lines_79: 7197983076128598450
+      Compass lines_8: -4805480152446729047
+      Compass lines_80: 8524128176191028853
+      Compass lines_81: 869689752118097455
+      Compass lines_82: -64478478629497798
+      Compass lines_83: 7271074979036642998
+      Compass lines_84: 3519843204016392801
+      Compass lines_85: -7117393302366604605
+      Compass lines_86: -8160468682122010348
+      Compass lines_87: -3974078654981723920
+      Compass lines_88: -3348960697716685585
+      Compass lines_89: 1356185001882168081
+      Compass lines_9: 1193791030332249433
+      Compass lines_90: -5630335604194610027
+      Compass lines_91: -3148771288111101965
+      Compass lines_92: -717346562319990178
+      Compass lines_93: -4400492567719303343
+      Compass lines_94: -8357187231367540080
+      Compass lines_95: -4635583811958552970
+      Compass lines_96: 1326928087872670484
+      Compass lines_97: -5563297497457300118
+      Compass lines_98: -7968455502091252716
+      Compass lines_99: 7419815106636149712
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
