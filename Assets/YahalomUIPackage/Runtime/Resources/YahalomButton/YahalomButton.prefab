@@ -79,7 +79,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 3
 --- !u!114 &1389597478496472631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: -2257844187400318264, guid: 369f85b2683955840b7d332288135fb1, type: 3}
+    m_HighlightedSprite: {fileID: 6501056778722055516, guid: 0fc3fff0c567adf478c2bd5bf4fe6078, type: 3}
     m_PressedSprite: {fileID: -8047610522047080650, guid: 241e34508a36dfa4ead645e680116f36, type: 3}
     m_SelectedSprite: {fileID: -8047610522047080650, guid: 241e34508a36dfa4ead645e680116f36, type: 3}
     m_DisabledSprite: {fileID: 514135001081824623, guid: 1432fbb75862084479f5b75e40850d4e, type: 3}
