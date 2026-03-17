@@ -99,7 +99,8 @@ namespace YahalomUIPackage.Runtime.YahalomInputField
                     SetCloseButtonState(!string.IsNullOrEmpty(text));
                     break;
                 case SelectionState.Normal:
-                    textColor = _normalTextColor;
+                    Color color = string.IsNullOrEmpty(text) ? _normalTextColor : _highlightedTextColor;
+                    textColor = color;
                     SetCloseButtonState(false);
                     break;
             }
