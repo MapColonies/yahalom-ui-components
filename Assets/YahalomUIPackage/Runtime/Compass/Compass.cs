@@ -55,7 +55,7 @@ namespace YahalomUIPackage.Runtime.Compass
 
         private void UpdateRotation(float targetHeading)
         {
-            float targetRotationZ = -targetHeading + _startAngle;
+            float targetRotationZ = targetHeading + _startAngle;
             _smoothedAngle = Mathf.SmoothDampAngle(_smoothedAngle, targetRotationZ, ref _currentVelocity, _smoothTime);
             _compassTransform.localEulerAngles = new Vector3(0, 0, _smoothedAngle);
             UpdateDirectionTextAlignment();
@@ -110,8 +110,8 @@ namespace YahalomUIPackage.Runtime.Compass
             string lonHemisphere = lon >= 0f ? Directions8[DirE] : Directions8[DirW];
 
             _coordinatesText.text =
-                $"{Mathf.Abs(lat):F4}{Degree}{latHemisphere}\n" +
-                $"{Mathf.Abs(lon):F4}{Degree}{lonHemisphere}";
+                $"{Mathf.Abs(lat):F6}{Degree}{latHemisphere}\n" +
+                $"{Mathf.Abs(lon):F6}{Degree}{lonHemisphere}";
         }
     }
 }
