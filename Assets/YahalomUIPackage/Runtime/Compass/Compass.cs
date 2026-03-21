@@ -103,15 +103,17 @@ namespace YahalomUIPackage.Runtime.Compass
 
         public void SetCoordinates(Vector2 latLong)
         {
-            float lat = latLong.y;
-            float lon = latLong.x;
+            SetCoordinates((double)latLong.x, (double)latLong.y);
+        }
 
-            string latHemisphere = lat >= 0f ? Directions8[DirN] : Directions8[DirS];
-            string lonHemisphere = lon >= 0f ? Directions8[DirE] : Directions8[DirW];
+        public void SetCoordinates(double longitude, double latitude)
+        {
+            string latHemisphere = latitude >= 0 ? Directions8[DirN] : Directions8[DirS];
+            string lonHemisphere = longitude >= 0 ? Directions8[DirE] : Directions8[DirW];
 
             _coordinatesText.text =
-                $"{Mathf.Abs(lat):F6}{Degree}{latHemisphere}\n" +
-                $"{Mathf.Abs(lon):F6}{Degree}{lonHemisphere}";
+                $"{System.Math.Abs(latitude):F6}{Degree}{latHemisphere}\n" +
+                $"{System.Math.Abs(longitude):F6}{Degree}{lonHemisphere}";
         }
     }
 }
