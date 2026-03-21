@@ -48,7 +48,7 @@ namespace YahalomUIPackage.Runtime.Compass
                 if ((_debugCoordinates - _lastDebugCoordinates).sqrMagnitude > 0.0001f)
                 {
                     _lastDebugCoordinates = _debugCoordinates;
-                    SetCoordinates(_debugCoordinates);
+                    SetCoordinates($"{_debugCoordinates.y:F6}, {_debugCoordinates.x:F6}");
                 }
             }
         }
@@ -101,19 +101,9 @@ namespace YahalomUIPackage.Runtime.Compass
             UpdateAngleText(heading);
         }
 
-        public void SetCoordinates(Vector2 latLong)
+        public void SetCoordinates(string text)
         {
-            SetCoordinates((double)latLong.x, (double)latLong.y);
-        }
-
-        public void SetCoordinates(double longitude, double latitude)
-        {
-            string latHemisphere = latitude >= 0 ? Directions8[DirN] : Directions8[DirS];
-            string lonHemisphere = longitude >= 0 ? Directions8[DirE] : Directions8[DirW];
-
-            _coordinatesText.text =
-                $"{System.Math.Abs(latitude):F6}{Degree}{latHemisphere}\n" +
-                $"{System.Math.Abs(longitude):F6}{Degree}{lonHemisphere}";
+            _coordinatesText.text = text;
         }
     }
 }
