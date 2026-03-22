@@ -66,6 +66,8 @@ namespace YahalomUIPackage.Runtime.YahalomInputField
             {
                 ApplyErrorState();
             }
+
+            SetCloseButtonState(!string.IsNullOrEmpty(value));
         }
         
         private void OnDeleteContent()
@@ -94,10 +96,11 @@ namespace YahalomUIPackage.Runtime.YahalomInputField
                 case SelectionState.Pressed:
                 case SelectionState.Selected:
                     textColor = _highlightedTextColor;
-                    SetCloseButtonState(true);
+                    SetCloseButtonState(!string.IsNullOrEmpty(text));
                     break;
                 case SelectionState.Normal:
-                    textColor = _normalTextColor;
+                    Color color = string.IsNullOrEmpty(text) ? _normalTextColor : _highlightedTextColor;
+                    textColor = color;
                     SetCloseButtonState(false);
                     break;
             }
