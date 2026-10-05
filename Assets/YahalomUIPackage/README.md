@@ -14,6 +14,8 @@ A custom Unity UI component library for MapColonies projects with built-in Hebre
   - [YahalomButton](#yahalombutton)
   - [YahalomInputField](#yahalominputfield)
   - [Compass](#compass)
+  - [TargetColorTransition](#targetcolortransition)
+  - [YahalomColors](#yahalomcolors)
 - [Fonts](#fonts)
 - [Testing](#testing)
 - [API Reference](#api-reference)
@@ -262,6 +264,28 @@ compass.SetCoordinates(new Vector2(35.2150f, 31.7825f));  // (longitude, latitud
 | Enable Debug Slider | Toggle debug mode in editor |
 | Debug Angle | Manual angle control (0-360) |
 | Debug Coordinates | Manual coordinate input |
+
+### TargetColorTransition
+
+Changes the color of a set of `Graphic` targets when the pointer enters or exits the object.
+
+**Namespace:** `YahalomUIPackage.Runtime.Utilities`
+
+| Property | Description |
+|----------|-------------|
+| Targets | Graphics whose color is changed |
+| Default Color | Color applied on start and on pointer exit |
+| Hovered Color | Color applied on pointer enter |
+
+### YahalomColors
+
+Shared color constants.
+
+**Namespace:** `YahalomUIPackage.Runtime.Colors`
+
+| Field | Value |
+|-------|-------|
+| `Accent` | `#00F8CC` (`Color32(0, 248, 204, 255)`) - highlighted / selected / pressed / hovered states |
 
 ---
 
