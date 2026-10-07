@@ -45,7 +45,7 @@ namespace Evo.UI
             }
 
             // Return to default if no fallback
-            objectPath = "Assets/Evo/Evo UI/Prefabs/";
+            objectPath = "Assets/YahalomUIPackage/Evo/Evo UI/Prefabs/";
             isPathCached = true;
         }
 

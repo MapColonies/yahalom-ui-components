@@ -9,7 +9,7 @@ namespace Evo.UI
     public class IconLibraryImporter : EditorWindow
     {
         IconLibrary targetLibrary;
-        string rootPath = "Assets/Evo/Evo UI/Sprites/Icons";
+        string rootPath = "Assets/YahalomUIPackage/Evo/Evo UI/Sprites/Icons";
         bool clearExisting;
         Vector2 scrollPos;
 
