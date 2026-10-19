@@ -589,8 +589,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: com.mapcolonies.yahalom-ui::YahalomUIPackage.Runtime.Tooltip.YahalomTooltip
   _title: {fileID: 8120975383978579134}
   _text: {fileID: 7123885247898046984}
+  _arrow: {fileID: 8327700829528501198}
   _fadeInDuration: 0.2
   _fadeOutDuration: 0.15
+  _arrowEdgePadding: 8
 --- !u!1 &8113773661846751563
 GameObject:
   m_ObjectHideFlags: 0

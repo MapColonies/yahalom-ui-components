@@ -13,6 +13,7 @@ namespace YahalomUIPackage.Runtime.Tooltip
         private string _description = string.Empty;
         private Func<string> _descriptionSource;
         private bool _isShowing;
+        private bool _warnedMissingTooltip;
 
         public string Title
         {
@@ -39,8 +40,22 @@ namespace YahalomUIPackage.Runtime.Tooltip
             _descriptionSource = source;
         }
 
+        public void SetTooltip(YahalomTooltip tooltip)
+        {
+            if (_tooltip == tooltip) return;
+
+            Hide();
+            _tooltip = tooltip;
+        }
+
         public void OnPointerEnter(PointerEventData eventData)
         {
+            if (_tooltip == null)
+            {
+                WarnMissingTooltip();
+                return;
+            }
+
             if (_descriptionSource != null)
                 _description = _descriptionSource() ?? string.Empty;
 
@@ -80,8 +95,16 @@ namespace YahalomUIPackage.Runtime.Tooltip
 
         private void RefreshIfShowing()
         {
-            if (_isShowing)
+            if (_isShowing && _tooltip != null)
                 _tooltip.Refresh(this, (RectTransform)transform, _title, _description, _gap);
+        }
+
+        private void WarnMissingTooltip()
+        {
+            if (_warnedMissingTooltip) return;
+
+            _warnedMissingTooltip = true;
+            Debug.LogWarning($"{nameof(YahalomTooltipTrigger)} on '{name}' has no tooltip assigned.", this);
         }
     }
 }
