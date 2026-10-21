@@ -497,7 +497,7 @@ MonoBehaviour:
   - {fileID: 4502775201220814674}
   _startAngle: 0
   _smoothTime: 0.1
-  _enableDebugSlider: 1
+  _enableDebugSlider: 0
   _debugAngle: 0
   _debugCoordinates: {x: 0, y: 0}
 --- !u!1 &2177444279234390716

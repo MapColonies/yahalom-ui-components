@@ -77,7 +77,7 @@ namespace YahalomUIPackage.Runtime.Compass
             float normalizedHeading = heading % 360f;
             if (normalizedHeading < 0f) normalizedHeading += 360f;
 
-            int currentDisplayAngle = Mathf.RoundToInt(normalizedHeading);
+            int currentDisplayAngle = Mathf.RoundToInt(normalizedHeading) % 360;
             string direction = GetDirection8FromNormalized(normalizedHeading);
 
             if (currentDisplayAngle == _lastDisplayAngle && direction == _lastDirection)
