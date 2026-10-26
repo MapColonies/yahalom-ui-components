@@ -33,8 +33,9 @@ namespace YahalomUIPackage.Runtime.YahalomInputField
             _closeButton.onClick.AddListener(OnDeleteContent);
         }
 
-        private void OnDestroy()
+        protected override void OnDestroy()
         {
+            base.OnDestroy();
             onValueChanged.RemoveListener(OnValueChanged);
             onSubmit.RemoveListener(OnSubmit);
             onDeselect.RemoveListener(OnDeselect);
